@@ -4,7 +4,7 @@ Tests para fans de Avatar. Todo corre gratis en **GitHub Pages** (la página) y 
 
 | Test | Estado | Carpeta |
 | --- | --- | --- |
-| El Cuestionario Definitivo de Avatar | Disponible: 177 preguntas en 6 partes | `quiz/` |
+| El Cuestionario Definitivo de Avatar | Disponible: 349 preguntas en 5 partes | `quiz/` |
 | ¿Qué elemento controlarías? (y si serías maestro o no) | Próximamente | `elemento/` (por crear) |
 
 ## Archivos
@@ -61,15 +61,15 @@ El backend ya está creado en Supabase. Si alguna vez hay que recrearlo, ejecuta
 
 | Parte | Contenido | Preguntas |
 | --- | --- | --- |
-| 1 | Avatar: La Leyenda de Aang | 60 |
-| 2 | La Leyenda de Korra | 48 |
-| 3 | Cómics (La Promesa, La Búsqueda, La Grieta, Humo y Sombra, Desequilibrio, Korra) | 18 |
-| 4 | Novelas (Kyoshi, Yangchen, Roku) | 15 |
-| 5 | Serie de Netflix (temporadas 1 y 2) | 18 |
-| 6 | Película Avatar Aang (2026) | 18 |
-| 7 | Avatar: Seven Havens | Pendiente, cuando la serie avance |
+| 1 | Avatar: La Leyenda de Aang | 113 |
+| 2 | La Leyenda de Korra | 87 |
+| 3 | Cómics (La Promesa, La Búsqueda, La Grieta, Humo y Sombra, Norte y Sur, Desequilibrio, Guerras Territoriales, Ruinas del Imperio) | 70 |
+| 4 | Novelas (Kyoshi, Yangchen, Roku) | 43 |
+| 5 | Película Avatar Aang (2026) | 36 |
+| 6 | Avatar: Seven Havens | Pendiente, cuando la serie avance |
 
-- Las preguntas de Netflix (temporada 2) y de la película se armaron desde fuentes publicadas, no de memoria. Algunos nombres en español (por ejemplo, "los Negados" para *the Denied*) pueden diferir del doblaje oficial: corrígelos si conoces el término exacto.
+- La serie de Netflix quedó fuera a propósito: cuenta la misma historia que la animada.
+- Las preguntas de cómics, novelas y película se armaron contrastando con resúmenes publicados. Algunos nombres en español (por ejemplo, "los Negados" para *the Denied*) pueden diferir del doblaje oficial: corrígelos si conoces el término exacto.
 - **Si agregas preguntas a una parte que ya se jugó:** los puntajes guardados no se pierden. Cada resultado guarda el total que tenía la parte cuando se jugó, así que quien la completó sigue contando como "completa". Para sumar las preguntas nuevas, el jugador vuelve a jugar esa parte y se guarda su mejor resultado.
 
 ## Ranking

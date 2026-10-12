@@ -784,6 +784,695 @@
      "Ursa"
     ],
     "correcta": "a"
+   },
+   {
+    "id": "atla-061",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Which signature weapon does Sokka use from the very first episode?",
+    "opciones": [
+     "A fan",
+     "A boomerang",
+     "An ice spear",
+     "Dual swords"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-062",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of Katara and Sokka's grandmother?",
+    "opciones": [
+     "Kanna",
+     "Kya",
+     "Yugoda",
+     "Hama"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-063",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "What was the name of Katara and Sokka's mother?",
+    "opciones": [
+     "Kanna",
+     "Kya",
+     "Ursa",
+     "Yue"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-064",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "What does Aang say to make Appa take off?",
+    "opciones": [
+     "\"Up, Appa\"",
+     "\"Yip yip\"",
+     "\"Hup hup\"",
+     "\"Fly high\""
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-065",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Why did Aang end up frozen in the iceberg?",
+    "opciones": [
+     "He ran away, a storm sank him and the Avatar State froze him",
+     "Sozin's fleet attacked him",
+     "Gyatso hid him in the ice",
+     "He fell asleep meditating at the South Pole"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-066",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "How did Zuko get the scar on his face?",
+    "opciones": [
+     "In an Agni Kai against his father",
+     "In a duel against Zhao",
+     "In a training accident with Azula",
+     "Fighting Aang at the South Pole"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-067",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What did Zuko do that led to that Agni Kai?",
+    "opciones": [
+     "He spoke out of turn at a war meeting",
+     "He tried to free prisoners",
+     "He insulted Azula before the court",
+     "He refused to capture the Avatar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-068",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "Which Fire Sage helps Aang reach Roku's sanctuary?",
+    "opciones": [
+     "Jeong Jeong",
+     "Piandao",
+     "Bato",
+     "Shyu"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-069",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Who separated Kyoshi Island from the mainland?",
+    "opciones": [
+     "Avatar Roku",
+     "King Bumi",
+     "The Kyoshi Warriors",
+     "Avatar Kyoshi"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-070",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of the young earthbender the group helps in an occupied mining village?",
+    "opciones": [
+     "Haru",
+     "Jet",
+     "Kuei",
+     "Tyro"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-071",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Who does Katara steal the waterbending scroll from?",
+    "opciones": [
+     "Some pirates",
+     "Zhao",
+     "The Dai Li",
+     "Jet"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-072",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "Which Fire Nation deserter gives Aang his first firebending lesson?",
+    "opciones": [
+     "Iroh",
+     "Piandao",
+     "Jeong Jeong",
+     "Shyu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-073",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of the chief of the Northern Water Tribe?",
+    "opciones": [
+     "Arnook",
+     "Hakoda",
+     "Pakku",
+     "Unalaq"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-074",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "Who was Yue engaged to?",
+    "opciones": [
+     "Hahn",
+     "Sokka",
+     "Jet",
+     "Haru"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-075",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "What must you not do in front of Koh the Face Stealer?",
+    "opciones": [
+     "Look him in the eye",
+     "Show emotion",
+     "Speak loudly",
+     "Turn your back on him"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-076",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Which special waterbending skill does Katara discover in Book 1?",
+    "opciones": [
+     "Healing",
+     "Bloodbending",
+     "Plantbending",
+     "Walking on water"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-077",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of Bumi's pet goat-gorilla?",
+    "opciones": [
+     "Bosco",
+     "Flopsie",
+     "Nyla",
+     "Pabu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-078",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "Which two feuding tribes must cross the Great Divide together?",
+    "opciones": [
+     "The Dai Li and the Yu Yan",
+     "The Sages and the Sun Warriors",
+     "The Gan Jin and the Zhang",
+     "The sandbenders and the nomads"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-079",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of Roku's dragon?",
+    "opciones": [
+     "Druk",
+     "Fang",
+     "Ran",
+     "Shaw"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-080",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "In which town does the Beifong family live?",
+    "opciones": [
+     "Gaoling",
+     "Omashu",
+     "Ba Sing Se",
+     "Chin"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-081",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What was the name of Iroh's son who died at Ba Sing Se?",
+    "opciones": [
+     "Lee",
+     "Lu Ten",
+     "Mushi",
+     "Azulon"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-082",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What nickname is Iroh known by?",
+    "opciones": [
+     "The Golden Phoenix",
+     "The Dragon of the West",
+     "The Jasmine Dragon",
+     "The Lord of Ashes"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-083",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "How many days did Iroh's siege of Ba Sing Se last?",
+    "opciones": [
+     "100",
+     "365",
+     "1,000",
+     "600"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-084",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "What does Sokka drink in the desert that makes him hallucinate?",
+    "opciones": [
+     "Jasmine tea",
+     "Oasis water",
+     "Coconut milk",
+     "Cactus juice"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-085",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "Where do the Dai Li have their secret base and brainwash people?",
+    "opciones": [
+     "In the Earth King's palace",
+     "In the Omashu catacombs",
+     "In the outer wall",
+     "Under Lake Laogai"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-086",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who frees Appa under Lake Laogai?",
+    "opciones": [
+     "Aang",
+     "Iroh",
+     "Jet",
+     "Zuko"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-087",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "How does Azula sneak into Ba Sing Se?",
+    "opciones": [
+     "Disguised as a refugee",
+     "Disguised as a Kyoshi Warrior",
+     "As a peace envoy",
+     "Hidden in the drill"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-088",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "Which new technique does Toph invent?",
+    "opciones": [
+     "Lavabending",
+     "Sandbending",
+     "Metalbending",
+     "Crystalbending"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-089",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who lock Toph in a metal cage before she invents metalbending?",
+    "opciones": [
+     "The Dai Li",
+     "Mai and Ty Lee",
+     "Xin Fu and Master Yu",
+     "The Rough Rhinos"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-090",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "Which general tries to force Aang into the Avatar State?",
+    "opciones": [
+     "General Fong",
+     "General How",
+     "General Sung",
+     "General Iroh"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-091",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "What is the name of the waterbender who protects the swamp?",
+    "opciones": [
+     "Tho",
+     "Due",
+     "Huu",
+     "Pakku"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-092",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "Which technique does Iroh teach Zuko, based on waterbending?",
+    "opciones": [
+     "Generating lightning",
+     "Breath of fire",
+     "Redirecting lightning",
+     "Lavabending"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-093",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Where does Zuko teach Aang firebending after joining the group?",
+    "opciones": [
+     "At the Western Air Temple",
+     "On Ember Island",
+     "In the Fire Nation capital",
+     "At the Boiling Rock"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-094",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "Which ancient civilization do Zuko and Aang visit to learn the origin of firebending?",
+    "opciones": [
+     "The Fire Sages",
+     "The Yuyan",
+     "The Sun Warriors",
+     "The Phoenix Warriors"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-095",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "What is the name of the soldier who killed Katara's mother?",
+    "opciones": [
+     "Zhao",
+     "Yon Rha",
+     "Jee",
+     "Kuzon"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-096",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who else does Sokka find at the Boiling Rock besides his father?",
+    "opciones": [
+     "Haru",
+     "Jet",
+     "Suki",
+     "Bato"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-097",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What does Hama need to bloodbend?",
+    "opciones": [
+     "An eclipse",
+     "A full moon",
+     "Oasis water",
+     "To be at the North Pole"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-098",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What does Ty Lee do at the end of the series?",
+    "opciones": [
+     "She joins the Kyoshi Warriors",
+     "She becomes Dai Li",
+     "She returns to the circus",
+     "She marries Sokka"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-099",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who was about to be crowned Fire Lord when Ozai proclaimed himself Phoenix King?",
+    "opciones": [
+     "Ursa",
+     "Mai",
+     "Ty Lee",
+     "Azula"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-100",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "In which forest does the final battle between Aang and Ozai take place?",
+    "opciones": [
+     "Wulong Forest",
+     "Senlin Forest",
+     "Gaipan Forest",
+     "The Foggy Swamp"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-101",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "What happens to Sokka while he destroys the airship fleet in the finale?",
+    "opciones": [
+     "He loses his sword and boomerang",
+     "He's knocked out",
+     "He gets captured",
+     "He breaks his leg"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-102",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who is the father of Ozai and Iroh?",
+    "opciones": [
+     "Sozin",
+     "Azulon",
+     "Roku",
+     "Lu Ten"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-103",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "How long does the Day of Black Sun eclipse last?",
+    "opciones": [
+     "8 minutes",
+     "1 hour",
+     "30 minutes",
+     "1 minute"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-104",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What object does Iroh use to identify himself with the Order of the White Lotus?",
+    "opciones": [
+     "A jade ring",
+     "A teapot",
+     "A Pai Sho tile",
+     "A scroll"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-105",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What does Zuko do at the Boiling Rock prison?",
+    "opciones": [
+     "He serves a sentence for treason",
+     "He visits Iroh",
+     "He looks for his mother",
+     "He helps Sokka break out"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-106",
+    "nivel": "B",
+    "sub": "General",
+    "pregunta": "Who created Avatar: The Last Airbender?",
+    "opciones": [
+     "Gene Luen Yang and F. C. Yee",
+     "Michael Dante DiMartino and Bryan Konietzko",
+     "Joaquim Dos Santos and Lauren Montgomery",
+     "Aaron Ehasz and Tim Hedrick"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-107",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "In which year did Avatar: The Last Airbender premiere?",
+    "opciones": [
+     "2003",
+     "2005",
+     "2008",
+     "2010"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-108",
+    "nivel": "A",
+    "sub": "General",
+    "pregunta": "How many episodes does Avatar: The Last Airbender have?",
+    "opciones": [
+     "61",
+     "52",
+     "65",
+     "48"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-109",
+    "nivel": "A",
+    "sub": "General",
+    "pregunta": "What record does Aang hold among airbenders?",
+    "opciones": [
+     "The only one who could fly without a glider",
+     "The youngest to earn the master tattoos",
+     "The one who meditated the longest",
+     "The only one to speak with dragons"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-110",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "Which technique did Aang invent and use for fast travel?",
+    "opciones": [
+     "The rising tornado",
+     "The bamboo glider",
+     "The wind fist",
+     "The air scooter"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-111",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "Which Water Tribe Avatar came right before Kyoshi?",
+    "opciones": [
+     "Roku",
+     "Yangchen",
+     "Korra",
+     "Kuruk"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-112",
+    "nivel": "B",
+    "sub": "General",
+    "pregunta": "What is the order of the Avatar cycle, starting with air?",
+    "opciones": [
+     "Air, fire, water, earth",
+     "Air, earth, fire, water",
+     "Air, water, fire, earth",
+     "Air, water, earth, fire"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-113",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "What is the board game shared by Iroh and the Order of the White Lotus?",
+    "opciones": [
+     "Pai Sho",
+     "Mahjong",
+     "Go",
+     "Xiangqi"
+    ],
+    "correcta": "a"
    }
   ]
  },
@@ -1416,6 +2105,513 @@
      "She escapes in her mecha"
     ],
     "correcta": "c"
+   },
+   {
+    "id": "korra-049",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "Which element does Mako bend?",
+    "opciones": [
+     "Earth",
+     "Water",
+     "Air",
+     "Fire"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-050",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "Which element does Bolin bend?",
+    "opciones": [
+     "Earth",
+     "Fire",
+     "Water",
+     "None"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-051",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "What does Asami Sato bend?",
+    "opciones": [
+     "Fire",
+     "Nothing: she's a non-bender",
+     "Metal",
+     "Water"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-052",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "Where is Korra from?",
+    "opciones": [
+     "The Northern Water Tribe",
+     "Republic City",
+     "The Southern Water Tribe",
+     "Ember Island"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-053",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "Who taught Korra waterbending as a child?",
+    "opciones": [
+     "Katara",
+     "Unalaq",
+     "Kya",
+     "Pakku"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-054",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "What is the name of Tenzin's wife?",
+    "opciones": [
+     "Pema",
+     "Kya",
+     "Lin",
+     "Opal"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-055",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "Which of these is NOT one of Tenzin's children in Book 1?",
+    "opciones": [
+     "Jinora",
+     "Ikki",
+     "Meelo",
+     "Bumi"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-056",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "What does Amon claim about the origin of his power?",
+    "opciones": [
+     "That a spirit took his bending and gave him a gift",
+     "That he inherited it from Aang",
+     "That he learned it from a lion turtle",
+     "That he got it from a comet"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-057",
+    "nivel": "A",
+    "sub": "Book 1: Air",
+    "pregunta": "Who was the father of Amon and Tarrlok?",
+    "opciones": [
+     "Unalaq",
+     "Yakone",
+     "Hakoda",
+     "Raiko"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-058",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "What is the name of Hiroshi Sato's company?",
+    "opciones": [
+     "Varrick Industries",
+     "Future Industries",
+     "Earthen Fire Ltd.",
+     "Sato Motors"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-059",
+    "nivel": "A",
+    "sub": "Book 1: Air",
+    "pregunta": "What weapon does Amon's Lieutenant use?",
+    "opciones": [
+     "A chain with a hook",
+     "An electrified glove",
+     "Two electrified batons",
+     "A crossbow"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-060",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "When does Korra airbend for the first time?",
+    "opciones": [
+     "Saving Mako from Amon in the Book 1 finale",
+     "Training with Tenzin on the island",
+     "During a pro-bending match",
+     "When Aang restores her bending"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-061",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "Who founded Republic City?",
+    "opciones": [
+     "Aang and Zuko",
+     "Korra and Tenzin",
+     "Aang and Katara",
+     "Toph and Sokka"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-062",
+    "nivel": "B",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which spirit does Unalaq fuse with to become the Dark Avatar?",
+    "opciones": [
+     "Raava",
+     "Koh",
+     "Wan Shi Tong",
+     "Vaatu"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-063",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What does Korra lose at the end of Book 2?",
+    "opciones": [
+     "Her airbending",
+     "Her connection to the past Avatars",
+     "Her waterbending",
+     "Naga"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-064",
+    "nivel": "A",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which element did Wan, the first Avatar, bend first?",
+    "opciones": [
+     "Air",
+     "Fire",
+     "Water",
+     "Earth"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-065",
+    "nivel": "A",
+    "sub": "Book 2: Spirits",
+    "pregunta": "In Wan's era, who granted humans the power to bend?",
+    "opciones": [
+     "The dragons",
+     "The lion turtles",
+     "Raava",
+     "The moon"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-066",
+    "nivel": "A",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What is the name of the Spirit World tree where Vaatu was imprisoned?",
+    "opciones": [
+     "The Tree of Time",
+     "The Tree of Life",
+     "The Banyan Tree",
+     "The Tree of Light"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-067",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which job does Mako start in Book 2?",
+    "opciones": [
+     "Movie actor",
+     "Varrick's bodyguard",
+     "Republic City police officer",
+     "Future Industries pilot"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-068",
+    "nivel": "A",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What is the name of Varrick's company?",
+    "opciones": [
+     "Varrick Global Industries",
+     "Future Industries",
+     "Southern Water Co.",
+     "Varrick & Zhu Li Ltd."
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-069",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which of Tenzin's siblings is a waterbender?",
+    "opciones": [
+     "Kya",
+     "Bumi",
+     "Lin",
+     "Su"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-070",
+    "nivel": "B",
+    "sub": "Book 3: Change",
+    "pregunta": "Which non-bender unexpectedly gains airbending in Book 3?",
+    "opciones": [
+     "Asami",
+     "Varrick",
+     "Bumi, Tenzin's brother",
+     "Mako"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-071",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Which Beifong family member becomes an airbender?",
+    "opciones": [
+     "Opal",
+     "Lin",
+     "Suyin",
+     "Toph"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-072",
+    "nivel": "A",
+    "sub": "Book 3: Change",
+    "pregunta": "Who defeats P'Li?",
+    "opciones": [
+     "Suyin Beifong",
+     "Korra",
+     "Lin Beifong",
+     "Tenzin"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-073",
+    "nivel": "A",
+    "sub": "Book 3: Change",
+    "pregunta": "Which legendary guru did Zaheer admire, inspiring him to fly?",
+    "opciones": [
+     "Guru Pathik",
+     "Wan Shi Tong",
+     "Monk Gyatso",
+     "Guru Laghima"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-074",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Who stopped the Red Lotus from kidnapping Korra as a child?",
+    "opciones": [
+     "Aang, Katara and Toph",
+     "Zuko, Tonraq and Tenzin",
+     "Lin, Tenzin and Bumi",
+     "Unalaq and Iroh"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-075",
+    "nivel": "A",
+    "sub": "Book 3: Change",
+    "pregunta": "Which of these was a member of the Red Lotus?",
+    "opciones": [
+     "Tarrlok",
+     "Varrick",
+     "Unalaq",
+     "Hiroshi Sato"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-076",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "What condition is Korra in at the end of Book 3?",
+    "opciones": [
+     "Without her airbending",
+     "Lost in the Spirit World",
+     "Imprisoned in Zaofu",
+     "In a wheelchair and badly weakened"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-077",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Where do the new airbenders settle with Tenzin?",
+    "opciones": [
+     "Ember Island",
+     "The Northern Air Temple",
+     "Zaofu",
+     "The Southern Air Temple"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-078",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "What falls into anarchy after the Earth Queen's death?",
+    "opciones": [
+     "Republic City",
+     "Ba Sing Se",
+     "Zaofu",
+     "Omashu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-079",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "What does Kuvira interrupt by announcing she won't step down?",
+    "opciones": [
+     "Prince Wu's coronation",
+     "Varrick's wedding",
+     "A pro-bending match",
+     "A White Lotus meeting"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-080",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Who dies sacrificing himself in the battle against Kuvira's mecha?",
+    "opciones": [
+     "Varrick",
+     "Tenzin",
+     "Hiroshi Sato",
+     "Baatar Jr."
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-081",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Where does the new spirit portal appear at the end of the series?",
+    "opciones": [
+     "In the middle of Republic City",
+     "At the South Pole",
+     "In Zaofu",
+     "In Ba Sing Se"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-082",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Which city does Kuvira try to take before attacking Republic City?",
+    "opciones": [
+     "Zaofu",
+     "Omashu",
+     "Gaoling",
+     "Yu Dao"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-083",
+    "nivel": "A",
+    "sub": "Book 4: Balance",
+    "pregunta": "Who develops the spirit vine technology for Kuvira?",
+    "opciones": [
+     "Asami",
+     "Varrick",
+     "Hiroshi Sato",
+     "Zhu Li"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-084",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "What does Kuvira bend?",
+    "opciones": [
+     "Fire and lightning",
+     "Water and blood",
+     "Air",
+     "Earth and metal"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-085",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "In which year did The Legend of Korra premiere?",
+    "opciones": [
+     "2010",
+     "2012",
+     "2014",
+     "2008"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-086",
+    "nivel": "A",
+    "sub": "General",
+    "pregunta": "How many episodes does The Legend of Korra have?",
+    "opciones": [
+     "61",
+     "52",
+     "48",
+     "40"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-087",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "How many years after Aang's death does The Legend of Korra take place?",
+    "opciones": [
+     "70",
+     "17",
+     "50",
+     "100"
+    ],
+    "correcta": "b"
    }
   ]
  },
@@ -1427,35 +2623,113 @@
   "preguntas": [
    {
     "id": "comic-001",
-    "nivel": "I",
-    "sub": "Comic: The Promise",
-    "pregunta": "What does the Harmony Restoration Movement want in \"The Promise\"?",
+    "nivel": "B",
+    "sub": "Comics: general",
+    "pregunta": "Which publisher releases the official Avatar comics?",
     "opciones": [
-     "To rebuild the Air Temples",
-     "To remove the Fire Nation colonies from the Earth Kingdom",
-     "To return the throne to Ozai",
-     "To unite the two Water Tribes"
+     "Marvel",
+     "Dark Horse Comics",
+     "DC Comics",
+     "Image Comics"
     ],
     "correcta": "b"
    },
    {
     "id": "comic-002",
-    "nivel": "A",
-    "sub": "Comic: The Promise",
-    "pregunta": "What is the name of the former Fire Nation colony at the center of the conflict in \"The Promise\"?",
+    "nivel": "I",
+    "sub": "Comics: general",
+    "pregunta": "Who wrote the first comic trilogies, from \"The Promise\" to \"North and South\"?",
     "opciones": [
-     "Gaipan",
-     "Taku",
-     "Chin",
-     "Yu Dao"
+     "Faith Erin Hicks",
+     "F. C. Yee",
+     "Randy Ribay",
+     "Gene Luen Yang"
     ],
     "correcta": "d"
    },
    {
     "id": "comic-003",
+    "nivel": "A",
+    "sub": "Comics: general",
+    "pregunta": "Which studio drew most of Gene Luen Yang's trilogies?",
+    "opciones": [
+     "Gurihiru",
+     "Studio Mir",
+     "Flying Bark",
+     "Studio Ppuri"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-004",
+    "nivel": "I",
+    "sub": "Comics: general",
+    "pregunta": "Who wrote the \"Imbalance\" trilogy?",
+    "opciones": [
+     "Gene Luen Yang",
+     "Michael Dante DiMartino",
+     "Faith Erin Hicks",
+     "F. C. Yee"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-005",
+    "nivel": "A",
+    "sub": "Comics: general",
+    "pregunta": "What is the name of the anthology collecting short stories set during the original series?",
+    "opciones": [
+     "Team Avatar Tales",
+     "Chronicles of the Avatar",
+     "The Lost Adventures",
+     "The Forgotten Scrolls"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-006",
+    "nivel": "B",
+    "sub": "Comic: The Promise",
+    "pregunta": "When is \"The Promise\" set?",
+    "opciones": [
+     "Shortly after the end of the animated series",
+     "Ten years after the series",
+     "Before Aang woke up",
+     "During Book 2"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-007",
     "nivel": "I",
     "sub": "Comic: The Promise",
-    "pregunta": "What does Zuko ask Aang to do if he ever becomes like his father?",
+    "pregunta": "What does the Harmony Restoration Movement want?",
+    "opciones": [
+     "To rebuild the Air Temples",
+     "To return the throne to Ozai",
+     "To unite the two Water Tribes",
+     "To send the Fire Nation colonists back to their nation"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-008",
+    "nivel": "A",
+    "sub": "Comic: The Promise",
+    "pregunta": "What is the name of the first Fire Nation colony, at the center of the conflict?",
+    "opciones": [
+     "Yu Dao",
+     "Gaipan",
+     "Taku",
+     "Chin"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-009",
+    "nivel": "I",
+    "sub": "Comic: The Promise",
+    "pregunta": "What does Zuko ask Aang to do if he becomes like his father?",
     "opciones": [
      "Kill him",
      "Lock him up in the Boiling Rock",
@@ -1465,114 +2739,387 @@
     "correcta": "a"
    },
    {
-    "id": "comic-004",
-    "nivel": "B",
-    "sub": "Comic: The Promise",
-    "pregunta": "What does Toph open in \"The Promise\"?",
-    "opciones": [
-     "A tea shop",
-     "A wrestling tournament",
-     "A metalbending academy",
-     "A swordsmanship school"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "comic-005",
-    "nivel": "B",
-    "sub": "Comic: The Search",
-    "pregunta": "Who are Zuko and Azula searching for in \"The Search\"?",
-    "opciones": [
-     "Their uncle Iroh",
-     "Their grandfather Azulon",
-     "Their mother, Ursa",
-     "Lu Ten"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "comic-006",
-    "nivel": "A",
-    "sub": "Comic: The Search",
-    "pregunta": "Which spirit gives Ursa a new face and erases her memories?",
-    "opciones": [
-     "The Mother of Faces",
-     "Koh the Face Stealer",
-     "Wan Shi Tong",
-     "Hei Bai"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "comic-007",
-    "nivel": "I",
-    "sub": "Comic: The Search",
-    "pregunta": "What name does Ursa use in her new life?",
-    "opciones": [
-     "Kiyi",
-     "Ilah",
-     "Mai",
-     "Noriko"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "comic-008",
-    "nivel": "I",
-    "sub": "Comic: The Search",
-    "pregunta": "What is the name of Zuko's half-sister introduced in \"The Search\"?",
-    "opciones": [
-     "Kiyi",
-     "Noriko",
-     "Kya",
-     "Izumi"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "comic-009",
-    "nivel": "I",
-    "sub": "Comic: The Search",
-    "pregunta": "In which village does Ursa live with her new family?",
-    "opciones": [
-     "Hira'a",
-     "Senlin",
-     "Makapu",
-     "Jang Hui"
-    ],
-    "correcta": "a"
-   },
-   {
     "id": "comic-010",
     "nivel": "A",
-    "sub": "Comic: The Rift",
-    "pregunta": "What is the name of Toph's father, whom she confronts in \"The Rift\"?",
+    "sub": "Comic: The Promise",
+    "pregunta": "Who tries to assassinate Zuko in Yu Dao?",
     "opciones": [
-     "Bei Fong Sr.",
-     "Xin Fu",
-     "Haru",
-     "Lao Beifong"
+     "Mai",
+     "Azula",
+     "Jet",
+     "Kori Morishita"
     ],
     "correcta": "d"
    },
    {
     "id": "comic-011",
     "nivel": "I",
-    "sub": "Comic: The Rift",
-    "pregunta": "Which ancient Air Nomad festival does Aang want to celebrate in \"The Rift\"?",
+    "sub": "Comic: The Promise",
+    "pregunta": "Who does Zuko secretly visit for advice?",
     "opciones": [
-     "Gyatso Day",
-     "The Moon Festival",
-     "A festival dedicated to Yangchen",
-     "The Day of Black Sun"
+     "Azula",
+     "Roku's spirit",
+     "His father, Ozai",
+     "Long Feng"
     ],
     "correcta": "c"
    },
    {
     "id": "comic-012",
     "nivel": "I",
+    "sub": "Comic: The Promise",
+    "pregunta": "Why does Mai break up with Zuko in \"The Promise\"?",
+    "opciones": [
+     "She falls for Kei Lo",
+     "Zuko leaves her for Kori",
+     "She finds out about his secret meetings with Ozai",
+     "She joins the New Ozai Society"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-013",
+    "nivel": "B",
+    "sub": "Comic: The Promise",
+    "pregunta": "What does Toph open in \"The Promise\"?",
+    "opciones": [
+     "A metalbending academy",
+     "A tea shop",
+     "A wrestling tournament",
+     "A swordsmanship school"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-014",
+    "nivel": "A",
+    "sub": "Comic: The Promise",
+    "pregunta": "Which of these is a student at Toph's metalbending academy?",
+    "opciones": [
+     "Penga",
+     "Kori",
+     "Sneers",
+     "Satoru"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-015",
+    "nivel": "I",
+    "sub": "Comic: The Promise",
+    "pregunta": "What does Aang's fan club become?",
+    "opciones": [
+     "The Air Acolytes",
+     "The Order of the White Lotus",
+     "The Kyoshi Warriors",
+     "The Freedom Fighters"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-016",
+    "nivel": "A",
+    "sub": "Comic: The Promise",
+    "pregunta": "What family link between Roku and Zuko does \"The Promise\" reveal?",
+    "opciones": [
+     "Roku is Zuko's great-uncle",
+     "Roku is Iroh's godfather",
+     "They aren't related",
+     "Roku is Zuko's maternal great-grandfather"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-017",
+    "nivel": "I",
+    "sub": "Comic: The Promise",
+    "pregunta": "How does Aang stop the clash between the two armies in Yu Dao?",
+    "opciones": [
+     "He freezes both armies",
+     "He takes the generals' bending",
+     "He opens a chasm that cuts them off from the city",
+     "He sends Appa to block the road"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-018",
+    "nivel": "B",
+    "sub": "Comic: The Search",
+    "pregunta": "Who are Zuko and Azula searching for in \"The Search\"?",
+    "opciones": [
+     "Their mother, Ursa",
+     "Their uncle Iroh",
+     "Their grandfather Azulon",
+     "Lu Ten"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-019",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "Which spirit gives Ursa a new face?",
+    "opciones": [
+     "Koh the Face Stealer",
+     "The Mother of Faces",
+     "Wan Shi Tong",
+     "Hei Bai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-020",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "Whose mother is the Mother of Faces?",
+    "opciones": [
+     "Wan Shi Tong's",
+     "Koh the Face Stealer's",
+     "Raava's",
+     "Hei Bai's"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-021",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "What name does Ursa use in her new life?",
+    "opciones": [
+     "Kiyi",
+     "Ilah",
+     "Noriko",
+     "Misu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-022",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "In which town did Ursa grow up, where Zuko and Azula search for her?",
+    "opciones": [
+     "Senlin",
+     "Hira'a",
+     "Makapu",
+     "Jang Hui"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-023",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "Who was Ursa's first love in Hira'a?",
+    "opciones": [
+     "Ozai",
+     "Ikem",
+     "Iroh",
+     "Kei Lo"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-024",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "What new name and face does Ikem use?",
+    "opciones": [
+     "Rafa",
+     "Noren",
+     "Ukano",
+     "Loban"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-025",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "What is the name of Ursa's daughter in her new life, Zuko's half-sister?",
+    "opciones": [
+     "Kiyi",
+     "Izumi",
+     "Misu",
+     "Kori"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-026",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "Which group did Ursa and Ikem belong to in Hira'a?",
+    "opciones": [
+     "An acting troupe",
+     "An outlaw gang",
+     "The Fire Sages",
+     "An order of healers"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-027",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "What did Ursa offer Ozai to save Zuko from Azulon's order?",
+    "opciones": [
+     "Her own life",
+     "To hand over Iroh",
+     "To give up the throne for Zuko",
+     "An untraceable poison to kill Azulon"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-028",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "What is the name of the place people go to forget their past?",
+    "opciones": [
+     "The Misty Forest",
+     "Lake Laogai",
+     "The Forgetful Valley",
+     "The Cave of Two Lovers"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-029",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "What did the letter Azula uses against Zuko say?",
+    "opciones": [
+     "That Iroh had killed Azulon",
+     "That Zuko was Ikem's son, not Ozai's",
+     "That Ursa was still in the palace",
+     "That Azula was the true heir"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-030",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "According to Ursa, is Zuko Ozai's son?",
+    "opciones": [
+     "Yes",
+     "No, he's Ikem's son",
+     "It's never clarified",
+     "No, he's Iroh's son"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-031",
+    "nivel": "I",
+    "sub": "Comic: The Rift",
+    "pregunta": "Which Air Nomad festival does Aang want to revive in \"The Rift\"?",
+    "opciones": [
+     "Yangchen's Festival",
+     "Gyatso Day",
+     "The Moon Festival",
+     "The Day of Black Sun"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-032",
+    "nivel": "A",
+    "sub": "Comic: The Rift",
+    "pregunta": "What is the name of Toph's father?",
+    "opciones": [
+     "Loban",
+     "Lao Beifong",
+     "Xin Fu",
+     "Satoru"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-033",
+    "nivel": "I",
+    "sub": "Comic: The Rift",
+    "pregunta": "Who is Satoru?",
+    "opciones": [
+     "The refinery engineer Toph has a crush on",
+     "Toph's brother",
+     "A lost airbender",
+     "The leader of the Rough Rhinos"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-034",
+    "nivel": "I",
+    "sub": "Comic: The Rift",
+    "pregunta": "What land was the refinery in \"The Rift\" built on?",
+    "opciones": [
+     "A Fire Nation cemetery",
+     "A spirit oasis",
+     "The ruins of Omashu",
+     "Sacred Air Nomad land"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-035",
+    "nivel": "A",
+    "sub": "Comic: The Rift",
+    "pregunta": "Which powerful spirit threatens to wipe out humans in \"The Rift\"?",
+    "opciones": [
+     "Koh",
+     "General Old Iron",
+     "Vaatu",
+     "The Mother of Faces"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-036",
+    "nivel": "A",
+    "sub": "Comic: The Rift",
+    "pregunta": "What was the iron in the secret mine really?",
+    "opciones": [
+     "General Old Iron's discarded armor",
+     "Meteorite fragments",
+     "Vaatu's chains",
+     "Metal from an old drill"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-037",
+    "nivel": "I",
+    "sub": "Comic: The Rift",
+    "pregunta": "Who work as the refinery's guards?",
+    "opciones": [
+     "The Dai Li",
+     "The Kyoshi Warriors",
+     "The Rough Rhinos",
+     "The Yuyan Archers"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-038",
+    "nivel": "I",
+    "sub": "Comic: The Rift",
+    "pregunta": "Which festival does Aang create at the end of \"The Rift\"?",
+    "opciones": [
+     "The Lotus Festival",
+     "The Spirits' Friendship Festival",
+     "Yangchen Day",
+     "The Four Elements Feast"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-039",
+    "nivel": "I",
     "sub": "Comic: Smoke and Shadow",
-    "pregunta": "Which group wants to bring Ozai back to power in \"Smoke and Shadow\"?",
+    "pregunta": "Which group wants to bring Ozai back to power?",
     "opciones": [
      "The Red Lotus",
      "The Dai Li",
@@ -1582,7 +3129,7 @@
     "correcta": "c"
    },
    {
-    "id": "comic-013",
+    "id": "comic-040",
     "nivel": "A",
     "sub": "Comic: Smoke and Shadow",
     "pregunta": "Who leads the New Ozai Society?",
@@ -1595,67 +3142,392 @@
     "correcta": "a"
    },
    {
-    "id": "comic-014",
+    "id": "comic-041",
     "nivel": "I",
     "sub": "Comic: Smoke and Shadow",
-    "pregunta": "Which legendary figures seem to be kidnapping children in the Fire Nation capital in \"Smoke and Shadow\"?",
+    "pregunta": "Which legendary figures seem to be kidnapping children in the Fire Nation capital?",
     "opciones": [
-     "The Kemurikage",
-     "The Dai Li",
      "Koh's spirits",
-     "The Kyoshi Warriors"
+     "The Dai Li",
+     "The Kemurikage",
+     "The Yuyan Archers"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-042",
+    "nivel": "I",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "Who is behind the fake Kemurikage?",
+    "opciones": [
+     "Ozai",
+     "Azula",
+     "Ukano",
+     "Mai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-043",
+    "nivel": "A",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "Who is Kei Lo?",
+    "opciones": [
+     "A spy sent to watch Mai, who falls for her",
+     "Mai's brother",
+     "The head of the Dai Li",
+     "A White Lotus firebender"
     ],
     "correcta": "a"
    },
    {
-    "id": "comic-015",
+    "id": "comic-044",
+    "nivel": "A",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "What is the name of Mai's younger brother, kidnapped by the Kemurikage?",
+    "opciones": [
+     "Kei Lo",
+     "Tom-Tom",
+     "Sung",
+     "Lee"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-045",
+    "nivel": "I",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "What does Azula want to achieve with her plan in \"Smoke and Shadow\"?",
+    "opciones": [
+     "To take the throne for herself",
+     "To free Ozai",
+     "To get revenge on Aang",
+     "To turn Zuko into a tyrannical Fire Lord"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-046",
+    "nivel": "I",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "How does Kiyi escape from her cell?",
+    "opciones": [
+     "She melts the door with firebending",
+     "Azula rescues her",
+     "She uses a stolen key",
+     "She leaves through Toph's tunnel"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-047",
+    "nivel": "I",
+    "sub": "Comic: North and South",
+    "pregunta": "What do Katara and Sokka find when they return to the Southern Water Tribe?",
+    "opciones": [
+     "Their village abandoned",
+     "Their village turned into a big city",
+     "Their village occupied by the Fire Nation",
+     "Their village destroyed by a spirit"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-048",
+    "nivel": "B",
+    "sub": "Comic: North and South",
+    "pregunta": "What position does Hakoda hold in \"North and South\"?",
+    "opciones": [
+     "Elected leader of the whole South",
+     "Earth Kingdom general",
+     "Ambassador to the North",
+     "Zuko's advisor"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-049",
+    "nivel": "A",
+    "sub": "Comic: North and South",
+    "pregunta": "Which resource is discovered in the Southern Water Tribe?",
+    "opciones": [
+     "A spirit metal mine",
+     "A huge oil reservoir",
+     "A spirit oasis",
+     "An active volcano"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-050",
+    "nivel": "I",
+    "sub": "Comic: North and South",
+    "pregunta": "Who leads the southern nationalists who oppose the North?",
+    "opciones": [
+     "Maliq",
+     "Thod",
+     "Hakoda",
+     "Gilak"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-051",
+    "nivel": "A",
+    "sub": "Comic: North and South",
+    "pregunta": "What are the names of the northern siblings running the South's modernization?",
+    "opciones": [
+     "Malina and Maliq",
+     "Desna and Eska",
+     "Kori and Kei",
+     "Lek and Wong"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-052",
+    "nivel": "A",
+    "sub": "Comic: North and South",
+    "pregunta": "Which ruler do Gilak's nationalists kidnap?",
+    "opciones": [
+     "Zuko",
+     "Arnook",
+     "Hakoda",
+     "Earth King Kuei"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-053",
     "nivel": "I",
     "sub": "Comic: Imbalance",
-    "pregunta": "In which city does the conflict between benders and non-benders in \"Imbalance\" take place?",
+    "pregunta": "In which city is \"Imbalance\" set?",
     "opciones": [
-     "Cranefish Town",
      "Yu Dao",
      "Republic City",
+     "Omashu",
+     "Cranefish Town"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-054",
+    "nivel": "I",
+    "sub": "Comic: Imbalance",
+    "pregunta": "What central conflict does \"Imbalance\" show?",
+    "opciones": [
+     "Tension between benders and non-benders",
+     "A war between the Water Tribes",
+     "A coup in the Fire Nation",
+     "A spirit invasion"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-055",
+    "nivel": "A",
+    "sub": "Comic: Imbalance",
+    "pregunta": "Who leads the bender supremacy movement in \"Imbalance\"?",
+    "opciones": [
+     "Liling",
+     "Ru",
+     "Yaling",
+     "Satoru"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-056",
+    "nivel": "A",
+    "sub": "Comic: Imbalance",
+    "pregunta": "Which of Liling's daughters switches to Team Avatar's side?",
+    "opciones": [
+     "Yaling",
+     "Ru",
+     "Kori",
+     "Misu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-057",
+    "nivel": "I",
+    "sub": "Comic: Imbalance",
+    "pregunta": "What does Aang decide about Liling's bending at the end?",
+    "opciones": [
+     "Not to take it, so she won't become a martyr",
+     "To take it like Ozai's",
+     "To set her free",
+     "To banish her to the Spirit World"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-058",
+    "nivel": "I",
+    "sub": "Comic: Imbalance",
+    "pregunta": "Who teaches chi blocking to Cranefish Town's new security force?",
+    "opciones": [
+     "Ty Lee",
+     "Suki",
+     "Toph",
+     "Sokka"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-059",
+    "nivel": "B",
+    "sub": "Korra comic: Turf Wars",
+    "pregunta": "Which relationship begins in \"Turf Wars\"?",
+    "opciones": [
+     "Mako and Asami's",
+     "Korra and Asami's",
+     "Bolin and Opal's",
+     "Varrick and Zhu Li's"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-060",
+    "nivel": "I",
+    "sub": "Korra comic: Turf Wars",
+    "pregunta": "Who wins Republic City's presidential election?",
+    "opciones": [
+     "Raiko",
+     "Zhu Li",
+     "Tenzin",
+     "Asami"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-061",
+    "nivel": "A",
+    "sub": "Korra comic: Turf Wars",
+    "pregunta": "Who is the new leader of the Triple Threat Triad?",
+    "opciones": [
+     "Shady Shin",
+     "Viper",
+     "Zolt",
+     "Tokuga"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-062",
+    "nivel": "A",
+    "sub": "Korra comic: Turf Wars",
+    "pregunta": "What happens to Tokuga after the dragon-eel spirit's attack?",
+    "opciones": [
+     "He loses his bending",
+     "He dies",
+     "He's trapped in the Spirit World forever",
+     "He becomes a human-spirit hybrid"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-063",
+    "nivel": "A",
+    "sub": "Korra comic: Turf Wars",
+    "pregunta": "What does Wonyong Keum want to do with the land around the new portal?",
+    "opciones": [
+     "Build a prison",
+     "Make a military base",
+     "Raise an air temple",
+     "Turn it into a tourist attraction"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-064",
+    "nivel": "I",
+    "sub": "Korra comic: Turf Wars",
+    "pregunta": "Who do Korra and Asami go to tell about their relationship?",
+    "opciones": [
+     "Tenzin and Pema",
+     "Lin Beifong",
+     "Korra's parents",
+     "Varrick and Zhu Li"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-065",
+    "nivel": "I",
+    "sub": "Korra comic: Ruins of the Empire",
+    "pregunta": "Which system does King Wu want to set up in the Earth Kingdom?",
+    "opciones": [
+     "Democratic elections for governors",
+     "An absolute monarchy",
+     "A council of Avatars",
+     "A military government"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-066",
+    "nivel": "A",
+    "sub": "Korra comic: Ruins of the Empire",
+    "pregunta": "Who leads the separatists of the former Earth Empire?",
+    "opciones": [
+     "Baatar Jr.",
+     "Tokuga",
+     "Commander Guan",
+     "Liling"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-067",
+    "nivel": "A",
+    "sub": "Korra comic: Ruins of the Empire",
+    "pregunta": "In which city is the first election held?",
+    "opciones": [
+     "Gaoling",
+     "Ba Sing Se",
+     "Zaofu",
      "Omashu"
     ],
     "correcta": "a"
    },
    {
-    "id": "comic-016",
-    "nivel": "B",
-    "sub": "Korra comics",
-    "pregunta": "Which relationship begins in Korra's \"Turf Wars\" comics?",
-    "opciones": [
-     "Mako and Asami's",
-     "Bolin and Opal's",
-     "Varrick and Zhu Li's",
-     "Korra and Asami's"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "comic-017",
+    "id": "comic-068",
     "nivel": "I",
-    "sub": "Korra comics",
-    "pregunta": "Who wins Republic City's presidential election in the Korra comics?",
+    "sub": "Korra comic: Ruins of the Empire",
+    "pregunta": "What does Guan do to Mako, Bolin and Asami?",
     "opciones": [
-     "Raiko",
-     "Tenzin",
-     "Zhu Li",
-     "Asami"
+     "He takes their bending",
+     "He brainwashes them",
+     "He locks them up in Zaofu",
+     "He banishes them"
     ],
-    "correcta": "c"
+    "correcta": "b"
    },
    {
-    "id": "comic-018",
-    "nivel": "A",
-    "sub": "Korra comics",
-    "pregunta": "Who is the Triple Threat Triad leader who faces Korra in \"Turf Wars\"?",
+    "id": "comic-069",
+    "nivel": "I",
+    "sub": "Korra comic: Ruins of the Empire",
+    "pregunta": "Who helps Korra in \"Ruins of the Empire\" despite being a prisoner?",
     "opciones": [
-     "Tokuga",
-     "Shady Shin",
-     "Lightning Bolt Zolt",
-     "Viper"
+     "Zaheer",
+     "Kuvira",
+     "Amon",
+     "Unalaq"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-070",
+    "nivel": "A",
+    "sub": "Korra comic: Ruins of the Empire",
+    "pregunta": "What sentence does Kuvira finally receive?",
+    "opciones": [
+     "House arrest in Zaofu",
+     "Life in prison in Republic City",
+     "Exile",
+     "Losing her bending"
     ],
     "correcta": "a"
    }
@@ -1669,20 +3541,98 @@
   "preguntas": [
    {
     "id": "novela-001",
-    "nivel": "B",
-    "sub": "Novels: Chronicles of the Avatar",
-    "pregunta": "Who wrote the Kyoshi and Yangchen novels?",
+    "nivel": "I",
+    "sub": "Novels: general",
+    "pregunta": "What is the name of the novel series about past Avatars?",
     "opciones": [
-     "Randy Ribay",
-     "Michael Dante DiMartino",
-     "Gene Luen Yang",
-     "F. C. Yee"
+     "Legends of the Avatar",
+     "The Lost Adventures",
+     "The Avatar Scrolls",
+     "Chronicles of the Avatar"
     ],
     "correcta": "d"
    },
    {
     "id": "novela-002",
+    "nivel": "B",
+    "sub": "Novels: general",
+    "pregunta": "Who wrote the Kyoshi and Yangchen novels?",
+    "opciones": [
+     "Randy Ribay",
+     "Gene Luen Yang",
+     "Faith Erin Hicks",
+     "F. C. Yee"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-003",
     "nivel": "I",
+    "sub": "Novels: general",
+    "pregunta": "Which Avatar co-creator co-wrote the Kyoshi novels?",
+    "opciones": [
+     "Bryan Konietzko",
+     "Michael Dante DiMartino",
+     "Aaron Ehasz",
+     "Joaquim Dos Santos"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-004",
+    "nivel": "A",
+    "sub": "Novels: general",
+    "pregunta": "Who wrote \"The Reckoning of Roku\"?",
+    "opciones": [
+     "F. C. Yee",
+     "Randy Ribay",
+     "Faith Erin Hicks",
+     "Bryan Konietzko"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-005",
+    "nivel": "I",
+    "sub": "Novels: general",
+    "pregunta": "In which year was \"The Rise of Kyoshi\" published?",
+    "opciones": [
+     "2015",
+     "2021",
+     "2023",
+     "2019"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-006",
+    "nivel": "A",
+    "sub": "Novels: general",
+    "pregunta": "Which number is \"The Reckoning of Roku\" in the Chronicles of the Avatar?",
+    "opciones": [
+     "The fifth",
+     "The first",
+     "The third",
+     "The seventh"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-007",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "How many years before the animated series are the Kyoshi novels set?",
+    "opciones": [
+     "About 400",
+     "About 100",
+     "About 1,000",
+     "About 250"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-008",
+    "nivel": "B",
     "sub": "Novel: The Rise of Kyoshi",
     "pregunta": "At the start of \"The Rise of Kyoshi\", who is believed to be the Avatar?",
     "opciones": [
@@ -1694,23 +3644,88 @@
     "correcta": "d"
    },
    {
-    "id": "novela-003",
+    "id": "novela-009",
     "nivel": "I",
     "sub": "Novel: The Rise of Kyoshi",
-    "pregunta": "Which earthbender identified Yun as the Avatar?",
+    "pregunta": "Which Earth Kingdom sage identified Yun as the Avatar?",
     "opciones": [
-     "Kelsang",
      "Jianzhu",
+     "Kelsang",
      "Hei-Ran",
      "Lao Ge"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-010",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Which nation does Kelsang, Kyoshi's father figure, belong to?",
+    "opciones": [
+     "Air Nomads",
+     "Southern Water Tribe",
+     "Fire Nation",
+     "Earth Kingdom"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-011",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "In which village did Kyoshi's parents leave her?",
+    "opciones": [
+     "Zigan",
+     "Yokoya",
+     "Makapu",
+     "Chin"
     ],
     "correcta": "b"
    },
    {
-    "id": "novela-004",
+    "id": "novela-012",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "What was Kyoshi's job in Yun's mansion?",
+    "opciones": [
+     "Bodyguard",
+     "The Avatar's cook",
+     "Servant",
+     "Earthbending teacher"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-013",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "How does Kyoshi first show her Avatar power?",
+    "opciones": [
+     "By airbending in front of Kelsang",
+     "By entering the Avatar State at the temple",
+     "With massive earthbending against pirates",
+     "By talking with Kuruk"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-014",
+    "nivel": "A",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Who does Jianzhu kill in \"The Rise of Kyoshi\"?",
+    "opciones": [
+     "Yun",
+     "Rangi",
+     "Kelsang",
+     "Lao Ge"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-015",
     "nivel": "B",
     "sub": "Novel: The Rise of Kyoshi",
-    "pregunta": "Who is Rangi in the Kyoshi novels?",
+    "pregunta": "Who is Rangi?",
     "opciones": [
      "Kyoshi's mother",
      "A firebender, Kyoshi's bodyguard and partner",
@@ -1720,394 +3735,373 @@
     "correcta": "b"
    },
    {
-    "id": "novela-005",
+    "id": "novela-016",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "What is the name of Rangi's mother?",
+    "opciones": [
+     "Hei-Ran",
+     "Huazo",
+     "Jesa",
+     "Kirima"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-017",
     "nivel": "A",
     "sub": "Novel: The Rise of Kyoshi",
-    "pregunta": "What is the name of the outlaw band founded by Kyoshi's parents, which she joins?",
+    "pregunta": "What is the name of Kyoshi's parents' outlaw band?",
     "opciones": [
      "The Freedom Fighters",
      "The Rough Rhinos",
-     "The Triple Threat",
-     "The Flying Opera Company"
+     "The Flying Opera Company",
+     "The Autumn Bloom Society"
     ],
-    "correcta": "d"
+    "correcta": "c"
    },
    {
-    "id": "novela-006",
-    "nivel": "I",
-    "sub": "Novel: The Rise of Kyoshi",
-    "pregunta": "Which Avatar came right before Kyoshi?",
-    "opciones": [
-     "Kuruk",
-     "Yangchen",
-     "Roku",
-     "Szeto"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-007",
-    "nivel": "I",
-    "sub": "Novel: The Rise of Kyoshi",
-    "pregunta": "Who originally owned Kyoshi's fans?",
-    "opciones": [
-     "Her mother",
-     "Rangi",
-     "Kuruk",
-     "Jianzhu"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-008",
+    "id": "novela-018",
     "nivel": "A",
     "sub": "Novel: The Rise of Kyoshi",
-    "pregunta": "Which nation does Kelsang, Kyoshi's father figure, belong to?",
+    "pregunta": "Which Flying Opera Company member is a waterbender?",
     "opciones": [
-     "Southern Water Tribe",
-     "Fire Nation",
-     "Earth Kingdom",
-     "Air Nomads"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "novela-009",
-    "nivel": "I",
-    "sub": "Novel: The Shadow of Kyoshi",
-    "pregunta": "In which nation does much of \"The Shadow of Kyoshi\" take place?",
-    "opciones": [
-     "The Fire Nation",
-     "The Northern Water Tribe",
-     "The Air Temples",
-     "Ba Sing Se"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-010",
-    "nivel": "B",
-    "sub": "Yangchen novels",
-    "pregunta": "Which element was Yangchen born bending?",
-    "opciones": [
-     "Air",
-     "Water",
-     "Earth",
-     "Fire"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-011",
-    "nivel": "A",
-    "sub": "Yangchen novels",
-    "pregunta": "Who is Kavik in the Yangchen novels?",
-    "opciones": [
-     "Yangchen's brother",
-     "A Water Tribe spy",
-     "A Fire Lord",
-     "Yangchen's airbending master"
+     "Lek",
+     "Kirima",
+     "Wong",
+     "Lao Ge"
     ],
     "correcta": "b"
    },
    {
-    "id": "novela-012",
+    "id": "novela-019",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Who is Lao Ge?",
+    "opciones": [
+     "Kyoshi's father",
+     "A Fire Lord",
+     "An old assassin who teaches Kyoshi",
+     "The leader of the Dai Li"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-020",
+    "nivel": "A",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Which crime lord does Kyoshi kill in a duel in \"The Rise of Kyoshi\"?",
+    "opciones": [
+     "Te Sihung",
+     "Tokuga",
+     "Chaejin",
+     "Xu Ping An"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-021",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Who kills Jianzhu at the end of \"The Rise of Kyoshi\"?",
+    "opciones": [
+     "Kyoshi",
+     "Yun",
+     "Rangi",
+     "Lao Ge"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-022",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Which tribe was Avatar Kuruk, Kyoshi's predecessor, from?",
+    "opciones": [
+     "Southern Water Tribe",
+     "Swamp Tribe",
+     "Eastern Water Tribe",
+     "Northern Water Tribe"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-023",
+    "nivel": "I",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "Which Fire Lord asks Kyoshi for help in \"The Shadow of Kyoshi\"?",
+    "opciones": [
+     "Sozin",
+     "Azulon",
+     "Zoryu",
+     "Chaejin"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-024",
+    "nivel": "A",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "Who wants to overthrow Zoryu?",
+    "opciones": [
+     "His son",
+     "Avatar Kyoshi",
+     "The Dai Li",
+     "His older half-brother, Chaejin"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-025",
+    "nivel": "A",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "Which spirit has possessed Yun?",
+    "opciones": [
+     "Koh",
+     "Vaatu",
+     "Father Glowworm",
+     "Wan Shi Tong"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-026",
+    "nivel": "I",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "What problem is the Fire Nation suffering in \"The Shadow of Kyoshi\"?",
+    "opciones": [
+     "A famine",
+     "A spirit plague",
+     "A volcanic eruption",
+     "An Earth Kingdom invasion"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-027",
+    "nivel": "I",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "Which past Avatar does Kyoshi try to contact throughout the book?",
+    "opciones": [
+     "Kuruk",
+     "Yangchen",
+     "Szeto",
+     "Wan"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-028",
+    "nivel": "A",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "Who is Huazo?",
+    "opciones": [
+     "Rangi's mother",
+     "A Kyoshi Warrior",
+     "Chaejin's mother",
+     "Zoryu's wife"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-029",
+    "nivel": "I",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "Where does the final battle between Kyoshi and Yun take place?",
+    "opciones": [
+     "In the Fire Nation capital",
+     "At Jianzhu's estate",
+     "At the Southern Air Temple",
+     "In Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-030",
+    "nivel": "A",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "What does Zoryu decide at the end of \"The Shadow of Kyoshi\"?",
+    "opciones": [
+     "To strip all clans of influence and make the Fire Lord supreme",
+     "To abdicate in favor of Chaejin",
+     "To declare war on the Earth Kingdom",
+     "To dissolve the Fire Sages"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-031",
+    "nivel": "B",
+    "sub": "Yangchen novels",
+    "pregunta": "Which element was Yangchen born bending?",
+    "opciones": [
+     "Water",
+     "Earth",
+     "Fire",
+     "Air"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-032",
+    "nivel": "I",
+    "sub": "Yangchen novels",
+    "pregunta": "How old is Yangchen in \"The Dawn of Yangchen\"?",
+    "opciones": [
+     "12",
+     "17",
+     "25",
+     "30"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-033",
+    "nivel": "I",
+    "sub": "Yangchen novels",
+    "pregunta": "In which city are the Yangchen novels set?",
+    "opciones": [
+     "Yu Dao",
+     "Bin-Er",
+     "Zigan",
+     "Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-034",
+    "nivel": "I",
+    "sub": "Yangchen novels",
+    "pregunta": "Who is Kavik?",
+    "opciones": [
+     "Yangchen's brother",
+     "A Fire Lord",
+     "Yangchen's airbending master",
+     "A waterbender hired as a spy"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-035",
+    "nivel": "A",
+    "sub": "Yangchen novels",
+    "pregunta": "What is the name of the greedy merchant class Yangchen faces?",
+    "opciones": [
+     "The daofei",
+     "The zongdu",
+     "The shangs",
+     "The Dai Li"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-036",
+    "nivel": "A",
+    "sub": "Yangchen novels",
+    "pregunta": "Which Avatar came right before Yangchen?",
+    "opciones": [
+     "Kuruk",
+     "Wan",
+     "Szeto",
+     "Kyoshi"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-037",
+    "nivel": "A",
+    "sub": "Yangchen novels",
+    "pregunta": "What is the mysterious threat Yangchen and Kavik investigate?",
+    "opciones": [
+     "The Red Lotus",
+     "Unanimity",
+     "The Shadow",
+     "Father Glowworm"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-038",
+    "nivel": "I",
+    "sub": "Yangchen novels",
+    "pregunta": "In which animated episode does Yangchen appear advising Aang?",
+    "opciones": [
+     "\"The Avatar Returns\"",
+     "\"The Library\"",
+     "\"The Guru\"",
+     "\"Sozin's Comet\""
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-039",
     "nivel": "B",
     "sub": "Novel: The Reckoning of Roku",
     "pregunta": "Who is Roku's best friend in \"The Reckoning of Roku\"?",
     "opciones": [
      "Gyatso",
-     "Azulon",
      "Crown Prince Sozin",
+     "Azulon",
      "Kuruk"
     ],
-    "correcta": "c"
+    "correcta": "b"
    },
    {
-    "id": "novela-013",
+    "id": "novela-040",
     "nivel": "I",
     "sub": "Novel: The Reckoning of Roku",
-    "pregunta": "Who is Roku's airbending master in \"The Reckoning of Roku\"?",
+    "pregunta": "Who is Roku's airbending master?",
     "opciones": [
-     "Yangchen",
-     "Sister Iio",
      "Sister Disha",
-     "Kelsang"
+     "Yangchen",
+     "Kelsang",
+     "Sister Iio"
     ],
-    "correcta": "c"
+    "correcta": "a"
    },
    {
-    "id": "novela-014",
+    "id": "novela-041",
     "nivel": "I",
     "sub": "Novel: The Reckoning of Roku",
-    "pregunta": "Which young airbender secretly travels with Roku?",
+    "pregunta": "Which young airbender travels with Roku on his secret journey?",
     "opciones": [
      "Tashi",
      "Pathik",
-     "Gyatso",
-     "Kelsang"
+     "Kelsang",
+     "Gyatso"
     ],
-    "correcta": "c"
+    "correcta": "d"
    },
    {
-    "id": "novela-015",
+    "id": "novela-042",
     "nivel": "A",
-    "sub": "Novels: Chronicles of the Avatar",
-    "pregunta": "Who wrote \"The Reckoning of Roku\"?",
+    "sub": "Novel: The Reckoning of Roku",
+    "pregunta": "Which place do the Fire Nation and Earth Kingdom fight over in \"The Reckoning of Roku\"?",
     "opciones": [
-     "F. C. Yee",
-     "Randy Ribay",
-     "Faith Erin Hicks",
-     "Bryan Konietzko"
+     "A remote fog-covered island",
+     "The city of Omashu",
+     "The Southern Air Temple",
+     "Kyoshi Island"
     ],
-    "correcta": "b"
+    "correcta": "a"
+   },
+   {
+    "id": "novela-043",
+    "nivel": "I",
+    "sub": "Novel: The Reckoning of Roku",
+    "pregunta": "Who announce that Roku is the Avatar?",
+    "opciones": [
+     "The Air Nomad monks",
+     "The White Lotus",
+     "The Fire Lord",
+     "The Fire Sages"
+    ],
+    "correcta": "d"
    }
   ]
  },
  {
   "parte": 5,
-  "corto": "Netflix",
-  "titulo": "Avatar: The Last Airbender (Netflix)",
-  "elemento": "water",
-  "preguntas": [
-   {
-    "id": "netflix-001",
-    "nivel": "B",
-    "sub": "Netflix: Season 1",
-    "pregunta": "In which year did the first season of the Netflix series premiere?",
-    "opciones": [
-     "2023",
-     "2024",
-     "2022",
-     "2025"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-002",
-    "nivel": "B",
-    "sub": "Netflix: Season 1",
-    "pregunta": "How many episodes does Netflix's first season have?",
-    "opciones": [
-     "10",
-     "8",
-     "12",
-     "20"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-003",
-    "nivel": "B",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Which actor plays Aang in the Netflix series?",
-    "opciones": [
-     "Noah Ringer",
-     "Gordon Cormier",
-     "Ian Ousley",
-     "Dallas Liu"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-004",
-    "nivel": "I",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Who plays Zuko in the Netflix series?",
-    "opciones": [
-     "Dallas Liu",
-     "Dev Patel",
-     "Ian Ousley",
-     "Ken Leung"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-005",
-    "nivel": "I",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Who plays Katara in the Netflix series?",
-    "opciones": [
-     "Amber Midthunder",
-     "Maria Zhang",
-     "Elizabeth Yu",
-     "Kiawentiio"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-006",
-    "nivel": "I",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Which actor plays Fire Lord Ozai on Netflix?",
-    "opciones": [
-     "Daniel Dae Kim",
-     "Paul Sun-Hyung Lee",
-     "Ken Leung",
-     "Utkarsh Ambudkar"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-007",
-    "nivel": "I",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Who plays Iroh in the Netflix series?",
-    "opciones": [
-     "Daniel Dae Kim",
-     "Ken Leung",
-     "Paul Sun-Hyung Lee",
-     "Chin Han"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "netflix-008",
-    "nivel": "A",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Who plays Yue in the Netflix series?",
-    "opciones": [
-     "Amber Midthunder",
-     "Kiawentiio",
-     "Maria Zhang",
-     "Elizabeth Yu"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-009",
-    "nivel": "I",
-    "sub": "Netflix: Season 1",
-    "pregunta": "What does Netflix's first episode show on screen that the animated series only described?",
-    "opciones": [
-     "Toph's childhood",
-     "Iroh's exile",
-     "Yue's death",
-     "The Fire Nation's attack on the Air Nomads"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-010",
-    "nivel": "A",
-    "sub": "Netflix: Season 1",
-    "pregunta": "Who was the showrunner of Netflix's first season?",
-    "opciones": [
-     "Bryan Konietzko",
-     "Jabbar Raisani",
-     "M. Night Shyamalan",
-     "Albert Kim"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-011",
-    "nivel": "B",
-    "sub": "Netflix: Season 2",
-    "pregunta": "How many episodes does Netflix's second season have?",
-    "opciones": [
-     "8",
-     "10",
-     "13",
-     "7"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-012",
-    "nivel": "I",
-    "sub": "Netflix: Season 2",
-    "pregunta": "In which month of 2026 did Netflix's second season premiere?",
-    "opciones": [
-     "February",
-     "April",
-     "October",
-     "June"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-013",
-    "nivel": "I",
-    "sub": "Netflix: Season 2",
-    "pregunta": "What secret identity does Katara take on in Ba Sing Se in Netflix's second season?",
-    "opciones": [
-     "The Blue Spirit",
-     "The Blind Bandit",
-     "The Painted Lady",
-     "Joo Dee"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "netflix-014",
-    "nivel": "I",
-    "sub": "Netflix: Season 2",
-    "pregunta": "In Netflix's second season, how does Toph discover metalbending?",
-    "opciones": [
-     "Training with Bumi in Omashu",
-     "Forging Sokka's sword",
-     "By escaping from a metal box she was locked in",
-     "Watching the Dai Li work"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "netflix-015",
-    "nivel": "A",
-    "sub": "Netflix: Season 2",
-    "pregunta": "Which actor plays Earth King Kuei on Netflix?",
-    "opciones": [
-     "Chin Han",
-     "Justin Chien",
-     "Daniel Dae Kim",
-     "Dallas Liu"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-016",
-    "nivel": "A",
-    "sub": "Netflix: Season 2",
-    "pregunta": "Which actor plays Long Feng on Netflix?",
-    "opciones": [
-     "Chin Han",
-     "Justin Chien",
-     "Ken Leung",
-     "Paul Sun-Hyung Lee"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-017",
-    "nivel": "B",
-    "sub": "Netflix: Season 2",
-    "pregunta": "Who plays Azula in the Netflix series?",
-    "opciones": [
-     "Kiawentiio",
-     "Elizabeth Yu",
-     "Amber Midthunder",
-     "Maria Zhang"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-018",
-    "nivel": "B",
-    "sub": "Netflix: Season 2",
-    "pregunta": "How does Netflix's second season end for Aang?",
-    "opciones": [
-     "He defeats Ozai",
-     "He masters metalbending",
-     "Azula strikes him with lightning",
-     "He gets frozen again"
-    ],
-    "correcta": "c"
-   }
-  ]
- },
- {
-  "parte": 6,
   "corto": "Movie",
   "titulo": "Avatar Aang: The Last Airbender (2026 movie)",
   "elemento": "air",
@@ -2116,7 +4110,7 @@
     "id": "peli-001",
     "nivel": "B",
     "sub": "Movie (2026)",
-    "pregunta": "What is the name of the villain in the 2026 movie?",
+    "pregunta": "What is the name of the movie's villain?",
     "opciones": [
      "Sonam",
      "Xian",
@@ -2142,12 +4136,12 @@
     "id": "peli-003",
     "nivel": "I",
     "sub": "Movie (2026)",
-    "pregunta": "Who voices Tagah?",
+    "pregunta": "Who gave Tagah his airbending?",
     "opciones": [
-     "Taika Waititi",
-     "Dave Bautista",
-     "Ke Huy Quan",
-     "Steven Yeun"
+     "Aang",
+     "Avatar Sonam, through her staff",
+     "A lion turtle",
+     "The sky bison"
     ],
     "correcta": "b"
    },
@@ -2155,11 +4149,11 @@
     "id": "peli-004",
     "nivel": "I",
     "sub": "Movie (2026)",
-    "pregunta": "Who voices adult Aang in the movie?",
+    "pregunta": "Who voices Tagah?",
     "opciones": [
-     "Eric Nam",
-     "Zach Tyler Eisen",
-     "Gordon Cormier",
+     "Dave Bautista",
+     "Taika Waititi",
+     "Ke Huy Quan",
      "Steven Yeun"
     ],
     "correcta": "a"
@@ -2168,7 +4162,20 @@
     "id": "peli-005",
     "nivel": "I",
     "sub": "Movie (2026)",
-    "pregunta": "Who voices Fire Lord Zuko in the movie?",
+    "pregunta": "Who voices adult Aang?",
+    "opciones": [
+     "Zach Tyler Eisen",
+     "Gordon Cormier",
+     "Steven Yeun",
+     "Eric Nam"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-006",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Who voices Fire Lord Zuko?",
     "opciones": [
      "Dante Basco",
      "Dallas Liu",
@@ -2178,36 +4185,88 @@
     "correcta": "d"
    },
    {
-    "id": "peli-006",
+    "id": "peli-007",
     "nivel": "A",
     "sub": "Movie (2026)",
-    "pregunta": "Which original cast member is the only one to reprise their role in the movie?",
+    "pregunta": "Who voices Katara?",
     "opciones": [
-     "Dante Basco, as Zuko",
-     "Mae Whitman, as Katara",
-     "Jack De Sena, as Sokka",
-     "Dee Bradley Baker, as Appa and Momo"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "peli-007",
-    "nivel": "B",
-    "sub": "Movie (2026)",
-    "pregunta": "What is the name of the \"lost Avatar\" from the golden age of airbenders?",
-    "opciones": [
-     "Sonam",
-     "Yangchen",
-     "Szeto",
-     "Kelsang"
+     "Jessica Matten",
+     "Mae Whitman",
+     "Freida Pinto",
+     "Geraldine Viswanathan"
     ],
     "correcta": "a"
    },
    {
     "id": "peli-008",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Who voices Sokka?",
+    "opciones": [
+     "Jack De Sena",
+     "Ian Ousley",
+     "Román Zaragoza",
+     "Eric Nam"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-009",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Which original actress returns as Toph's voice?",
+    "opciones": [
+     "Michaela Jill Murphy",
+     "Mae Whitman",
+     "None: Toph is voiced by Dionne Quan",
+     "Grey DeLisle"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-010",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Which original cast member is the only one to reprise their role?",
+    "opciones": [
+     "Dee Bradley Baker, as Appa and Momo",
+     "Dante Basco, as Zuko",
+     "Mae Whitman, as Katara",
+     "Jack De Sena, as Sokka"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-011",
+    "nivel": "B",
+    "sub": "Movie (2026)",
+    "pregunta": "What is the name of the \"lost Avatar\" from the golden age of airbenders?",
+    "opciones": [
+     "Yangchen",
+     "Szeto",
+     "Kelsang",
+     "Sonam"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-012",
     "nivel": "I",
     "sub": "Movie (2026)",
-    "pregunta": "What object are the villains after in the movie?",
+    "pregunta": "Who voices Avatar Sonam?",
+    "opciones": [
+     "Freida Pinto",
+     "Jessica Matten",
+     "Geraldine Viswanathan",
+     "Peta Sergeant"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-013",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What object are the villains after?",
     "opciones": [
      "Aang's glider",
      "Sokka's meteorite sword",
@@ -2217,20 +4276,46 @@
     "correcta": "c"
    },
    {
-    "id": "peli-009",
+    "id": "peli-014",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "What can Sonam's staff do?",
+    "opciones": [
+     "Stop time",
+     "Bring back the dead",
+     "Control spirits",
+     "Channel energy from the Spirit World"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-015",
     "nivel": "I",
     "sub": "Movie (2026)",
     "pregunta": "What is the name of the non-bending outlaw group that attacks Aang at the start?",
     "opciones": [
+     "The Denied",
      "The Equalists",
      "The Triple Threat",
-     "The Denied",
      "The Rough Rhinos"
     ],
-    "correcta": "c"
+    "correcta": "a"
    },
    {
-    "id": "peli-010",
+    "id": "peli-016",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Where do the Denied attack Aang at the beginning?",
+    "opciones": [
+     "At the Southern Air Temple",
+     "In Republic City",
+     "On Kyoshi Island",
+     "On Mount Baihu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-017",
     "nivel": "A",
     "sub": "Movie (2026)",
     "pregunta": "On which mountain does Aang find Tagah frozen?",
@@ -2243,88 +4328,205 @@
     "correcta": "a"
    },
    {
-    "id": "peli-011",
+    "id": "peli-018",
     "nivel": "I",
     "sub": "Movie (2026)",
-    "pregunta": "Which city is shown under construction in the movie?",
+    "pregunta": "Where is Sonam's staff hidden?",
     "opciones": [
-     "Ba Sing Se",
-     "Zaofu",
-     "Yu Dao",
-     "Republic City"
+     "At the bottom of Lake Laogai",
+     "In Wan Shi Tong's library",
+     "Under the Northern Air Temple",
+     "On a hidden island inside a cyclone"
     ],
     "correcta": "d"
    },
    {
-    "id": "peli-012",
+    "id": "peli-019",
     "nivel": "I",
     "sub": "Movie (2026)",
-    "pregunta": "What is Katara's job in the movie?",
+    "pregunta": "What must Aang do to retrieve the staff?",
     "opciones": [
-     "Republic City Council representative",
-     "Chief of the Southern Water Tribe",
-     "Teacher at a healing school",
-     "Ambassador to Ba Sing Se"
+     "Enter the Avatar State",
+     "Wield all four elements",
+     "Defeat a dragon",
+     "Talk to Roku"
     ],
-    "correcta": "a"
+    "correcta": "b"
    },
    {
-    "id": "peli-013",
+    "id": "peli-020",
     "nivel": "A",
     "sub": "Movie (2026)",
     "pregunta": "Which past Avatar explains the staff's power to Aang?",
     "opciones": [
+     "Xian",
      "Roku",
      "Kyoshi",
-     "Xian",
      "Kuruk"
     ],
-    "correcta": "c"
+    "correcta": "a"
    },
    {
-    "id": "peli-014",
+    "id": "peli-021",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Who voices Avatar Xian?",
+    "opciones": [
+     "Steven Yeun",
+     "Ke Huy Quan",
+     "Taika Waititi",
+     "Keone Young"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-022",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Why did Sonam imprison Tagah on the mountain?",
+    "opciones": [
+     "A war filled him with hatred for non-airbenders",
+     "He tried to steal the Avatar title",
+     "He betrayed the monks to the Fire Nation",
+     "He killed another Avatar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-023",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Which city is shown under construction?",
+    "opciones": [
+     "Republic City",
+     "Ba Sing Se",
+     "Zaofu",
+     "Yu Dao"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-024",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What is Katara's job in the movie?",
+    "opciones": [
+     "Chief of the Southern Water Tribe",
+     "Republic City Council representative",
+     "Teacher at a healing school",
+     "Ambassador to Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-025",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What does Tagah do to some of the Denied?",
+    "opciones": [
+     "He erases their memory",
+     "He grants them airbending with the staff",
+     "He freezes them in ice",
+     "He turns them into spirits"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-026",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Which memory keeps Aang from killing Tagah in the Avatar State?",
+    "opciones": [
+     "Monk Gyatso's",
+     "Katara's",
+     "Roku's",
+     "Zuko's"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-027",
     "nivel": "I",
     "sub": "Movie (2026)",
     "pregunta": "What does Aang do with the staff at the end?",
     "opciones": [
      "He gives it to Tagah",
      "He keeps it at the Southern Air Temple",
-     "He returns it to Sonam in the Spirit World",
-     "He destroys it"
+     "He destroys it",
+     "He returns it to Sonam"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-028",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "What happens to Tagah when the staff is destroyed?",
+    "opciones": [
+     "He's locked up in the Boiling Rock",
+     "He joins the Air Acolytes",
+     "He flees to the Spirit World",
+     "He fades away after being forgiven"
     ],
     "correcta": "d"
    },
    {
-    "id": "peli-015",
+    "id": "peli-029",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What does Aang build at the end of the movie?",
+    "opciones": [
+     "A statue of Sonam",
+     "An airbending academy in Ba Sing Se",
+     "A new Air Temple on an island near Republic City",
+     "A monument to Gyatso"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-030",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Which former member of the Denied joins the Air Acolytes?",
+    "opciones": [
+     "Kallik",
+     "Jie",
+     "Sonam",
+     "Liling"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-031",
     "nivel": "I",
     "sub": "Movie (2026)",
     "pregunta": "What do Aang and his friends discover in the final scene?",
     "opciones": [
-     "A surviving herd of sky bison",
      "Another frozen airbender",
+     "A surviving herd of sky bison",
      "Sonam's lost city",
      "Tagah's body"
     ],
-    "correcta": "a"
+    "correcta": "b"
    },
    {
-    "id": "peli-016",
+    "id": "peli-032",
     "nivel": "A",
     "sub": "Movie (2026)",
     "pregunta": "Who directed the movie?",
     "opciones": [
-     "Lauren Montgomery",
      "Bryan Konietzko",
      "Joaquim Dos Santos",
-     "M. Night Shyamalan"
+     "M. Night Shyamalan",
+     "Lauren Montgomery"
     ],
-    "correcta": "a"
+    "correcta": "d"
    },
    {
-    "id": "peli-017",
+    "id": "peli-033",
     "nivel": "B",
     "sub": "Movie (2026)",
-    "pregunta": "Where did the movie finally premiere worldwide?",
+    "pregunta": "Where did the movie premiere worldwide?",
     "opciones": [
      "On Paramount+",
      "In theaters",
@@ -2334,17 +4536,43 @@
     "correcta": "a"
    },
    {
-    "id": "peli-018",
+    "id": "peli-034",
     "nivel": "A",
     "sub": "Movie (2026)",
-    "pregunta": "Which character does Taika Waititi voice in the movie?",
+    "pregunta": "Which character does Taika Waititi voice?",
     "opciones": [
      "Tagah",
      "Xian",
-     "The cabbage merchant",
-     "Gorillavark"
+     "Gorillavark",
+     "The cabbage merchant"
     ],
-    "correcta": "d"
+    "correcta": "c"
+   },
+   {
+    "id": "peli-035",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Who composed the movie's score?",
+    "opciones": [
+     "Hans Zimmer",
+     "James Newton Howard",
+     "Jeremy Zuckerman",
+     "Ludwig Göransson"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-036",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "What is the name of the ancient airbender city in Sonam's era?",
+    "opciones": [
+     "Jharana",
+     "Bin-Er",
+     "Zigan",
+     "Taku"
+    ],
+    "correcta": "a"
    }
   ]
  }

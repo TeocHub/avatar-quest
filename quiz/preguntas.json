@@ -784,6 +784,695 @@
      "Ursa"
     ],
     "correcta": "a"
+   },
+   {
+    "id": "atla-061",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué arma característica usa Sokka desde el primer episodio?",
+    "opciones": [
+     "Un abanico",
+     "Un bumerán",
+     "Una lanza de hielo",
+     "Unas espadas dobles"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-062",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama la abuela de Katara y Sokka?",
+    "opciones": [
+     "Kanna",
+     "Kya",
+     "Yugoda",
+     "Hama"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-063",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llamaba la madre de Katara y Sokka?",
+    "opciones": [
+     "Kanna",
+     "Kya",
+     "Ursa",
+     "Yue"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-064",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué dice Aang para que Appa empiece a volar?",
+    "opciones": [
+     "«Arriba, Appa»",
+     "«Yip yip»",
+     "«Hup hup»",
+     "«Vuela alto»"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-065",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Por qué Aang terminó congelado en el iceberg?",
+    "opciones": [
+     "Huyó del templo, una tormenta lo hundió y el Estado Avatar lo congeló",
+     "Lo atacó la flota de Sozin",
+     "Gyatso lo escondió en el hielo",
+     "Se quedó dormido meditando en el Polo Sur"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-066",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se ganó Zuko la cicatriz de su rostro?",
+    "opciones": [
+     "En un Agni Kai contra su padre",
+     "En un duelo contra Zhao",
+     "En un accidente entrenando con Azula",
+     "Peleando contra Aang en el Polo Sur"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-067",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué hizo Zuko para terminar en ese Agni Kai?",
+    "opciones": [
+     "Habló sin permiso en una reunión de guerra",
+     "Intentó liberar prisioneros",
+     "Insultó a Azula frente a la corte",
+     "Se negó a capturar al Avatar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-068",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué sabio del fuego ayuda a Aang a llegar al santuario de Roku?",
+    "opciones": [
+     "Jeong Jeong",
+     "Piandao",
+     "Bato",
+     "Shyu"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-069",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Quién separó la Isla Kyoshi del continente?",
+    "opciones": [
+     "El Avatar Roku",
+     "El rey Bumi",
+     "Las guerreras Kyoshi",
+     "La Avatar Kyoshi"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-070",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama el joven maestro tierra que el grupo ayuda en una aldea minera ocupada?",
+    "opciones": [
+     "Haru",
+     "Jet",
+     "Kuei",
+     "Tyro"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-071",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿A quiénes les roba Katara el pergamino de agua control?",
+    "opciones": [
+     "A unos piratas",
+     "A Zhao",
+     "A los Dai Li",
+     "A Jet"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-072",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué desertor de la Nación del Fuego le da a Aang su primera lección de fuego control?",
+    "opciones": [
+     "Iroh",
+     "Piandao",
+     "Jeong Jeong",
+     "Shyu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-073",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama el jefe de la Tribu Agua del Norte?",
+    "opciones": [
+     "Arnook",
+     "Hakoda",
+     "Pakku",
+     "Unalaq"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-074",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Con quién estaba comprometida Yue?",
+    "opciones": [
+     "Con Hahn",
+     "Con Sokka",
+     "Con Jet",
+     "Con Haru"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-075",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué no se debe hacer frente a Koh, el robacaras?",
+    "opciones": [
+     "Mirarlo a los ojos",
+     "Mostrar emociones",
+     "Hablar en voz alta",
+     "Darle la espalda"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-076",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué habilidad especial del agua control descubre Katara en el Libro 1?",
+    "opciones": [
+     "La sanación",
+     "La sangre control",
+     "Controlar las plantas",
+     "Caminar sobre el agua"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-077",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama la mascota de Bumi, una cabra-gorila?",
+    "opciones": [
+     "Bosco",
+     "Flopsie",
+     "Nyla",
+     "Pabu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-078",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué dos tribus enemistadas tienen que cruzar juntas el Gran Cañón?",
+    "opciones": [
+     "Los Dai Li y los Yu Yan",
+     "Los Sabios y los Guerreros del Sol",
+     "Los Gan Jin y los Zhang",
+     "Los arenadores y los nómadas"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-079",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama el dragón de Roku?",
+    "opciones": [
+     "Druk",
+     "Fang",
+     "Ran",
+     "Shaw"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-080",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿En qué ciudad vive la familia Beifong?",
+    "opciones": [
+     "Gaoling",
+     "Omashu",
+     "Ba Sing Se",
+     "Chin"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-081",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo se llamaba el hijo de Iroh que murió en Ba Sing Se?",
+    "opciones": [
+     "Lee",
+     "Lu Ten",
+     "Mushi",
+     "Azulon"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-082",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Con qué apodo se conoce a Iroh?",
+    "opciones": [
+     "El Fénix Dorado",
+     "El Dragón del Oeste",
+     "El Dragón de Jazmín",
+     "El Señor de las Cenizas"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-083",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cuántos días duró el asedio de Iroh a Ba Sing Se?",
+    "opciones": [
+     "100",
+     "365",
+     "1.000",
+     "600"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-084",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué bebe Sokka en el desierto que lo hace alucinar?",
+    "opciones": [
+     "Té de jazmín",
+     "Agua del oasis",
+     "Leche de coco",
+     "Jugo de cactus"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-085",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Dónde tienen los Dai Li su base secreta y lavan el cerebro a la gente?",
+    "opciones": [
+     "En el palacio del Rey Tierra",
+     "En las catacumbas de Omashu",
+     "En el muro exterior",
+     "Bajo el lago Laogai"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-086",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quién libera a Appa bajo el lago Laogai?",
+    "opciones": [
+     "Aang",
+     "Iroh",
+     "Jet",
+     "Zuko"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-087",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo se infiltra Azula en Ba Sing Se?",
+    "opciones": [
+     "Disfrazada de refugiada",
+     "Disfrazada de guerrera Kyoshi",
+     "Como embajadora de paz",
+     "Escondida en la taladradora"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-088",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué nueva técnica inventa Toph?",
+    "opciones": [
+     "La lava control",
+     "La arena control",
+     "El metal control",
+     "El cristal control"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-089",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quiénes encierran a Toph en una jaula de metal antes de que invente el metal control?",
+    "opciones": [
+     "Los Dai Li",
+     "Mai y Ty Lee",
+     "Xin Fu y el maestro Yu",
+     "Los Rinocerontes Salvajes"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-090",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué general intenta forzar a Aang a entrar en el Estado Avatar?",
+    "opciones": [
+     "El general Fong",
+     "El general How",
+     "El general Sung",
+     "El general Iroh"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-091",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo se llama el maestro agua que protege el pantano?",
+    "opciones": [
+     "Tho",
+     "Due",
+     "Huu",
+     "Pakku"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-092",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué técnica le enseña Iroh a Zuko basándose en el agua control?",
+    "opciones": [
+     "Crear rayos",
+     "Respirar fuego",
+     "Redirigir los rayos",
+     "Controlar la lava"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-093",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Dónde le enseña Zuko fuego control a Aang tras unirse al grupo?",
+    "opciones": [
+     "En el Templo Aire del Oeste",
+     "En la Isla Ember",
+     "En la capital del Fuego",
+     "En la Roca Hirviente"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-094",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué antigua civilización visitan Zuko y Aang para conocer el origen del fuego control?",
+    "opciones": [
+     "Los Sabios del Fuego",
+     "Los Yu Yan",
+     "Los Guerreros del Sol",
+     "Los Guerreros del Fénix"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-095",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo se llama el soldado que mató a la madre de Katara?",
+    "opciones": [
+     "Zhao",
+     "Yon Rha",
+     "Jee",
+     "Kuzon"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-096",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿A quién encuentra Sokka en la Roca Hirviente, además de a su padre?",
+    "opciones": [
+     "A Haru",
+     "A Jet",
+     "A Suki",
+     "A Bato"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-097",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué necesita Hama para usar la sangre control?",
+    "opciones": [
+     "Un eclipse",
+     "La luna llena",
+     "Agua del oasis",
+     "Estar en el Polo Norte"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-098",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué hace Ty Lee al final de la serie?",
+    "opciones": [
+     "Se une a las guerreras Kyoshi",
+     "Se convierte en Dai Li",
+     "Vuelve al circo",
+     "Se casa con Sokka"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-099",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién iba a ser coronada Señora del Fuego cuando Ozai se proclamó Rey Fénix?",
+    "opciones": [
+     "Ursa",
+     "Mai",
+     "Ty Lee",
+     "Azula"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-100",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿En qué bosque ocurre la batalla final entre Aang y Ozai?",
+    "opciones": [
+     "En el bosque de Wulong",
+     "En el bosque de Senlin",
+     "En el bosque de Gaipan",
+     "En el pantano Neblinoso"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-101",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué le pasa a Sokka mientras destruye la flota de dirigibles en el final?",
+    "opciones": [
+     "Pierde su espada y su bumerán",
+     "Queda inconsciente",
+     "Lo capturan",
+     "Se fractura la pierna"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-102",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién es el padre de Ozai e Iroh?",
+    "opciones": [
+     "Sozin",
+     "Azulon",
+     "Roku",
+     "Lu Ten"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-103",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cuánto dura el eclipse del Día del Sol Negro?",
+    "opciones": [
+     "8 minutos",
+     "1 hora",
+     "30 minutos",
+     "1 minuto"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-104",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué objeto usa Iroh para identificarse con la Orden del Loto Blanco?",
+    "opciones": [
+     "Un anillo de jade",
+     "Una tetera",
+     "Una ficha de Pai Sho",
+     "Un pergamino"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-105",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué hace Zuko en la cárcel de la Roca Hirviente?",
+    "opciones": [
+     "Cumple una condena por traición",
+     "Visita a Iroh",
+     "Busca a su madre",
+     "Ayuda a Sokka a escapar"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-106",
+    "nivel": "B",
+    "sub": "General",
+    "pregunta": "¿Quiénes crearon Avatar: La Leyenda de Aang?",
+    "opciones": [
+     "Gene Luen Yang y F. C. Yee",
+     "Michael Dante DiMartino y Bryan Konietzko",
+     "Joaquim Dos Santos y Lauren Montgomery",
+     "Aaron Ehasz y Tim Hedrick"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-107",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "¿En qué año se estrenó Avatar: La Leyenda de Aang?",
+    "opciones": [
+     "2003",
+     "2005",
+     "2008",
+     "2010"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-108",
+    "nivel": "A",
+    "sub": "General",
+    "pregunta": "¿Cuántos episodios tiene Avatar: La Leyenda de Aang?",
+    "opciones": [
+     "61",
+     "52",
+     "65",
+     "48"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-109",
+    "nivel": "A",
+    "sub": "General",
+    "pregunta": "¿Qué récord tiene Aang entre los maestros aire?",
+    "opciones": [
+     "Es el único que domina el vuelo sin planeador",
+     "Es el más joven en recibir los tatuajes de maestro",
+     "Es el que más tiempo meditó",
+     "Es el único que habló con dragones"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-110",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "¿Qué técnica inventó Aang que usa como transporte rápido?",
+    "opciones": [
+     "El tornado ascendente",
+     "El planeador de bambú",
+     "El puño de viento",
+     "La esfera de aire (patineta de aire)"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-111",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "¿Qué Avatar de la Tribu Agua vino justo antes de Kyoshi?",
+    "opciones": [
+     "Roku",
+     "Yangchen",
+     "Korra",
+     "Kuruk"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-112",
+    "nivel": "B",
+    "sub": "General",
+    "pregunta": "¿Cuál es el orden del ciclo Avatar, empezando por el aire?",
+    "opciones": [
+     "Aire, fuego, agua, tierra",
+     "Aire, tierra, fuego, agua",
+     "Aire, agua, fuego, tierra",
+     "Aire, agua, tierra, fuego"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-113",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "¿Cómo se llama el juego de mesa que comparten Iroh y la Orden del Loto Blanco?",
+    "opciones": [
+     "Pai Sho",
+     "Mahjong",
+     "Go",
+     "Xiangqi"
+    ],
+    "correcta": "a"
    }
   ]
  },
@@ -1416,6 +2105,513 @@
      "Escapa en su robot"
     ],
     "correcta": "c"
+   },
+   {
+    "id": "korra-049",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué elemento controla Mako?",
+    "opciones": [
+     "Tierra",
+     "Agua",
+     "Aire",
+     "Fuego"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-050",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué elemento controla Bolin?",
+    "opciones": [
+     "Tierra",
+     "Fuego",
+     "Agua",
+     "Ninguno"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-051",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué controla Asami Sato?",
+    "opciones": [
+     "Fuego",
+     "Ningún elemento: no es maestra",
+     "Metal",
+     "Agua"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-052",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿De dónde es Korra?",
+    "opciones": [
+     "De la Tribu Agua del Norte",
+     "De Ciudad República",
+     "De la Tribu Agua del Sur",
+     "De la Isla Ember"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-053",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quién le enseñó agua control a Korra cuando era niña?",
+    "opciones": [
+     "Katara",
+     "Unalaq",
+     "Kya",
+     "Pakku"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-054",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cómo se llama la esposa de Tenzin?",
+    "opciones": [
+     "Pema",
+     "Kya",
+     "Lin",
+     "Opal"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-055",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cuál de estos NO es hijo de Tenzin en el Libro 1?",
+    "opciones": [
+     "Jinora",
+     "Ikki",
+     "Meelo",
+     "Bumi"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-056",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué afirma Amon sobre el origen de su poder?",
+    "opciones": [
+     "Que un espíritu le quitó el control y le dio un don",
+     "Que lo heredó de Aang",
+     "Que lo aprendió de una tortuga-león",
+     "Que lo obtuvo de un cometa"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-057",
+    "nivel": "A",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quién fue el padre de Amon y Tarrlok?",
+    "opciones": [
+     "Unalaq",
+     "Yakone",
+     "Hakoda",
+     "Raiko"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-058",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cómo se llama la empresa de Hiroshi Sato?",
+    "opciones": [
+     "Industrias Varrick",
+     "Industrias Futuro",
+     "Tierra-Fuego S.A.",
+     "Sato Motores"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-059",
+    "nivel": "A",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué arma usa el Teniente de Amon?",
+    "opciones": [
+     "Una cadena con garfio",
+     "Un guante eléctrico",
+     "Dos bastones eléctricos",
+     "Una ballesta"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-060",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿En qué momento logra Korra hacer aire control por primera vez?",
+    "opciones": [
+     "Al salvar a Mako de Amon en el final del Libro 1",
+     "Entrenando con Tenzin en la isla",
+     "En un partido de pro-control",
+     "Al recuperar su control con Aang"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-061",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quiénes fundaron Ciudad República?",
+    "opciones": [
+     "Aang y Zuko",
+     "Korra y Tenzin",
+     "Aang y Katara",
+     "Toph y Sokka"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-062",
+    "nivel": "B",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Con qué espíritu se fusiona Unalaq para convertirse en el Avatar Oscuro?",
+    "opciones": [
+     "Raava",
+     "Koh",
+     "Wan Shi Tong",
+     "Vaatu"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-063",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué pierde Korra al final del Libro 2?",
+    "opciones": [
+     "Su aire control",
+     "Su conexión con los Avatares anteriores",
+     "Su agua control",
+     "A Naga"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-064",
+    "nivel": "A",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué elemento controló primero Wan, el primer Avatar?",
+    "opciones": [
+     "Aire",
+     "Fuego",
+     "Agua",
+     "Tierra"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-065",
+    "nivel": "A",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿De quiénes recibían los humanos el poder de controlar los elementos en la época de Wan?",
+    "opciones": [
+     "De los dragones",
+     "De las tortugas-león",
+     "De Raava",
+     "De la luna"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-066",
+    "nivel": "A",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cómo se llama el árbol del mundo espiritual donde Vaatu estuvo encerrado?",
+    "opciones": [
+     "El Árbol del Tiempo",
+     "El Árbol de la Vida",
+     "El Árbol Banyan",
+     "El Árbol de la Luz"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-067",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué trabajo empieza Mako en el Libro 2?",
+    "opciones": [
+     "Actor de películas",
+     "Guardaespaldas de Varrick",
+     "Policía de Ciudad República",
+     "Piloto de Industrias Futuro"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-068",
+    "nivel": "A",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cómo se llama la empresa de Varrick?",
+    "opciones": [
+     "Varrick Global Industries",
+     "Industrias Futuro",
+     "Agua del Sur S.A.",
+     "Varrick y Zhu Li Ltda."
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-069",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cuál de estos hermanos de Tenzin es maestro agua?",
+    "opciones": [
+     "Kya",
+     "Bumi",
+     "Lin",
+     "Su"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-070",
+    "nivel": "B",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué personaje sin control obtiene aire control en el Libro 3, para sorpresa de todos?",
+    "opciones": [
+     "Asami",
+     "Varrick",
+     "Bumi, el hermano de Tenzin",
+     "Mako"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-071",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué miembro de la familia Beifong se convierte en maestra aire?",
+    "opciones": [
+     "Opal",
+     "Lin",
+     "Suyin",
+     "Toph"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-072",
+    "nivel": "A",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Quién derrota a P'Li?",
+    "opciones": [
+     "Suyin Beifong",
+     "Korra",
+     "Lin Beifong",
+     "Tenzin"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-073",
+    "nivel": "A",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué gurú legendario admiraba Zaheer y le inspiró para volar?",
+    "opciones": [
+     "El gurú Pathik",
+     "Wan Shi Tong",
+     "El monje Gyatso",
+     "El gurú Laghima"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-074",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Quiénes frustraron el intento del Loto Rojo de secuestrar a Korra cuando era niña?",
+    "opciones": [
+     "Aang, Katara y Toph",
+     "Zuko, Tonraq y Tenzin",
+     "Lin, Tenzin y Bumi",
+     "Unalaq e Iroh"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-075",
+    "nivel": "A",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Cuál de estos fue miembro del Loto Rojo?",
+    "opciones": [
+     "Tarrlok",
+     "Varrick",
+     "Unalaq",
+     "Hiroshi Sato"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-076",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿En qué estado queda Korra al terminar el Libro 3?",
+    "opciones": [
+     "Sin su aire control",
+     "Perdida en el mundo espiritual",
+     "Encerrada en Zaofu",
+     "En silla de ruedas y muy debilitada"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-077",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Dónde se instalan los nuevos maestros aire con Tenzin?",
+    "opciones": [
+     "En la Isla Ember",
+     "En el Templo Aire del Norte",
+     "En Zaofu",
+     "En el Templo Aire del Sur"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-078",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué cae en la anarquía tras la muerte de la Reina Tierra?",
+    "opciones": [
+     "Ciudad República",
+     "Ba Sing Se",
+     "Zaofu",
+     "Omashu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-079",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué interrumpe Kuvira al anunciar que no entregará el poder?",
+    "opciones": [
+     "La coronación del príncipe Wu",
+     "La boda de Varrick",
+     "Un partido de pro-control",
+     "Una reunión del Loto Blanco"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-080",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Quién muere sacrificándose en la batalla contra el robot de Kuvira?",
+    "opciones": [
+     "Varrick",
+     "Tenzin",
+     "Hiroshi Sato",
+     "Baatar Jr."
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-081",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Dónde aparece el nuevo portal espiritual al final de la serie?",
+    "opciones": [
+     "En el centro de Ciudad República",
+     "En el Polo Sur",
+     "En Zaofu",
+     "En Ba Sing Se"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-082",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué ciudad intenta conquistar Kuvira antes de atacar Ciudad República?",
+    "opciones": [
+     "Zaofu",
+     "Omashu",
+     "Gaoling",
+     "Yu Dao"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-083",
+    "nivel": "A",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Quién inventa la tecnología de las enredaderas espirituales para Kuvira?",
+    "opciones": [
+     "Asami",
+     "Varrick",
+     "Hiroshi Sato",
+     "Zhu Li"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-084",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué controla Kuvira?",
+    "opciones": [
+     "Fuego y rayos",
+     "Agua y sangre",
+     "Aire",
+     "Tierra y metal"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-085",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "¿En qué año se estrenó La Leyenda de Korra?",
+    "opciones": [
+     "2010",
+     "2012",
+     "2014",
+     "2008"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-086",
+    "nivel": "A",
+    "sub": "General",
+    "pregunta": "¿Cuántos episodios tiene La Leyenda de Korra?",
+    "opciones": [
+     "61",
+     "52",
+     "48",
+     "40"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-087",
+    "nivel": "I",
+    "sub": "General",
+    "pregunta": "¿Cuántos años después de la muerte de Aang ocurre La Leyenda de Korra?",
+    "opciones": [
+     "70",
+     "17",
+     "50",
+     "100"
+    ],
+    "correcta": "b"
    }
   ]
  },
@@ -1427,35 +2623,113 @@
   "preguntas": [
    {
     "id": "comic-001",
-    "nivel": "I",
-    "sub": "Cómic: La Promesa",
-    "pregunta": "¿Qué busca el Movimiento de Restauración de la Armonía en «La Promesa»?",
+    "nivel": "B",
+    "sub": "Cómics: general",
+    "pregunta": "¿Qué editorial publica los cómics oficiales de Avatar?",
     "opciones": [
-     "Reconstruir los templos aire",
-     "Retirar las colonias de la Nación del Fuego del Reino Tierra",
-     "Devolverle el trono a Ozai",
-     "Unir las dos Tribus Agua"
+     "Marvel",
+     "Dark Horse Comics",
+     "DC Comics",
+     "Image Comics"
     ],
     "correcta": "b"
    },
    {
     "id": "comic-002",
-    "nivel": "A",
-    "sub": "Cómic: La Promesa",
-    "pregunta": "¿Cómo se llama la antigua colonia de la Nación del Fuego que está en el centro del conflicto de «La Promesa»?",
+    "nivel": "I",
+    "sub": "Cómics: general",
+    "pregunta": "¿Quién escribió las primeras trilogías de cómics, de «La Promesa» a «Norte y Sur»?",
     "opciones": [
-     "Gaipan",
-     "Taku",
-     "Chin",
-     "Yu Dao"
+     "Faith Erin Hicks",
+     "F. C. Yee",
+     "Randy Ribay",
+     "Gene Luen Yang"
     ],
     "correcta": "d"
    },
    {
     "id": "comic-003",
+    "nivel": "A",
+    "sub": "Cómics: general",
+    "pregunta": "¿Qué estudio dibujó la mayoría de las trilogías de Gene Luen Yang?",
+    "opciones": [
+     "Gurihiru",
+     "Studio Mir",
+     "Flying Bark",
+     "Studio Ppuri"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-004",
+    "nivel": "I",
+    "sub": "Cómics: general",
+    "pregunta": "¿Quién escribió la trilogía «Desequilibrio»?",
+    "opciones": [
+     "Gene Luen Yang",
+     "Michael Dante DiMartino",
+     "Faith Erin Hicks",
+     "F. C. Yee"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-005",
+    "nivel": "A",
+    "sub": "Cómics: general",
+    "pregunta": "¿Cómo se llama la antología que reúne historias cortas ambientadas durante la serie original?",
+    "opciones": [
+     "Los Cuentos del Equipo Avatar",
+     "Las Crónicas del Avatar",
+     "Las Aventuras Perdidas",
+     "Los Pergaminos Olvidados"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-006",
+    "nivel": "B",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Cuándo transcurre «La Promesa»?",
+    "opciones": [
+     "Poco después del final de la serie animada",
+     "Diez años después de la serie",
+     "Antes de que Aang despertara",
+     "Durante el Libro 2"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-007",
     "nivel": "I",
     "sub": "Cómic: La Promesa",
-    "pregunta": "¿Qué le pide Zuko a Aang que haga si alguna vez se vuelve como su padre?",
+    "pregunta": "¿Qué busca el Movimiento de Restauración de la Armonía?",
+    "opciones": [
+     "Reconstruir los templos aire",
+     "Devolverle el trono a Ozai",
+     "Unir las dos Tribus Agua",
+     "Devolver a los colonos de la Nación del Fuego a su nación"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-008",
+    "nivel": "A",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Cómo se llama la primera colonia de la Nación del Fuego, centro del conflicto?",
+    "opciones": [
+     "Yu Dao",
+     "Gaipan",
+     "Taku",
+     "Chin"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-009",
+    "nivel": "I",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Qué le pide Zuko a Aang que haga si se vuelve como su padre?",
     "opciones": [
      "Que lo mate",
      "Que lo encierre en la Roca Hirviente",
@@ -1465,114 +2739,387 @@
     "correcta": "a"
    },
    {
-    "id": "comic-004",
-    "nivel": "B",
-    "sub": "Cómic: La Promesa",
-    "pregunta": "¿Qué abre Toph en «La Promesa»?",
-    "opciones": [
-     "Una tienda de té",
-     "Un torneo de lucha",
-     "Una academia de metal control",
-     "Una escuela de esgrima"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "comic-005",
-    "nivel": "B",
-    "sub": "Cómic: La Búsqueda",
-    "pregunta": "¿A quién buscan Zuko y Azula en «La Búsqueda»?",
-    "opciones": [
-     "A su tío Iroh",
-     "A su abuelo Azulon",
-     "A su madre, Ursa",
-     "A Lu Ten"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "comic-006",
-    "nivel": "A",
-    "sub": "Cómic: La Búsqueda",
-    "pregunta": "¿Qué espíritu le da a Ursa un rostro nuevo y le borra los recuerdos?",
-    "opciones": [
-     "La Madre de los Rostros",
-     "Koh, el robacaras",
-     "Wan Shi Tong",
-     "Hei Bai"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "comic-007",
-    "nivel": "I",
-    "sub": "Cómic: La Búsqueda",
-    "pregunta": "¿Qué nombre usa Ursa en su nueva vida?",
-    "opciones": [
-     "Kiyi",
-     "Ilah",
-     "Mai",
-     "Noriko"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "comic-008",
-    "nivel": "I",
-    "sub": "Cómic: La Búsqueda",
-    "pregunta": "¿Cómo se llama la media hermana de Zuko que aparece en «La Búsqueda»?",
-    "opciones": [
-     "Kiyi",
-     "Noriko",
-     "Kya",
-     "Izumi"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "comic-009",
-    "nivel": "I",
-    "sub": "Cómic: La Búsqueda",
-    "pregunta": "¿En qué aldea vive Ursa con su nueva familia?",
-    "opciones": [
-     "Hira'a",
-     "Senlin",
-     "Makapu",
-     "Jang Hui"
-    ],
-    "correcta": "a"
-   },
-   {
     "id": "comic-010",
     "nivel": "A",
-    "sub": "Cómic: La Grieta",
-    "pregunta": "¿Cómo se llama el padre de Toph, con quien ella se enfrenta en «La Grieta»?",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Quién intenta asesinar a Zuko en Yu Dao?",
     "opciones": [
-     "Bei Fong Sr.",
-     "Xin Fu",
-     "Haru",
-     "Lao Beifong"
+     "Mai",
+     "Azula",
+     "Jet",
+     "Kori Morishita"
     ],
     "correcta": "d"
    },
    {
     "id": "comic-011",
     "nivel": "I",
-    "sub": "Cómic: La Grieta",
-    "pregunta": "¿Qué antigua festividad de los nómadas aire quiere celebrar Aang en «La Grieta»?",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿A quién visita Zuko en secreto para pedirle consejo?",
     "opciones": [
-     "El Día de Gyatso",
-     "El Festival de la Luna",
-     "Una festividad dedicada a Yangchen",
-     "El Día del Sol Negro"
+     "A Azula",
+     "Al espíritu de Roku",
+     "A su padre, Ozai",
+     "A Long Feng"
     ],
     "correcta": "c"
    },
    {
     "id": "comic-012",
     "nivel": "I",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Por qué Mai termina con Zuko en «La Promesa»?",
+    "opciones": [
+     "Se enamora de Kei Lo",
+     "Zuko la deja por Kori",
+     "Descubre sus reuniones secretas con Ozai",
+     "Se une a la Nueva Sociedad de Ozai"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-013",
+    "nivel": "B",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Qué abre Toph en «La Promesa»?",
+    "opciones": [
+     "Una academia de metal control",
+     "Una tienda de té",
+     "Un torneo de lucha",
+     "Una escuela de esgrima"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-014",
+    "nivel": "A",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Cuál de estos es alumno de la academia de metal control de Toph?",
+    "opciones": [
+     "Penga",
+     "Kori",
+     "Sneers",
+     "Satoru"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-015",
+    "nivel": "I",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿En qué se convierte el club de fans de Aang?",
+    "opciones": [
+     "En los Acólitos del Aire",
+     "En la Orden del Loto Blanco",
+     "En las guerreras Kyoshi",
+     "En los Luchadores por la Libertad"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-016",
+    "nivel": "A",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Qué parentesco revela «La Promesa» entre Roku y Zuko?",
+    "opciones": [
+     "Roku es tío abuelo de Zuko",
+     "Roku es el padrino de Iroh",
+     "No tienen parentesco",
+     "Roku es bisabuelo de Zuko por parte de madre"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-017",
+    "nivel": "I",
+    "sub": "Cómic: La Promesa",
+    "pregunta": "¿Cómo detiene Aang el choque entre los dos ejércitos en Yu Dao?",
+    "opciones": [
+     "Congela a ambos ejércitos",
+     "Les quita el control a los generales",
+     "Abre un abismo que los separa de la ciudad",
+     "Lleva a Appa a bloquear el camino"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-018",
+    "nivel": "B",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿A quién buscan Zuko y Azula en «La Búsqueda»?",
+    "opciones": [
+     "A su madre, Ursa",
+     "A su tío Iroh",
+     "A su abuelo Azulon",
+     "A Lu Ten"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-019",
+    "nivel": "A",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Qué espíritu le da a Ursa un rostro nuevo?",
+    "opciones": [
+     "Koh, el robacaras",
+     "La Madre de los Rostros",
+     "Wan Shi Tong",
+     "Hei Bai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-020",
+    "nivel": "A",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿De quién es madre la Madre de los Rostros?",
+    "opciones": [
+     "De Wan Shi Tong",
+     "De Koh, el robacaras",
+     "De Raava",
+     "De Hei Bai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-021",
+    "nivel": "I",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Qué nombre usa Ursa en su nueva vida?",
+    "opciones": [
+     "Kiyi",
+     "Ilah",
+     "Noriko",
+     "Misu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-022",
+    "nivel": "I",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿En qué pueblo creció Ursa y la buscan Zuko y Azula?",
+    "opciones": [
+     "Senlin",
+     "Hira'a",
+     "Makapu",
+     "Jang Hui"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-023",
+    "nivel": "I",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Quién era el primer amor de Ursa en Hira'a?",
+    "opciones": [
+     "Ozai",
+     "Ikem",
+     "Iroh",
+     "Kei Lo"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-024",
+    "nivel": "A",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Qué nuevo nombre y rostro usa Ikem?",
+    "opciones": [
+     "Rafa",
+     "Noren",
+     "Ukano",
+     "Loban"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-025",
+    "nivel": "I",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Cómo se llama la hija de Ursa en su nueva vida, media hermana de Zuko?",
+    "opciones": [
+     "Kiyi",
+     "Izumi",
+     "Misu",
+     "Kori"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-026",
+    "nivel": "A",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿A qué grupo pertenecían Ursa e Ikem en Hira'a?",
+    "opciones": [
+     "A una compañía de teatro",
+     "A una banda de forajidos",
+     "A los Sabios del Fuego",
+     "A una orden de sanadores"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-027",
+    "nivel": "A",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Qué ofreció Ursa a Ozai para salvar a Zuko de la orden de Azulon?",
+    "opciones": [
+     "Su propia vida",
+     "Entregar a Iroh",
+     "Renunciar al trono por Zuko",
+     "Un veneno indetectable para matar a Azulon"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-028",
+    "nivel": "I",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Cómo se llama el lugar al que van quienes quieren olvidar su pasado?",
+    "opciones": [
+     "El Bosque Neblinoso",
+     "El Lago Laogai",
+     "El Valle del Olvido",
+     "La Cueva de los Amantes"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-029",
+    "nivel": "A",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Qué decía la carta que Azula usa contra Zuko?",
+    "opciones": [
+     "Que Iroh había matado a Azulon",
+     "Que Zuko era hijo de Ikem y no de Ozai",
+     "Que Ursa seguía en el palacio",
+     "Que Azula era la verdadera heredera"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-030",
+    "nivel": "I",
+    "sub": "Cómic: La Búsqueda",
+    "pregunta": "¿Es Zuko hijo de Ozai, según confirma Ursa?",
+    "opciones": [
+     "Sí",
+     "No, es hijo de Ikem",
+     "No se aclara",
+     "No, es hijo de Iroh"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-031",
+    "nivel": "I",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Qué festividad de los nómadas aire quiere revivir Aang en «La Grieta»?",
+    "opciones": [
+     "El Festival de Yangchen",
+     "El Día de Gyatso",
+     "El Festival de la Luna",
+     "El Día del Sol Negro"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-032",
+    "nivel": "A",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Cómo se llama el padre de Toph?",
+    "opciones": [
+     "Loban",
+     "Lao Beifong",
+     "Xin Fu",
+     "Satoru"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-033",
+    "nivel": "I",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Quién es Satoru?",
+    "opciones": [
+     "El ingeniero de la refinería, que le gusta a Toph",
+     "El hermano de Toph",
+     "Un maestro aire perdido",
+     "El líder de los Rinocerontes Salvajes"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-034",
+    "nivel": "I",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Sobre qué tierra se construyó la refinería de «La Grieta»?",
+    "opciones": [
+     "Sobre un cementerio de la Nación del Fuego",
+     "Sobre un oasis espiritual",
+     "Sobre las ruinas de Omashu",
+     "Sobre tierra sagrada de los nómadas aire"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-035",
+    "nivel": "A",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Qué espíritu poderoso amenaza con destruir a los humanos en «La Grieta»?",
+    "opciones": [
+     "Koh",
+     "El General Viejo Hierro",
+     "Vaatu",
+     "La Madre de los Rostros"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-036",
+    "nivel": "A",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Qué era en realidad el hierro de la mina secreta?",
+    "opciones": [
+     "La armadura que había desechado el General Viejo Hierro",
+     "Restos de un meteorito",
+     "Las cadenas de Vaatu",
+     "El metal de una antigua taladradora"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-037",
+    "nivel": "I",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Quiénes trabajan como guardias de la refinería?",
+    "opciones": [
+     "Los Dai Li",
+     "Las guerreras Kyoshi",
+     "Los Rinocerontes Salvajes",
+     "Los Yu Yan"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-038",
+    "nivel": "I",
+    "sub": "Cómic: La Grieta",
+    "pregunta": "¿Qué festividad crea Aang al final de «La Grieta»?",
+    "opciones": [
+     "El Festival del Loto",
+     "El Festival de la Amistad de los Espíritus",
+     "El Día de Yangchen",
+     "La Fiesta de los Cuatro Elementos"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-039",
+    "nivel": "I",
     "sub": "Cómic: Humo y Sombra",
-    "pregunta": "¿Qué grupo quiere devolver a Ozai al poder en «Humo y Sombra»?",
+    "pregunta": "¿Qué grupo quiere devolver a Ozai al poder?",
     "opciones": [
      "El Loto Rojo",
      "Los Dai Li",
@@ -1582,7 +3129,7 @@
     "correcta": "c"
    },
    {
-    "id": "comic-013",
+    "id": "comic-040",
     "nivel": "A",
     "sub": "Cómic: Humo y Sombra",
     "pregunta": "¿Quién lidera la Nueva Sociedad de Ozai?",
@@ -1595,67 +3142,392 @@
     "correcta": "a"
    },
    {
-    "id": "comic-014",
+    "id": "comic-041",
     "nivel": "I",
     "sub": "Cómic: Humo y Sombra",
-    "pregunta": "¿Qué figuras de leyenda parecen secuestrar niños en la capital del Fuego en «Humo y Sombra»?",
+    "pregunta": "¿Qué figuras de leyenda parecen secuestrar niños en la capital del Fuego?",
     "opciones": [
-     "Las Kemurikage",
-     "Los Dai Li",
      "Los espíritus de Koh",
-     "Las guerreras Kyoshi"
+     "Los Dai Li",
+     "Las Kemurikage",
+     "Los Yu Yan"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-042",
+    "nivel": "I",
+    "sub": "Cómic: Humo y Sombra",
+    "pregunta": "¿Quién está detrás de las falsas Kemurikage?",
+    "opciones": [
+     "Ozai",
+     "Azula",
+     "Ukano",
+     "Mai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-043",
+    "nivel": "A",
+    "sub": "Cómic: Humo y Sombra",
+    "pregunta": "¿Quién es Kei Lo?",
+    "opciones": [
+     "Un espía enviado a vigilar a Mai, que se enamora de ella",
+     "El hermano de Mai",
+     "El jefe de los Dai Li",
+     "Un maestro fuego del Loto Blanco"
     ],
     "correcta": "a"
    },
    {
-    "id": "comic-015",
+    "id": "comic-044",
+    "nivel": "A",
+    "sub": "Cómic: Humo y Sombra",
+    "pregunta": "¿Cómo se llama el hermano menor de Mai, secuestrado por las Kemurikage?",
+    "opciones": [
+     "Kei Lo",
+     "Tom-Tom",
+     "Sung",
+     "Lee"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-045",
+    "nivel": "I",
+    "sub": "Cómic: Humo y Sombra",
+    "pregunta": "¿Qué quiere lograr Azula con su plan en «Humo y Sombra»?",
+    "opciones": [
+     "Recuperar el trono para ella",
+     "Liberar a Ozai",
+     "Vengarse de Aang",
+     "Convertir a Zuko en un Señor del Fuego tirano"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-046",
+    "nivel": "I",
+    "sub": "Cómic: Humo y Sombra",
+    "pregunta": "¿Cómo escapa Kiyi de su celda?",
+    "opciones": [
+     "Derrite la puerta con fuego control",
+     "La rescata Azula",
+     "Usa una llave robada",
+     "Sale por un túnel de Toph"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-047",
+    "nivel": "I",
+    "sub": "Cómic: Norte y Sur",
+    "pregunta": "¿Qué encuentran Katara y Sokka al volver a la Tribu Agua del Sur?",
+    "opciones": [
+     "Su aldea abandonada",
+     "Su aldea convertida en una gran ciudad",
+     "Su aldea ocupada por la Nación del Fuego",
+     "Su aldea destruida por un espíritu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-048",
+    "nivel": "B",
+    "sub": "Cómic: Norte y Sur",
+    "pregunta": "¿Qué cargo tiene Hakoda en «Norte y Sur»?",
+    "opciones": [
+     "Líder electo de todo el Sur",
+     "General del Reino Tierra",
+     "Embajador en el Norte",
+     "Consejero de Zuko"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-049",
+    "nivel": "A",
+    "sub": "Cómic: Norte y Sur",
+    "pregunta": "¿Qué recurso se descubre en la Tribu Agua del Sur?",
+    "opciones": [
+     "Una mina de metal espiritual",
+     "Un gran yacimiento de petróleo",
+     "Un oasis espiritual",
+     "Un volcán activo"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-050",
+    "nivel": "I",
+    "sub": "Cómic: Norte y Sur",
+    "pregunta": "¿Quién lidera a los nacionalistas del Sur que se oponen al Norte?",
+    "opciones": [
+     "Maliq",
+     "Thod",
+     "Hakoda",
+     "Gilak"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-051",
+    "nivel": "A",
+    "sub": "Cómic: Norte y Sur",
+    "pregunta": "¿Cómo se llaman los hermanos del Norte que dirigen la modernización del Sur?",
+    "opciones": [
+     "Malina y Maliq",
+     "Desna y Eska",
+     "Kori y Kei",
+     "Lek y Wong"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-052",
+    "nivel": "A",
+    "sub": "Cómic: Norte y Sur",
+    "pregunta": "¿A qué gobernante secuestran los nacionalistas de Gilak?",
+    "opciones": [
+     "A Zuko",
+     "A Arnook",
+     "A Hakoda",
+     "Al Rey Tierra Kuei"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-053",
     "nivel": "I",
     "sub": "Cómic: Desequilibrio",
-    "pregunta": "¿En qué ciudad ocurre el conflicto entre maestros y no maestros de «Desequilibrio»?",
+    "pregunta": "¿En qué ciudad transcurre «Desequilibrio»?",
     "opciones": [
-     "Ciudad Pez Grulla",
      "Yu Dao",
      "Ciudad República",
+     "Omashu",
+     "Ciudad Pez Grulla"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-054",
+    "nivel": "I",
+    "sub": "Cómic: Desequilibrio",
+    "pregunta": "¿Qué conflicto central muestra «Desequilibrio»?",
+    "opciones": [
+     "Tensiones entre maestros y no maestros",
+     "Una guerra entre las Tribus Agua",
+     "Un golpe de Estado en la Nación del Fuego",
+     "Una invasión de espíritus"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-055",
+    "nivel": "A",
+    "sub": "Cómic: Desequilibrio",
+    "pregunta": "¿Quién lidera el movimiento de supremacía de los maestros en «Desequilibrio»?",
+    "opciones": [
+     "Liling",
+     "Ru",
+     "Yaling",
+     "Satoru"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-056",
+    "nivel": "A",
+    "sub": "Cómic: Desequilibrio",
+    "pregunta": "¿Qué hija de Liling se pasa al lado del Equipo Avatar?",
+    "opciones": [
+     "Yaling",
+     "Ru",
+     "Kori",
+     "Misu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-057",
+    "nivel": "I",
+    "sub": "Cómic: Desequilibrio",
+    "pregunta": "¿Qué decide Aang sobre el control de Liling al final?",
+    "opciones": [
+     "No quitárselo, para no convertirla en mártir",
+     "Quitárselo como a Ozai",
+     "Dejarla libre",
+     "Desterrarla al mundo espiritual"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-058",
+    "nivel": "I",
+    "sub": "Cómic: Desequilibrio",
+    "pregunta": "¿Quién enseña bloqueo de chi a la nueva fuerza de seguridad de Ciudad Pez Grulla?",
+    "opciones": [
+     "Ty Lee",
+     "Suki",
+     "Toph",
+     "Sokka"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-059",
+    "nivel": "B",
+    "sub": "Cómic de Korra: Guerras Territoriales",
+    "pregunta": "¿Qué relación comienza en «Guerras Territoriales»?",
+    "opciones": [
+     "La de Mako y Asami",
+     "La de Korra y Asami",
+     "La de Bolin y Opal",
+     "La de Varrick y Zhu Li"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-060",
+    "nivel": "I",
+    "sub": "Cómic de Korra: Guerras Territoriales",
+    "pregunta": "¿Quién gana la elección presidencial de Ciudad República?",
+    "opciones": [
+     "Raiko",
+     "Zhu Li",
+     "Tenzin",
+     "Asami"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-061",
+    "nivel": "A",
+    "sub": "Cómic de Korra: Guerras Territoriales",
+    "pregunta": "¿Quién es el nuevo líder de la Triple Amenaza?",
+    "opciones": [
+     "Shady Shin",
+     "Viper",
+     "Zolt",
+     "Tokuga"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-062",
+    "nivel": "A",
+    "sub": "Cómic de Korra: Guerras Territoriales",
+    "pregunta": "¿Qué le pasa a Tokuga tras el ataque del espíritu dragón-anguila?",
+    "opciones": [
+     "Pierde su control",
+     "Muere",
+     "Queda atrapado en el mundo espiritual para siempre",
+     "Se convierte en un híbrido humano-espíritu"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-063",
+    "nivel": "A",
+    "sub": "Cómic de Korra: Guerras Territoriales",
+    "pregunta": "¿Qué quiere hacer Wonyong Keum con el terreno del nuevo portal?",
+    "opciones": [
+     "Construir una cárcel",
+     "Hacer una base militar",
+     "Levantar un templo aire",
+     "Convertirlo en una atracción turística"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-064",
+    "nivel": "I",
+    "sub": "Cómic de Korra: Guerras Territoriales",
+    "pregunta": "¿A quiénes van a contarles Korra y Asami sobre su relación?",
+    "opciones": [
+     "A Tenzin y Pema",
+     "A Lin Beifong",
+     "A los padres de Korra",
+     "A Varrick y Zhu Li"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-065",
+    "nivel": "I",
+    "sub": "Cómic de Korra: Ruinas del Imperio",
+    "pregunta": "¿Qué sistema quiere implementar el rey Wu en el Reino Tierra?",
+    "opciones": [
+     "Elecciones democráticas para gobernadores",
+     "Una monarquía absoluta",
+     "Un consejo de Avatares",
+     "Un gobierno militar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-066",
+    "nivel": "A",
+    "sub": "Cómic de Korra: Ruinas del Imperio",
+    "pregunta": "¿Quién lidera a los separatistas del antiguo Imperio Tierra?",
+    "opciones": [
+     "Baatar Jr.",
+     "Tokuga",
+     "El comandante Guan",
+     "Liling"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-067",
+    "nivel": "A",
+    "sub": "Cómic de Korra: Ruinas del Imperio",
+    "pregunta": "¿En qué ciudad se realiza la primera elección?",
+    "opciones": [
+     "Gaoling",
+     "Ba Sing Se",
+     "Zaofu",
      "Omashu"
     ],
     "correcta": "a"
    },
    {
-    "id": "comic-016",
-    "nivel": "B",
-    "sub": "Cómics de Korra",
-    "pregunta": "¿Qué relación comienza en los cómics de «Guerras Territoriales» de Korra?",
-    "opciones": [
-     "La de Mako y Asami",
-     "La de Bolin y Opal",
-     "La de Varrick y Zhu Li",
-     "La de Korra y Asami"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "comic-017",
+    "id": "comic-068",
     "nivel": "I",
-    "sub": "Cómics de Korra",
-    "pregunta": "¿Quién gana la elección presidencial de Ciudad República en los cómics de Korra?",
+    "sub": "Cómic de Korra: Ruinas del Imperio",
+    "pregunta": "¿Qué hace Guan con Mako, Bolin y Asami?",
     "opciones": [
-     "Raiko",
-     "Tenzin",
-     "Zhu Li",
-     "Asami"
+     "Les quita el control",
+     "Les lava el cerebro",
+     "Los encierra en Zaofu",
+     "Los destierra"
     ],
-    "correcta": "c"
+    "correcta": "b"
    },
    {
-    "id": "comic-018",
-    "nivel": "A",
-    "sub": "Cómics de Korra",
-    "pregunta": "¿Quién es el líder de la Triple Amenaza que se enfrenta a Korra en «Guerras Territoriales»?",
+    "id": "comic-069",
+    "nivel": "I",
+    "sub": "Cómic de Korra: Ruinas del Imperio",
+    "pregunta": "¿Quién ayuda a Korra en «Ruinas del Imperio» a pesar de estar presa?",
     "opciones": [
-     "Tokuga",
-     "Shady Shin",
-     "Lightning Bolt Zolt",
-     "Viper"
+     "Zaheer",
+     "Kuvira",
+     "Amon",
+     "Unalaq"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-070",
+    "nivel": "A",
+    "sub": "Cómic de Korra: Ruinas del Imperio",
+    "pregunta": "¿Qué pena recibe finalmente Kuvira?",
+    "opciones": [
+     "Arresto domiciliario en Zaofu",
+     "Cadena perpetua en Ciudad República",
+     "El destierro",
+     "La pérdida de su control"
     ],
     "correcta": "a"
    }
@@ -1669,20 +3541,98 @@
   "preguntas": [
    {
     "id": "novela-001",
-    "nivel": "B",
-    "sub": "Novelas: Crónicas del Avatar",
-    "pregunta": "¿Quién escribió las novelas de Kyoshi y de Yangchen?",
+    "nivel": "I",
+    "sub": "Novelas: general",
+    "pregunta": "¿Cómo se llama la serie de novelas sobre Avatares del pasado?",
     "opciones": [
-     "Randy Ribay",
-     "Michael Dante DiMartino",
-     "Gene Luen Yang",
-     "F. C. Yee"
+     "Leyendas del Avatar",
+     "Las Aventuras Perdidas",
+     "Los Pergaminos del Avatar",
+     "Crónicas del Avatar"
     ],
     "correcta": "d"
    },
    {
     "id": "novela-002",
+    "nivel": "B",
+    "sub": "Novelas: general",
+    "pregunta": "¿Quién escribió las novelas de Kyoshi y de Yangchen?",
+    "opciones": [
+     "Randy Ribay",
+     "Gene Luen Yang",
+     "Faith Erin Hicks",
+     "F. C. Yee"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-003",
     "nivel": "I",
+    "sub": "Novelas: general",
+    "pregunta": "¿Qué cocreador de Avatar coescribió las novelas de Kyoshi?",
+    "opciones": [
+     "Bryan Konietzko",
+     "Michael Dante DiMartino",
+     "Aaron Ehasz",
+     "Joaquim Dos Santos"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-004",
+    "nivel": "A",
+    "sub": "Novelas: general",
+    "pregunta": "¿Quién escribió «The Reckoning of Roku»?",
+    "opciones": [
+     "F. C. Yee",
+     "Randy Ribay",
+     "Faith Erin Hicks",
+     "Bryan Konietzko"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-005",
+    "nivel": "I",
+    "sub": "Novelas: general",
+    "pregunta": "¿En qué año se publicó «El Ascenso de Kyoshi»?",
+    "opciones": [
+     "2015",
+     "2021",
+     "2023",
+     "2019"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-006",
+    "nivel": "A",
+    "sub": "Novelas: general",
+    "pregunta": "¿Qué número ocupa «The Reckoning of Roku» en las Crónicas del Avatar?",
+    "opciones": [
+     "El quinto",
+     "El primero",
+     "El tercero",
+     "El séptimo"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-007",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Cuántos años antes de la serie animada transcurren las novelas de Kyoshi?",
+    "opciones": [
+     "Unos 400",
+     "Unos 100",
+     "Unos 1.000",
+     "Unos 250"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-008",
+    "nivel": "B",
     "sub": "Novela: El Ascenso de Kyoshi",
     "pregunta": "Al comienzo de «El Ascenso de Kyoshi», ¿quién es considerado el Avatar?",
     "opciones": [
@@ -1694,23 +3644,88 @@
     "correcta": "d"
    },
    {
-    "id": "novela-003",
+    "id": "novela-009",
     "nivel": "I",
     "sub": "Novela: El Ascenso de Kyoshi",
-    "pregunta": "¿Qué maestro tierra identificó a Yun como Avatar?",
+    "pregunta": "¿Qué sabio del Reino Tierra identificó a Yun como Avatar?",
     "opciones": [
-     "Kelsang",
      "Jianzhu",
+     "Kelsang",
      "Hei-Ran",
      "Lao Ge"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-010",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿A qué nación pertenece Kelsang, la figura paterna de Kyoshi?",
+    "opciones": [
+     "Nómadas Aire",
+     "Tribu Agua del Sur",
+     "Nación del Fuego",
+     "Reino Tierra"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-011",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿En qué aldea dejaron sus padres a Kyoshi?",
+    "opciones": [
+     "Zigan",
+     "Yokoya",
+     "Makapu",
+     "Chin"
     ],
     "correcta": "b"
    },
    {
-    "id": "novela-004",
+    "id": "novela-012",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Qué trabajo tenía Kyoshi en la mansión de Yun?",
+    "opciones": [
+     "Guardaespaldas",
+     "Cocinera del Avatar",
+     "Sirvienta",
+     "Maestra de tierra control"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-013",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Cómo demuestra Kyoshi por primera vez su poder de Avatar?",
+    "opciones": [
+     "Haciendo aire control frente a Kelsang",
+     "Entrando en el Estado Avatar en el templo",
+     "Con un tierra control enorme contra unos piratas",
+     "Hablando con Kuruk"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-014",
+    "nivel": "A",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿A quién mata Jianzhu en «El Ascenso de Kyoshi»?",
+    "opciones": [
+     "A Yun",
+     "A Rangi",
+     "A Kelsang",
+     "A Lao Ge"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-015",
     "nivel": "B",
     "sub": "Novela: El Ascenso de Kyoshi",
-    "pregunta": "¿Quién es Rangi en las novelas de Kyoshi?",
+    "pregunta": "¿Quién es Rangi?",
     "opciones": [
      "La madre de Kyoshi",
      "Una maestra fuego, guardaespaldas y pareja de Kyoshi",
@@ -1720,394 +3735,373 @@
     "correcta": "b"
    },
    {
-    "id": "novela-005",
+    "id": "novela-016",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Cómo se llama la madre de Rangi?",
+    "opciones": [
+     "Hei-Ran",
+     "Huazo",
+     "Jesa",
+     "Kirima"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-017",
     "nivel": "A",
     "sub": "Novela: El Ascenso de Kyoshi",
-    "pregunta": "¿Cómo se llama la banda de forajidos que fundaron los padres de Kyoshi y a la que ella se une?",
+    "pregunta": "¿Cómo se llama la banda de forajidos de los padres de Kyoshi?",
     "opciones": [
      "Los Luchadores por la Libertad",
      "Los Rinocerontes Salvajes",
-     "La Triple Amenaza",
-     "La Compañía de Ópera Voladora"
+     "La Compañía de Ópera Voladora",
+     "La Sociedad de la Flor de Otoño"
     ],
-    "correcta": "d"
+    "correcta": "c"
    },
    {
-    "id": "novela-006",
-    "nivel": "I",
-    "sub": "Novela: El Ascenso de Kyoshi",
-    "pregunta": "¿Qué Avatar vino justo antes de Kyoshi?",
-    "opciones": [
-     "Kuruk",
-     "Yangchen",
-     "Roku",
-     "Szeto"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-007",
-    "nivel": "I",
-    "sub": "Novela: El Ascenso de Kyoshi",
-    "pregunta": "¿De quién eran originalmente los abanicos de Kyoshi?",
-    "opciones": [
-     "De su madre",
-     "De Rangi",
-     "De Kuruk",
-     "De Jianzhu"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-008",
+    "id": "novela-018",
     "nivel": "A",
     "sub": "Novela: El Ascenso de Kyoshi",
-    "pregunta": "¿A qué nación pertenece Kelsang, la figura paterna de Kyoshi?",
+    "pregunta": "¿Qué miembro de la Compañía de Ópera Voladora es maestra agua?",
     "opciones": [
-     "Tribu Agua del Sur",
-     "Nación del Fuego",
-     "Reino Tierra",
-     "Nómadas Aire"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "novela-009",
-    "nivel": "I",
-    "sub": "Novela: La Sombra de Kyoshi",
-    "pregunta": "¿En qué nación transcurre gran parte de «La Sombra de Kyoshi»?",
-    "opciones": [
-     "La Nación del Fuego",
-     "La Tribu Agua del Norte",
-     "Los Templos Aire",
-     "Ba Sing Se"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-010",
-    "nivel": "B",
-    "sub": "Novelas de Yangchen",
-    "pregunta": "¿Qué elemento controlaba Yangchen de nacimiento?",
-    "opciones": [
-     "Aire",
-     "Agua",
-     "Tierra",
-     "Fuego"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "novela-011",
-    "nivel": "A",
-    "sub": "Novelas de Yangchen",
-    "pregunta": "¿Quién es Kavik en las novelas de Yangchen?",
-    "opciones": [
-     "El hermano de Yangchen",
-     "Un espía de la Tribu Agua",
-     "Un Señor del Fuego",
-     "El maestro de aire de Yangchen"
+     "Lek",
+     "Kirima",
+     "Wong",
+     "Lao Ge"
     ],
     "correcta": "b"
    },
    {
-    "id": "novela-012",
+    "id": "novela-019",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Quién es Lao Ge?",
+    "opciones": [
+     "El padre de Kyoshi",
+     "Un Señor del Fuego",
+     "Un viejo asesino que enseña a Kyoshi",
+     "El líder de los Dai Li"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-020",
+    "nivel": "A",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Qué jefe criminal mata Kyoshi en duelo en «El Ascenso de Kyoshi»?",
+    "opciones": [
+     "Te Sihung",
+     "Tokuga",
+     "Chaejin",
+     "Xu Ping An"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-021",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿Quién mata a Jianzhu al final de «El Ascenso de Kyoshi»?",
+    "opciones": [
+     "Kyoshi",
+     "Yun",
+     "Rangi",
+     "Lao Ge"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-022",
+    "nivel": "I",
+    "sub": "Novela: El Ascenso de Kyoshi",
+    "pregunta": "¿De qué tribu era el Avatar Kuruk, predecesor de Kyoshi?",
+    "opciones": [
+     "Tribu Agua del Sur",
+     "Tribu del Pantano",
+     "Tribu Agua del Este",
+     "Tribu Agua del Norte"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-023",
+    "nivel": "I",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Qué Señor del Fuego pide ayuda a Kyoshi en «La Sombra de Kyoshi»?",
+    "opciones": [
+     "Sozin",
+     "Azulon",
+     "Zoryu",
+     "Chaejin"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-024",
+    "nivel": "A",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Quién quiere derrocar a Zoryu?",
+    "opciones": [
+     "Su hijo",
+     "La Avatar Kyoshi",
+     "Los Dai Li",
+     "Su medio hermano mayor, Chaejin"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-025",
+    "nivel": "A",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Qué espíritu ha poseído a Yun?",
+    "opciones": [
+     "Koh",
+     "Vaatu",
+     "Padre Luciérnaga",
+     "Wan Shi Tong"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-026",
+    "nivel": "I",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Qué problema sufre la Nación del Fuego en «La Sombra de Kyoshi»?",
+    "opciones": [
+     "Una hambruna",
+     "Una plaga de espíritus",
+     "Una erupción volcánica",
+     "Una invasión del Reino Tierra"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-027",
+    "nivel": "I",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Con qué Avatar anterior intenta comunicarse Kyoshi durante el libro?",
+    "opciones": [
+     "Kuruk",
+     "Yangchen",
+     "Szeto",
+     "Wan"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-028",
+    "nivel": "A",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Quién es Huazo?",
+    "opciones": [
+     "La madre de Rangi",
+     "Una guerrera Kyoshi",
+     "La madre de Chaejin",
+     "La esposa de Zoryu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-029",
+    "nivel": "I",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Dónde ocurre la batalla final entre Kyoshi y Yun?",
+    "opciones": [
+     "En la capital del Fuego",
+     "En la finca de Jianzhu",
+     "En el Templo Aire del Sur",
+     "En Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-030",
+    "nivel": "A",
+    "sub": "Novela: La Sombra de Kyoshi",
+    "pregunta": "¿Qué decide Zoryu al final de «La Sombra de Kyoshi»?",
+    "opciones": [
+     "Quitar la influencia a todos los clanes y concentrar el poder en el Señor del Fuego",
+     "Abdicar en favor de Chaejin",
+     "Declarar la guerra al Reino Tierra",
+     "Disolver a los Sabios del Fuego"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-031",
+    "nivel": "B",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿Qué elemento controlaba Yangchen de nacimiento?",
+    "opciones": [
+     "Agua",
+     "Tierra",
+     "Fuego",
+     "Aire"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-032",
+    "nivel": "I",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿Qué edad tiene Yangchen en «El Amanecer de Yangchen»?",
+    "opciones": [
+     "12",
+     "17",
+     "25",
+     "30"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-033",
+    "nivel": "I",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿En qué ciudad transcurren las novelas de Yangchen?",
+    "opciones": [
+     "Yu Dao",
+     "Bin-Er",
+     "Zigan",
+     "Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-034",
+    "nivel": "I",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿Quién es Kavik?",
+    "opciones": [
+     "El hermano de Yangchen",
+     "Un Señor del Fuego",
+     "El maestro de aire de Yangchen",
+     "Un maestro agua contratado para espiar"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-035",
+    "nivel": "A",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿Cómo se llama la clase de comerciantes codiciosos que se enfrenta a Yangchen?",
+    "opciones": [
+     "Los daofei",
+     "Los zongdu",
+     "Los shangs",
+     "Los Dai Li"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-036",
+    "nivel": "A",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿Qué Avatar vino justo antes de Yangchen?",
+    "opciones": [
+     "Kuruk",
+     "Wan",
+     "Szeto",
+     "Kyoshi"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-037",
+    "nivel": "A",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿Cómo se llama la amenaza misteriosa que investigan Yangchen y Kavik?",
+    "opciones": [
+     "El Loto Rojo",
+     "Unanimidad",
+     "La Sombra",
+     "Padre Luciérnaga"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-038",
+    "nivel": "I",
+    "sub": "Novelas de Yangchen",
+    "pregunta": "¿En qué episodio de la serie animada aparece Yangchen aconsejando a Aang?",
+    "opciones": [
+     "En «El Avatar regresa»",
+     "En «La Biblioteca»",
+     "En «El Gurú»",
+     "En «El Cometa de Sozin»"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-039",
     "nivel": "B",
     "sub": "Novela: The Reckoning of Roku",
     "pregunta": "¿Quién es el mejor amigo de Roku en «The Reckoning of Roku»?",
     "opciones": [
      "Gyatso",
-     "Azulon",
      "El príncipe heredero Sozin",
+     "Azulon",
      "Kuruk"
     ],
-    "correcta": "c"
+    "correcta": "b"
    },
    {
-    "id": "novela-013",
+    "id": "novela-040",
     "nivel": "I",
     "sub": "Novela: The Reckoning of Roku",
-    "pregunta": "¿Quién es la maestra de aire control de Roku en «The Reckoning of Roku»?",
+    "pregunta": "¿Quién es la maestra de aire control de Roku?",
     "opciones": [
-     "Yangchen",
-     "La hermana Iio",
      "La hermana Disha",
-     "Kelsang"
+     "Yangchen",
+     "Kelsang",
+     "La hermana Iio"
     ],
-    "correcta": "c"
+    "correcta": "a"
    },
    {
-    "id": "novela-014",
+    "id": "novela-041",
     "nivel": "I",
     "sub": "Novela: The Reckoning of Roku",
-    "pregunta": "¿Qué joven maestro aire acompaña a Roku en secreto en su viaje?",
+    "pregunta": "¿Qué joven maestro aire acompaña a Roku en su viaje secreto?",
     "opciones": [
      "Tashi",
      "Pathik",
-     "Gyatso",
-     "Kelsang"
+     "Kelsang",
+     "Gyatso"
     ],
-    "correcta": "c"
+    "correcta": "d"
    },
    {
-    "id": "novela-015",
+    "id": "novela-042",
     "nivel": "A",
-    "sub": "Novelas: Crónicas del Avatar",
-    "pregunta": "¿Quién escribió «The Reckoning of Roku»?",
+    "sub": "Novela: The Reckoning of Roku",
+    "pregunta": "¿Qué lugar se disputan la Nación del Fuego y el Reino Tierra en «The Reckoning of Roku»?",
     "opciones": [
-     "F. C. Yee",
-     "Randy Ribay",
-     "Faith Erin Hicks",
-     "Bryan Konietzko"
+     "Una isla remota cubierta de niebla",
+     "La ciudad de Omashu",
+     "El Templo Aire del Sur",
+     "La Isla Kyoshi"
     ],
-    "correcta": "b"
+    "correcta": "a"
+   },
+   {
+    "id": "novela-043",
+    "nivel": "I",
+    "sub": "Novela: The Reckoning of Roku",
+    "pregunta": "¿Quiénes anuncian que Roku es el Avatar?",
+    "opciones": [
+     "Los monjes aire",
+     "El Loto Blanco",
+     "El Señor del Fuego",
+     "Los Sabios del Fuego"
+    ],
+    "correcta": "d"
    }
   ]
  },
  {
   "parte": 5,
-  "corto": "Netflix",
-  "titulo": "Avatar: La Leyenda de Aang (Netflix)",
-  "elemento": "water",
-  "preguntas": [
-   {
-    "id": "netflix-001",
-    "nivel": "B",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿En qué año se estrenó la primera temporada de la serie de Netflix?",
-    "opciones": [
-     "2023",
-     "2024",
-     "2022",
-     "2025"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-002",
-    "nivel": "B",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Cuántos episodios tiene la primera temporada de Netflix?",
-    "opciones": [
-     "10",
-     "8",
-     "12",
-     "20"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-003",
-    "nivel": "B",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Qué actor interpreta a Aang en la serie de Netflix?",
-    "opciones": [
-     "Noah Ringer",
-     "Gordon Cormier",
-     "Ian Ousley",
-     "Dallas Liu"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-004",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Quién interpreta a Zuko en la serie de Netflix?",
-    "opciones": [
-     "Dallas Liu",
-     "Dev Patel",
-     "Ian Ousley",
-     "Ken Leung"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-005",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Quién interpreta a Katara en la serie de Netflix?",
-    "opciones": [
-     "Amber Midthunder",
-     "Maria Zhang",
-     "Elizabeth Yu",
-     "Kiawentiio"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-006",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Qué actor interpreta al Señor del Fuego Ozai en Netflix?",
-    "opciones": [
-     "Daniel Dae Kim",
-     "Paul Sun-Hyung Lee",
-     "Ken Leung",
-     "Utkarsh Ambudkar"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-007",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Quién interpreta a Iroh en la serie de Netflix?",
-    "opciones": [
-     "Daniel Dae Kim",
-     "Ken Leung",
-     "Paul Sun-Hyung Lee",
-     "Chin Han"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "netflix-008",
-    "nivel": "A",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Quién interpreta a Yue en la serie de Netflix?",
-    "opciones": [
-     "Amber Midthunder",
-     "Kiawentiio",
-     "Maria Zhang",
-     "Elizabeth Yu"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-009",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Qué muestra el primer episodio de Netflix que la serie animada solo contaba?",
-    "opciones": [
-     "La infancia de Toph",
-     "El exilio de Iroh",
-     "La muerte de Yue",
-     "El ataque de la Nación del Fuego a los nómadas aire"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-010",
-    "nivel": "A",
-    "sub": "Netflix: Temporada 1",
-    "pregunta": "¿Quién fue el showrunner de la primera temporada de Netflix?",
-    "opciones": [
-     "Bryan Konietzko",
-     "Jabbar Raisani",
-     "M. Night Shyamalan",
-     "Albert Kim"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-011",
-    "nivel": "B",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿Cuántos episodios tiene la segunda temporada de Netflix?",
-    "opciones": [
-     "8",
-     "10",
-     "13",
-     "7"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-012",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿En qué mes de 2026 se estrenó la segunda temporada de Netflix?",
-    "opciones": [
-     "Febrero",
-     "Abril",
-     "Octubre",
-     "Junio"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "netflix-013",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿Qué identidad secreta adopta Katara en Ba Sing Se en la segunda temporada de Netflix?",
-    "opciones": [
-     "El Espíritu Azul",
-     "La Bandida Ciega",
-     "La Dama Pintada",
-     "Joo Dee"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "netflix-014",
-    "nivel": "I",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "En la segunda temporada de Netflix, ¿cómo descubre Toph el metal control?",
-    "opciones": [
-     "Entrenando con Bumi en Omashu",
-     "Al forjar la espada de Sokka",
-     "Al escapar de una caja de metal en la que la encerraron",
-     "Viendo trabajar a los Dai Li"
-    ],
-    "correcta": "c"
-   },
-   {
-    "id": "netflix-015",
-    "nivel": "A",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿Qué actor interpreta al Rey Tierra Kuei en Netflix?",
-    "opciones": [
-     "Chin Han",
-     "Justin Chien",
-     "Daniel Dae Kim",
-     "Dallas Liu"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-016",
-    "nivel": "A",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿Qué actor interpreta a Long Feng en Netflix?",
-    "opciones": [
-     "Chin Han",
-     "Justin Chien",
-     "Ken Leung",
-     "Paul Sun-Hyung Lee"
-    ],
-    "correcta": "a"
-   },
-   {
-    "id": "netflix-017",
-    "nivel": "B",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿Quién interpreta a Azula en la serie de Netflix?",
-    "opciones": [
-     "Kiawentiio",
-     "Elizabeth Yu",
-     "Amber Midthunder",
-     "Maria Zhang"
-    ],
-    "correcta": "b"
-   },
-   {
-    "id": "netflix-018",
-    "nivel": "B",
-    "sub": "Netflix: Temporada 2",
-    "pregunta": "¿Cómo termina la segunda temporada de Netflix para Aang?",
-    "opciones": [
-     "Derrota a Ozai",
-     "Domina el metal control",
-     "Azula lo alcanza con un rayo",
-     "Queda congelado otra vez"
-    ],
-    "correcta": "c"
-   }
-  ]
- },
- {
-  "parte": 6,
   "corto": "Película",
   "titulo": "Avatar Aang (película, 2026)",
   "elemento": "air",
@@ -2116,7 +4110,7 @@
     "id": "peli-001",
     "nivel": "B",
     "sub": "Película (2026)",
-    "pregunta": "¿Cómo se llama el villano de la película de 2026?",
+    "pregunta": "¿Cómo se llama el villano de la película?",
     "opciones": [
      "Sonam",
      "Xian",
@@ -2142,12 +4136,12 @@
     "id": "peli-003",
     "nivel": "I",
     "sub": "Película (2026)",
-    "pregunta": "¿Qué actor le da voz a Tagah?",
+    "pregunta": "¿Quién le dio a Tagah su aire control?",
     "opciones": [
-     "Taika Waititi",
-     "Dave Bautista",
-     "Ke Huy Quan",
-     "Steven Yeun"
+     "Aang",
+     "La Avatar Sonam, mediante su báculo",
+     "Una tortuga-león",
+     "Los bisontes voladores"
     ],
     "correcta": "b"
    },
@@ -2155,11 +4149,11 @@
     "id": "peli-004",
     "nivel": "I",
     "sub": "Película (2026)",
-    "pregunta": "¿Quién le da voz al Aang adulto en la película?",
+    "pregunta": "¿Qué actor le da voz a Tagah?",
     "opciones": [
-     "Eric Nam",
-     "Zach Tyler Eisen",
-     "Gordon Cormier",
+     "Dave Bautista",
+     "Taika Waititi",
+     "Ke Huy Quan",
      "Steven Yeun"
     ],
     "correcta": "a"
@@ -2168,7 +4162,20 @@
     "id": "peli-005",
     "nivel": "I",
     "sub": "Película (2026)",
-    "pregunta": "¿Quién le da voz al Señor del Fuego Zuko en la película?",
+    "pregunta": "¿Quién le da voz al Aang adulto?",
+    "opciones": [
+     "Zach Tyler Eisen",
+     "Gordon Cormier",
+     "Steven Yeun",
+     "Eric Nam"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-006",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Quién le da voz al Señor del Fuego Zuko?",
     "opciones": [
      "Dante Basco",
      "Dallas Liu",
@@ -2178,33 +4185,85 @@
     "correcta": "d"
    },
    {
-    "id": "peli-006",
+    "id": "peli-007",
     "nivel": "A",
     "sub": "Película (2026)",
-    "pregunta": "¿Qué actor del reparto original es el único que repite su papel en la película?",
+    "pregunta": "¿Quién le da voz a Katara?",
     "opciones": [
-     "Dante Basco, como Zuko",
-     "Mae Whitman, como Katara",
-     "Jack De Sena, como Sokka",
-     "Dee Bradley Baker, como Appa y Momo"
-    ],
-    "correcta": "d"
-   },
-   {
-    "id": "peli-007",
-    "nivel": "B",
-    "sub": "Película (2026)",
-    "pregunta": "¿Cómo se llama la «Avatar perdida» de la época dorada de los maestros aire?",
-    "opciones": [
-     "Sonam",
-     "Yangchen",
-     "Szeto",
-     "Kelsang"
+     "Jessica Matten",
+     "Mae Whitman",
+     "Freida Pinto",
+     "Geraldine Viswanathan"
     ],
     "correcta": "a"
    },
    {
     "id": "peli-008",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Quién le da voz a Sokka?",
+    "opciones": [
+     "Jack De Sena",
+     "Ian Ousley",
+     "Román Zaragoza",
+     "Eric Nam"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-009",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué actriz del equipo original vuelve como voz de Toph?",
+    "opciones": [
+     "Michaela Jill Murphy",
+     "Mae Whitman",
+     "Ninguna: la voz de Toph es Dionne Quan",
+     "Grey DeLisle"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-010",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué actor del reparto original es el único que repite su papel?",
+    "opciones": [
+     "Dee Bradley Baker, como Appa y Momo",
+     "Dante Basco, como Zuko",
+     "Mae Whitman, como Katara",
+     "Jack De Sena, como Sokka"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-011",
+    "nivel": "B",
+    "sub": "Película (2026)",
+    "pregunta": "¿Cómo se llama la «Avatar perdida» de la época dorada de los maestros aire?",
+    "opciones": [
+     "Yangchen",
+     "Szeto",
+     "Kelsang",
+     "Sonam"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-012",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Quién le da voz a la Avatar Sonam?",
+    "opciones": [
+     "Freida Pinto",
+     "Jessica Matten",
+     "Geraldine Viswanathan",
+     "Peta Sergeant"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-013",
     "nivel": "I",
     "sub": "Película (2026)",
     "pregunta": "¿Qué objeto buscan los villanos en la película?",
@@ -2217,20 +4276,46 @@
     "correcta": "c"
    },
    {
-    "id": "peli-009",
+    "id": "peli-014",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué puede hacer el báculo de Sonam?",
+    "opciones": [
+     "Detener el tiempo",
+     "Revivir a los muertos",
+     "Controlar a los espíritus",
+     "Canalizar energía del mundo espiritual"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-015",
     "nivel": "I",
     "sub": "Película (2026)",
     "pregunta": "¿Cómo se llama el grupo de forajidos no maestros que ataca a Aang al inicio?",
     "opciones": [
+     "Los Negados (the Denied)",
      "Los Igualitarios",
      "La Triple Amenaza",
-     "Los Negados (the Denied)",
      "Los Rinocerontes Salvajes"
     ],
-    "correcta": "c"
+    "correcta": "a"
    },
    {
-    "id": "peli-010",
+    "id": "peli-016",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Dónde atacan los Negados a Aang al comienzo?",
+    "opciones": [
+     "En el Templo Aire del Sur",
+     "En Ciudad República",
+     "En la Isla Kyoshi",
+     "En el monte Baihu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-017",
     "nivel": "A",
     "sub": "Película (2026)",
     "pregunta": "¿En qué montaña encuentra Aang a Tagah congelado?",
@@ -2243,88 +4328,205 @@
     "correcta": "a"
    },
    {
-    "id": "peli-011",
+    "id": "peli-018",
     "nivel": "I",
     "sub": "Película (2026)",
-    "pregunta": "¿Qué ciudad se ve en construcción en la película?",
+    "pregunta": "¿Dónde está escondido el báculo de Sonam?",
     "opciones": [
-     "Ba Sing Se",
-     "Zaofu",
-     "Yu Dao",
-     "Ciudad República"
+     "En el fondo del lago Laogai",
+     "En la biblioteca de Wan Shi Tong",
+     "Bajo el Templo Aire del Norte",
+     "En una isla oculta dentro de un ciclón"
     ],
     "correcta": "d"
    },
    {
-    "id": "peli-012",
+    "id": "peli-019",
     "nivel": "I",
     "sub": "Película (2026)",
-    "pregunta": "¿Qué trabajo tiene Katara en la película?",
+    "pregunta": "¿Qué necesita hacer Aang para recuperar el báculo?",
     "opciones": [
-     "Representante del Consejo de Ciudad República",
-     "Jefa de la Tribu Agua del Sur",
-     "Maestra de una escuela de sanación",
-     "Embajadora en Ba Sing Se"
+     "Entrar en el Estado Avatar",
+     "Usar los cuatro elementos",
+     "Derrotar a un dragón",
+     "Hablar con Roku"
     ],
-    "correcta": "a"
+    "correcta": "b"
    },
    {
-    "id": "peli-013",
+    "id": "peli-020",
     "nivel": "A",
     "sub": "Película (2026)",
     "pregunta": "¿Qué Avatar del pasado le explica a Aang el poder del báculo?",
     "opciones": [
+     "Xian",
      "Roku",
      "Kyoshi",
-     "Xian",
      "Kuruk"
     ],
-    "correcta": "c"
+    "correcta": "a"
    },
    {
-    "id": "peli-014",
+    "id": "peli-021",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué actor le da voz al Avatar Xian?",
+    "opciones": [
+     "Steven Yeun",
+     "Ke Huy Quan",
+     "Taika Waititi",
+     "Keone Young"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-022",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Por qué Sonam encerró a Tagah en la montaña?",
+    "opciones": [
+     "Una guerra lo llenó de odio hacia los que no eran maestros aire",
+     "Intentó robar el título de Avatar",
+     "Traicionó a los monjes aire ante la Nación del Fuego",
+     "Mató a otro Avatar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-023",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué ciudad se ve en construcción en la película?",
+    "opciones": [
+     "Ciudad República",
+     "Ba Sing Se",
+     "Zaofu",
+     "Yu Dao"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-024",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué trabajo tiene Katara en la película?",
+    "opciones": [
+     "Jefa de la Tribu Agua del Sur",
+     "Representante del Consejo de Ciudad República",
+     "Maestra de una escuela de sanación",
+     "Embajadora en Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-025",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué hace Tagah con algunos miembros de los Negados?",
+    "opciones": [
+     "Les quita la memoria",
+     "Les da aire control con el báculo",
+     "Los encierra en el hielo",
+     "Los convierte en espíritus"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-026",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué recuerdo impide que Aang mate a Tagah en el Estado Avatar?",
+    "opciones": [
+     "El del monje Gyatso",
+     "El de Katara",
+     "El de Roku",
+     "El de Zuko"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-027",
     "nivel": "I",
     "sub": "Película (2026)",
     "pregunta": "¿Qué hace Aang con el báculo al final?",
     "opciones": [
      "Se lo entrega a Tagah",
      "Lo guarda en el Templo Aire del Sur",
-     "Se lo devuelve a Sonam en el mundo espiritual",
-     "Lo destruye"
+     "Lo destruye",
+     "Se lo devuelve a Sonam"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-028",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué ocurre con Tagah cuando se destruye el báculo?",
+    "opciones": [
+     "Lo encierran en la Roca Hirviente",
+     "Se une a los Acólitos del Aire",
+     "Huye al mundo espiritual",
+     "Se desvanece tras ser perdonado"
     ],
     "correcta": "d"
    },
    {
-    "id": "peli-015",
+    "id": "peli-029",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué construye Aang al final de la película?",
+    "opciones": [
+     "Una estatua de Sonam",
+     "Una academia de aire control en Ba Sing Se",
+     "Un nuevo Templo Aire en una isla cerca de Ciudad República",
+     "Un monumento a Gyatso"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-030",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Qué antigua integrante de los Negados se une a los Acólitos del Aire?",
+    "opciones": [
+     "Kallik",
+     "Jie",
+     "Sonam",
+     "Liling"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-031",
     "nivel": "I",
     "sub": "Película (2026)",
     "pregunta": "¿Qué descubren Aang y sus amigos en la escena final?",
     "opciones": [
-     "Una manada de bisontes voladores sobrevivientes",
      "Un nuevo maestro aire congelado",
+     "Una manada de bisontes voladores sobrevivientes",
      "La ciudad perdida de Sonam",
      "El cuerpo de Tagah"
     ],
-    "correcta": "a"
+    "correcta": "b"
    },
    {
-    "id": "peli-016",
+    "id": "peli-032",
     "nivel": "A",
     "sub": "Película (2026)",
     "pregunta": "¿Quién dirigió la película?",
     "opciones": [
-     "Lauren Montgomery",
      "Bryan Konietzko",
      "Joaquim Dos Santos",
-     "M. Night Shyamalan"
+     "M. Night Shyamalan",
+     "Lauren Montgomery"
     ],
-    "correcta": "a"
+    "correcta": "d"
    },
    {
-    "id": "peli-017",
+    "id": "peli-033",
     "nivel": "B",
     "sub": "Película (2026)",
-    "pregunta": "¿Dónde se estrenó finalmente la película en todo el mundo?",
+    "pregunta": "¿Dónde se estrenó la película en todo el mundo?",
     "opciones": [
      "En Paramount+",
      "En cines",
@@ -2334,17 +4536,43 @@
     "correcta": "a"
    },
    {
-    "id": "peli-018",
+    "id": "peli-034",
     "nivel": "A",
     "sub": "Película (2026)",
-    "pregunta": "¿Qué personaje le da voz Taika Waititi en la película?",
+    "pregunta": "¿A qué personaje le da voz Taika Waititi?",
     "opciones": [
      "Tagah",
      "Xian",
-     "El vendedor de coles",
-     "Gorillavark"
+     "Gorillavark",
+     "Al vendedor de coles"
     ],
-    "correcta": "d"
+    "correcta": "c"
+   },
+   {
+    "id": "peli-035",
+    "nivel": "I",
+    "sub": "Película (2026)",
+    "pregunta": "¿Quién compuso la música de la película?",
+    "opciones": [
+     "Hans Zimmer",
+     "James Newton Howard",
+     "Jeremy Zuckerman",
+     "Ludwig Göransson"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-036",
+    "nivel": "A",
+    "sub": "Película (2026)",
+    "pregunta": "¿Cómo se llama la antigua ciudad de los maestros aire en la época de Sonam?",
+    "opciones": [
+     "Jharana",
+     "Bin-Er",
+     "Zigan",
+     "Taku"
+    ],
+    "correcta": "a"
    }
   ]
  }
