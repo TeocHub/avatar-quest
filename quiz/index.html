@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>El Cuestionario Definitivo de Avatar</title>
+<meta name="description" content="Cuestionario de Avatar con ranking global. The ultimate Avatar quiz with a global leaderboard.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../comun.css">
+<style>
+/* ---------- inicio ---------- */
+.scroll{background:var(--panel);border:2px solid var(--line);border-radius:16px;padding:16px 18px;margin:24px 0 8px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.scroll .big{font-family:var(--display);font-size:52px;line-height:1}
+.scroll .lbl{color:var(--muted);font-size:15px;text-align:right;max-width:16ch}
+.parts{display:flex;flex-direction:column;gap:8px}
+.part{display:flex;align-items:center;gap:14px;background:var(--panel);border:2px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;user-select:none;transition:border-color .15s,background .15s}
+.part input{position:absolute;opacity:0;pointer-events:none}
+.part .glyph{width:38px;height:38px;opacity:.45;transition:opacity .15s}
+.part .glyph svg{width:20px;height:20px}
+.part.on{border-color:var(--accent);background:var(--panel-2)}
+.part.on .glyph{opacity:1}
+.part .txt{flex:1;min-width:0}
+.part .name{font-weight:700;display:block;line-height:1.25}
+.part .sub{color:var(--muted);font-size:14px;display:block;line-height:1.3}
+.part .count{font-family:var(--display);font-size:24px;color:var(--muted)}
+.part:has(input:focus-visible){outline:3px solid var(--accent);outline-offset:2px}
+.quick{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 0}
+.toggle{display:flex;align-items:center;gap:12px;margin:18px 0 0;cursor:pointer}
+.toggle input{width:22px;height:22px;accent-color:var(--accent)}
+.soon{margin-top:22px;border:2px dashed var(--line);border-radius:12px;padding:12px 14px}
+.soon h3{margin:0 0 6px;font-size:15px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.soon ul{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.soon li{margin:2px 0}
+
+/* ---------- quiz ---------- */
+.hud{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:10px 0 10px}
+.hudrow{display:flex;align-items:center;gap:12px}
+.hudrow .glyph{width:40px;height:40px}
+.hudrow .glyph svg{width:22px;height:22px}
+.hudtxt{flex:1;min-width:0}
+.hudtxt b{display:block;font-family:var(--display);font-weight:400;font-size:20px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hudtxt span{color:var(--muted);font-size:14px}
+.hudscore{font-family:var(--display);font-size:22px;color:var(--muted);white-space:nowrap}
+.bar{height:8px;background:var(--panel-2);border-radius:99px;margin-top:10px;overflow:hidden;border:1px solid var(--line)}
+.bar i{display:block;height:100%;background:var(--el,var(--accent));width:0;transition:width .3s}
+.qcard{margin-top:8px}
+.qsub{color:var(--muted);font-size:15px;margin:10px 0 2px}
+.level{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:99px;border:1.5px solid var(--line);color:var(--muted);margin-left:6px}
+.qtext{font-family:var(--display);font-weight:400;font-size:clamp(25px,6.2vw,32px);line-height:1.18;margin:6px 0 18px}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{display:flex;gap:14px;align-items:flex-start;text-align:left;width:100%;padding:14px;border:2px solid var(--line);border-radius:12px;background:var(--panel);cursor:pointer;font-size:17px;line-height:1.35;transition:border-color .12s,background .12s}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt .k{flex:0 0 32px;height:32px;border-radius:50%;background:var(--panel-2);display:grid;place-items:center;font-weight:700;font-size:15px;border:1.5px solid var(--line)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.right .k{background:var(--ok);color:var(--bg);border-color:var(--ok)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.wrong .k{background:var(--bad);color:#fff;border-color:var(--bad)}
+.opt.dim{opacity:.55}
+.feedback{min-height:28px;margin:14px 0 0;font-weight:700}
+.feedback.ok{color:var(--ok)} .feedback.bad{color:var(--bad)}
+.actions{display:flex;gap:10px;margin-top:10px}
+.actions .cta{margin:0;flex:1}
+.links{display:flex;justify-content:space-between;gap:12px;margin-top:22px}
+.shake{animation:shake .3s}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+
+/* ---------- intermedio ---------- */
+.inter{padding-top:6vh}
+.inter .glyph{width:72px;height:72px}
+.inter .glyph svg{width:40px;height:40px}
+.inter .partno{font-weight:700;color:var(--muted);margin-top:16px;letter-spacing:.04em}
+.inter h2{font-family:var(--display);font-weight:400;font-size:clamp(38px,9.5vw,60px);line-height:1;margin:6px 0 10px}
+
+/* ---------- resultado ---------- */
+.ring{display:flex;gap:10px;margin-top:10px}
+.ring .glyph{animation:rise .6s ease-out both}
+.ring .glyph:nth-child(2){animation-delay:.12s} .ring .glyph:nth-child(3){animation-delay:.24s} .ring .glyph:nth-child(4){animation-delay:.36s}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.score{font-family:var(--display);font-size:clamp(64px,18vw,104px);line-height:1;margin:18px 0 0}
+.score small{font-size:.42em;color:var(--muted)}
+.rank{font-family:var(--display);font-weight:400;font-size:clamp(28px,7vw,40px);line-height:1.08;margin:8px 0 2px}
+.rank.perfect{color:var(--accent)}
+.pct{color:var(--muted)}
+.breakdown{display:flex;flex-direction:column;gap:12px;margin-top:10px}
+.brow .top{display:flex;justify-content:space-between;gap:10px;font-size:15px}
+.brow .top b{font-weight:700}
+.brow .top span{font-family:var(--display);font-size:18px;color:var(--muted)}
+.brow .track{height:10px;background:var(--panel-2);border-radius:99px;overflow:hidden;border:1px solid var(--line);margin-top:4px}
+.brow .track i{display:block;height:100%;background:var(--el,var(--accent))}
+.share-preview{margin-top:16px;border-radius:12px;overflow:hidden;border:2px solid var(--line);background:var(--panel)}
+.share-preview img{display:block;width:100%;height:auto}
+.review-item{border:2px solid var(--line);border-radius:12px;padding:12px 14px;margin-top:10px;background:var(--panel)}
+.review-item .q{font-weight:700;margin:0 0 6px}
+.review-item .your{color:var(--bad);margin:0}
+.review-item .good{color:var(--ok);margin:0}
+.review-item .src{color:var(--muted);font-size:13px;margin:0 0 4px}
+.pubbox{margin-top:30px;border:2px solid var(--line);border-radius:14px;padding:16px;background:var(--panel)}
+.pubbox h2.sec{margin-top:0}
+.pubbox input[type=text],.pubbox input[type=password]{background:var(--bg)}
+.pubbox input[type=password]{letter-spacing:.3em}
+.pubbox label.field{margin-top:14px}
+
+/* ---------- ranking ---------- */
+.topbar{display:flex;justify-content:flex-end;padding-top:4px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.board-list{display:flex;flex-direction:column;margin-top:14px;border:2px solid var(--line);border-radius:14px;overflow:hidden}
+.brd{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;padding:10px 14px;border-top:1px solid var(--line);background:var(--panel);cursor:pointer}
+.brd:first-child{border-top:0}
+.brd .pos{font-family:var(--display);font-size:26px;color:var(--muted)}
+.brd.top1 .pos,.brd.top2 .pos,.brd.top3 .pos{color:var(--accent)}
+.brd .who{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.brd .who small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+.brd .pts{font-family:var(--display);font-size:24px;text-align:right;line-height:1}
+.brd .pts small{display:block;font-size:14px;color:var(--muted);font-family:var(--body)}
+.brd.me{outline:2px solid var(--accent);outline-offset:-2px}
+.brd-detail{display:flex;flex-direction:column;gap:10px;padding:12px 14px 14px;background:var(--panel-2);border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+.empty{padding:22px 14px;color:var(--muted);background:var(--panel)}
+</style>
+<script src="../config.js"></script>
+<script src="../comun.js"></script>
+</head>
+<body>
+<main class="wrap">
+
+<nav class="langbar">
+  <div style="display:flex;gap:16px">
+    <a class="link" href="../" data-i18n="home"></a>
+    <button class="link boardLink" data-i18n="board_link"></button>
+  </div>
+  <div class="langs" id="langs" role="group" aria-label="Idioma / Language"></div>
+</nav>
+
+<section id="loading"><p class="lede" style="padding-top:30vh">…</p></section>
+
+<!-- INICIO -->
+<section id="start" class="hidden">
+  <div class="title-block">
+    <div class="elems" id="titleElems"></div>
+    <h1><span data-i18n="title1"></span><span class="accent" data-i18n="title2"></span></h1>
+    <p class="lede" data-i18n="lede"></p>
+  </div>
+  <div class="scroll" aria-hidden="true">
+    <span class="big" id="selCount">0</span><span class="lbl" data-i18n="selected_q"></span>
+  </div>
+  <div id="resumeBox" class="hidden">
+    <button class="cta" id="resumeBtn" data-i18n="resume_btn"></button>
+    <p class="note" id="resumeNote"></p>
+  </div>
+  <label class="field" for="name" data-i18n="nick_label"></label>
+  <input type="text" id="name" maxlength="20" data-i18n-ph="nick_ph" autocomplete="nickname">
+  <h2 class="sec" data-i18n="parts_h"></h2>
+  <p class="hint" data-i18n="parts_hint"></p>
+  <div class="parts" id="parts"></div>
+  <div class="quick">
+    <button class="chip" data-quick="all" data-i18n="quick_all"></button>
+    <button class="chip" data-quick="none" data-i18n="quick_none"></button>
+  </div>
+  <label class="toggle"><input type="checkbox" id="shuffle"> <span data-i18n="shuffle"></span></label>
+  <button class="cta" id="startBtn"></button>
+  <div class="soon"><h3 data-i18n="soon_h"></h3><ul id="soonList"></ul></div>
+</section>
+
+<!-- INTERMEDIO -->
+<section id="inter" class="hidden inter">
+  <div id="interGlyph"></div>
+  <div class="partno" id="interNo"></div>
+  <h2 id="interTitle"></h2>
+  <p class="lede" id="interSub"></p>
+  <button class="cta" id="interGo" data-i18n="inter_go"></button>
+  <div class="links"><button class="link" id="interSkip" data-i18n="inter_skip"></button><button class="link" data-finish data-i18n="finish"></button></div>
+</section>
+
+<!-- PREGUNTAS -->
+<section id="quiz" class="hidden">
+  <div class="hud">
+    <div class="hudrow"><span id="hudGlyph"></span><div class="hudtxt"><b id="hudPart"></b><span id="counter"></span></div><span class="hudscore" id="liveScore"></span></div>
+    <div class="bar"><i id="barFill"></i></div>
+  </div>
+  <div class="qcard" id="qcard">
+    <p class="qsub"><span id="qSub"></span><span class="level" id="qLevel"></span></p>
+    <h2 class="qtext" id="qText"></h2>
+    <div class="opts" id="opts"></div>
+    <p class="feedback" id="feedback" aria-live="polite"></p>
+    <div class="actions"><button class="cta hidden" id="nextBtn"></button></div>
+  </div>
+  <div class="links"><button class="link" id="skipBtn" data-i18n="skip_q"></button><button class="link" data-finish data-i18n="finish"></button></div>
+</section>
+
+<!-- RESULTADO -->
+<section id="result" class="hidden">
+  <div class="ring" id="ring"></div>
+  <div class="score" id="score"></div>
+  <div class="rank" id="rank"></div>
+  <div class="pct" id="pct"></div>
+
+  <div class="pubbox" id="pubBox">
+    <h2 class="sec" data-i18n="pub_h"></h2>
+    <p class="hint" data-i18n="pub_hint"></p>
+    <label class="field" for="pubNick" data-i18n="nick_short"></label>
+    <input type="text" id="pubNick" maxlength="20" autocomplete="nickname">
+    <p class="form-msg info" id="nickMsg"></p>
+    <label class="field" for="pubPin" data-i18n="pin_label"></label>
+    <input type="password" id="pubPin" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="current-password" data-i18n-ph="pin_ph">
+    <p class="form-msg info" data-i18n="pin_note"></p>
+    <button class="cta" id="pubBtn" data-i18n="pub_btn"></button>
+    <p class="form-msg" id="pubMsg" aria-live="polite"></p>
+  </div>
+
+  <button class="cta" id="makeImg" data-i18n="make_img"></button>
+  <div id="shareBox" class="hidden">
+    <div class="share-preview"><img id="shareImg" alt=""></div>
+    <button class="cta" id="saveImg" data-i18n="save_img"></button>
+    <button class="ghost" id="shareBtn" data-i18n="share"></button>
+    <p class="note" id="shareNote"></p>
+  </div>
+
+  <h2 class="sec" data-i18n="by_parts"></h2>
+  <div class="breakdown" id="breakdown"></div>
+
+  <button class="ghost" id="reviewBtn" style="margin-top:26px"></button>
+  <div id="review" class="hidden"></div>
+  <button class="ghost boardLink" data-i18n="board_link_btn"></button>
+  <button class="ghost" id="againBtn" data-i18n="again"></button>
+</section>
+
+<!-- RANKING -->
+<section id="board" class="hidden">
+  <div class="topbar"><button class="link" id="boardBack" data-i18n="back"></button></div>
+  <h2 class="sec" style="font-size:40px" data-i18n="board_h"></h2>
+  <p class="hint" data-i18n="board_hint"></p>
+  <div class="chips">
+    <button class="chip on" data-filter="all" data-i18n="filter_all"></button>
+    <button class="chip" data-filter="full" id="fullChip"></button>
+  </div>
+  <div class="board-list" id="boardList"></div>
+  <button class="ghost" id="boardRefresh" data-i18n="refresh"></button>
+</section>
+
+</main>
+<div class="toast hidden" id="toast" role="status"></div>
+<script>
+/* =====================================================================
+   Idiomas. Para agregar uno nuevo (ej. portugués):
+   1) crea preguntas.pt.json con los MISMOS id y la misma "correcta",
+   2) agrega una entrada en LANGS y un bloque "pt" en TEXT.
+   ===================================================================== */
+const LANGS = {
+  es: { file: "preguntas.json",    label: "ES" },
+  en: { file: "preguntas.en.json", label: "EN" }
+};
+
+const TEXT = {
+es: {
+  html_title: "El Cuestionario Definitivo de Avatar",
+  loading: "Cargando preguntas…",
+  load_err: "No se pudieron cargar las preguntas. Si abriste el archivo directamente desde tu computador, súbelo a GitHub Pages o usa un servidor local.",
+  home: "Inicio", board_link: "Ranking global",
+  title1: "El Cuestionario Definitivo", title2: "de Avatar",
+  lede: "Preguntas de alternativas sobre lo que pasa en las series. Sin teorías: solo lo que se ve en pantalla.",
+  selected_q: "preguntas seleccionadas",
+  resume_btn: "Continuar donde quedé",
+  resume_note: "Vas en la pregunta {i} de {n}. Si empiezas de nuevo, ese avance se reemplaza.",
+  nick_label: "Tu nick", nick_short: "Nick",
+  nick_ph: "Aparece en tu imagen y en el ranking",
+  parts_h: "Elige las partes",
+  parts_hint: "Desactiva las que no quieras responder.",
+  quick_all: "Todas", quick_none: "Ninguna",
+  shuffle: "Desordenar las preguntas dentro de cada parte",
+  start_btn: "Empezar ({n} preguntas)",
+  start_none: "Elige al menos una parte",
+  part_label: "Parte {n}: {s}",
+  soon_h: "Próximas partes",
+  soon: ["Avatar: Seven Havens (se suma por episodios, con aviso de spoilers)", "Cómics", "Novelas", "Serie de Netflix", "La película animada de Aang (2026)"],
+  inter_no: "Parte {n} de {t}",
+  inter_count: "{n} preguntas en esta parte.",
+  inter_go: "Comenzar",
+  inter_skip: "Saltar esta parte",
+  finish: "Terminar y ver resultado",
+  finish_confirm: "Toca otra vez: lo no respondido cuenta como incorrecto",
+  skip_q: "Saltar pregunta",
+  counter: "Pregunta {i} de {n}",
+  live: "{n} ✓",
+  lvl: { B: "Básico", I: "Intermedio", A: "Avanzado", E: "Experto" },
+  correct: "Correcto.",
+  wrong: "Incorrecto. Era la {l}.",
+  next: "Siguiente", see_result: "Ver resultado",
+  pct: "{p} % de aciertos",
+  answered: " · respondiste {a} de {t}",
+  pub_h: "Sube tu puntaje al ranking",
+  pub_hint: "Tu mejor resultado en cada parte se suma a tu total. Si el nick es nuevo, queda registrado a tu nombre con este PIN; si ya es tuyo, usa el mismo PIN. Ese nick y PIN también servirán para los otros tests de Avatar.",
+  nick_rules: "De 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
+  pin_label: "PIN de 6 dígitos", pin_ph: "••••••",
+  pin_note: "Guárdalo: no se puede recuperar.",
+  pub_btn: "Publicar mi puntaje", publishing: "Publicando…",
+  nick_taken: "Este nick ya está registrado. Si es tuyo, escribe tu PIN.",
+  nick_free: "Nick disponible. Quedará registrado con el PIN que elijas.",
+  nick_banned: "Ese nick no está permitido. Elige otro.",
+  err_nick_invalido: "El nick debe tener de 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
+  err_nick_no_permitido: "Ese nick no está permitido. Elige otro.",
+  err_pin_invalido: "El PIN debe tener exactamente 6 dígitos.",
+  err_partes_invalidas: "No se reconocieron las partes jugadas. Recarga la página e inténtalo otra vez.",
+  err_respuestas_invalidas: "No se pudieron leer tus respuestas. Recarga la página e inténtalo otra vez.",
+  err_reintentar: "Alguien registró ese nick en este mismo instante. Inténtalo de nuevo.",
+  err_generic: "No se pudo publicar. Inténtalo otra vez.",
+  pin_wrong: "PIN incorrecto para ese nick. Te quedan {n} intentos antes de un bloqueo de 15 minutos.",
+  locked: "Demasiados intentos fallidos con ese nick. Espera 15 minutos o usa otro nick.",
+  network: "No hay conexión con el servidor del ranking. Revisa tu internet e inténtalo otra vez.",
+  registered: "Nick registrado. ",
+  published: "Puesto {p} del ranking. Tu total: {c} correctas · partes jugadas: {n} · completas: {d}.",
+  best_kept: " Esta vez no superaste tus mejores resultados por parte, así que tu total no cambió.",
+  published_as: "Publicado como {nick}. Puesto {p} del ranking.",
+  make_img: "Crear imagen para compartir", revealing: "Creando la imagen…",
+  save_img: "Descargar imagen", share: "Compartir",
+  save_note: "Si no se descargó, mantén presionada la imagen (o clic derecho) para guardarla.",
+  copied: "Texto copiado: pégalo junto a tu imagen",
+  img_alt: "Imagen con tu resultado",
+  by_parts: "Por partes",
+  review_show: "Ver mis errores", review_hide: "Ocultar mis errores",
+  no_errors: "No tuviste errores. Nada que revisar.",
+  your_answer: "Tu respuesta: {x}", unanswered: "Sin responder", right_answer: "Correcta: {x}",
+  src: "Parte {n} · {s}",
+  board_link_btn: "Ver ranking global", again: "Jugar otra vez",
+  back: "Volver",
+  board_h: "Ranking global",
+  board_hint: "Cada nick suma su mejor resultado en cada parte, así que puedes jugarlas por separado y tu total se va acumulando. Se ordena por respuestas correctas; en empate, gana quien respondió menos preguntas. Toca un nombre para ver su detalle.",
+  filter_all: "Todos", filter_full: "Todas las partes ({n})",
+  detail_loading: "Cargando detalle…", detail_err: "No se pudo cargar el detalle.",
+  board_loading: "Cargando…",
+  board_empty: "Todavía no hay puntajes aquí. El primero puede ser el tuyo.",
+  board_err: "No se pudo cargar el ranking. Revisa tu conexión y toca Actualizar.",
+  board_off: "El ranking global todavía no está configurado en este sitio.",
+  refresh: "Actualizar",
+  row_of: "de {n}", row_sub: "{a} % · {d} de {n} partes completas",
+  ranks: ["Congelado en un iceberg","Vendedor de coles","Turista en Ba Sing Se","Aprendiz del Templo Aire","Guerrera Kyoshi en entrenamiento","Estudiante del maestro Pakku","Invitado de Wan Shi Tong","Jugador de Pai Sho del Loto Blanco","Gran Loto de la Orden","Mano derecha del tío Iroh"],
+  perfect_all: "Eres el Avatar: dominas los cuatro elementos",
+  perfect_multi: "Eres Raava: conectas todas las vidas del Avatar",
+  perfect_part: {1:"Eres Aang: el último maestro aire", 2:"Eres Korra: el Avatar de una nueva era"},
+  perfect_note: "100 % de aciertos. Desbloqueaste un título secreto.",
+  img_correct: "respuestas correctas",
+  img_pct: "{p} % de aciertos", img_pos: "puesto {p}",
+  img_turn: "Resultado de {name}", img_done: "Mi resultado",
+  img_title: "El Cuestionario Definitivo de Avatar",
+  img_cta_site: "¿Me superas? {site}", img_cta: "¿Sabes más que yo? Te reto.",
+  share_text: "Saqué {r}/{t} en El Cuestionario Definitivo de Avatar: \"{rank}\". ¿Me superas?{site}"
+},
+en: {
+  html_title: "The Ultimate Avatar Quiz",
+  loading: "Loading questions…",
+  load_err: "The questions couldn't be loaded. If you opened the file straight from your computer, upload it to GitHub Pages or use a local server.",
+  home: "Home", board_link: "Global leaderboard",
+  title1: "The Ultimate", title2: "Avatar Quiz",
+  lede: "Multiple-choice questions about what happens in the series. No theories: only what's on screen.",
+  selected_q: "questions selected",
+  resume_btn: "Continue where I left off",
+  resume_note: "You're on question {i} of {n}. Starting over replaces that progress.",
+  nick_label: "Your nickname", nick_short: "Nickname",
+  nick_ph: "Shown on your image and the leaderboard",
+  parts_h: "Choose the parts",
+  parts_hint: "Turn off the ones you don't want to answer.",
+  quick_all: "All", quick_none: "None",
+  shuffle: "Shuffle questions within each part",
+  start_btn: "Start ({n} questions)",
+  start_none: "Choose at least one part",
+  part_label: "Part {n}: {s}",
+  soon_h: "Coming parts",
+  soon: ["Avatar: Seven Havens (added episode by episode, with spoiler warnings)", "Comics", "Novels", "Netflix series", "The animated Aang movie (2026)"],
+  inter_no: "Part {n} of {t}",
+  inter_count: "{n} questions in this part.",
+  inter_go: "Begin",
+  inter_skip: "Skip this part",
+  finish: "Finish and see results",
+  finish_confirm: "Tap again: unanswered questions count as wrong",
+  skip_q: "Skip question",
+  counter: "Question {i} of {n}",
+  live: "{n} ✓",
+  lvl: { B: "Basic", I: "Intermediate", A: "Advanced", E: "Expert" },
+  correct: "Correct.",
+  wrong: "Wrong. It was {l}.",
+  next: "Next", see_result: "See results",
+  pct: "{p}% correct",
+  answered: " · you answered {a} of {t}",
+  pub_h: "Post your score to the leaderboard",
+  pub_hint: "Your best result in each part adds up to your total. If the nickname is new, it's registered to you with this PIN; if it's already yours, use the same PIN. The same nickname and PIN will work for the other Avatar tests too.",
+  nick_rules: "3 to 20 characters: letters, numbers, period, hyphen or underscore.",
+  pin_label: "6-digit PIN", pin_ph: "••••••",
+  pin_note: "Keep it safe: it can't be recovered.",
+  pub_btn: "Post my score", publishing: "Posting…",
+  nick_taken: "This nickname is already registered. If it's yours, enter your PIN.",
+  nick_free: "Nickname available. It will be registered with the PIN you choose.",
+  nick_banned: "That nickname isn't allowed. Choose another one.",
+  err_nick_invalido: "The nickname must be 3 to 20 characters: letters, numbers, period, hyphen or underscore.",
+  err_nick_no_permitido: "That nickname isn't allowed. Choose another one.",
+  err_pin_invalido: "The PIN must be exactly 6 digits.",
+  err_partes_invalidas: "The parts you played weren't recognized. Reload the page and try again.",
+  err_respuestas_invalidas: "Your answers couldn't be read. Reload the page and try again.",
+  err_reintentar: "Someone registered that nickname at the same moment. Try again.",
+  err_generic: "Your score couldn't be posted. Try again.",
+  pin_wrong: "Wrong PIN for that nickname. {n} attempts left before a 15-minute lock.",
+  locked: "Too many failed attempts with that nickname. Wait 15 minutes or use another nickname.",
+  network: "Can't reach the leaderboard server. Check your connection and try again.",
+  registered: "Nickname registered. ",
+  published: "Rank {p} on the leaderboard. Your total: {c} correct · parts played: {n} · completed: {d}.",
+  best_kept: " This time you didn't beat your best results per part, so your total didn't change.",
+  published_as: "Posted as {nick}. Rank {p} on the leaderboard.",
+  make_img: "Create an image to share", revealing: "Creating the image…",
+  save_img: "Download image", share: "Share",
+  save_note: "If it didn't download, press and hold the image (or right-click it) to save it.",
+  copied: "Text copied: paste it with your image",
+  img_alt: "Image with your result",
+  by_parts: "By part",
+  review_show: "See my mistakes", review_hide: "Hide my mistakes",
+  no_errors: "No mistakes. Nothing to review.",
+  your_answer: "Your answer: {x}", unanswered: "Not answered", right_answer: "Correct: {x}",
+  src: "Part {n} · {s}",
+  board_link_btn: "See the global leaderboard", again: "Play again",
+  back: "Back",
+  board_h: "Global leaderboard",
+  board_hint: "Each nickname adds up its best result in each part, so you can play them separately and your total keeps growing. Ranked by correct answers; ties go to whoever answered fewer questions. Tap a name to see the details.",
+  filter_all: "All", filter_full: "All parts ({n})",
+  detail_loading: "Loading details…", detail_err: "The details couldn't be loaded.",
+  board_loading: "Loading…",
+  board_empty: "No scores here yet. The first one could be yours.",
+  board_err: "The leaderboard couldn't be loaded. Check your connection and tap Refresh.",
+  board_off: "The global leaderboard isn't set up on this site yet.",
+  refresh: "Refresh",
+  row_of: "of {n}", row_sub: "{a}% · {d} of {n} parts completed",
+  ranks: ["Frozen in an iceberg","Cabbage merchant","Tourist in Ba Sing Se","Air Temple apprentice","Kyoshi Warrior in training","Master Pakku's student","Wan Shi Tong's guest","White Lotus Pai Sho player","Grand Lotus of the Order","Uncle Iroh's right hand"],
+  perfect_all: "You are the Avatar: master of all four elements",
+  perfect_multi: "You are Raava: you connect every Avatar's life",
+  perfect_part: {1:"You are Aang: the last airbender", 2:"You are Korra: the Avatar of a new era"},
+  perfect_note: "100% correct. You unlocked a secret title.",
+  img_correct: "correct answers",
+  img_pct: "{p}% correct", img_pos: "rank {p}",
+  img_turn: "{name}'s result", img_done: "My result",
+  img_title: "The Ultimate Avatar Quiz",
+  img_cta_site: "Can you beat me? {site}", img_cta: "Think you know more? I dare you.",
+  share_text: "I scored {r}/{t} on The Ultimate Avatar Quiz: \"{rank}\". Can you beat me?{site}"
+}
+};
+
+/* Elemento de cada parte (color y símbolo). Si una parte no está aquí,
+   se usa "elemento" del JSON o se elige en orden aire, agua, tierra, fuego. */
+const PART_ELEM = {1: "air", 2: "water"};
+
+const CFG = window.AVATAR_CONFIG || {};
+const API = (CFG.SUPABASE_URL || "").replace(/\/+$/, "");
+const KEYAPI = CFG.SUPABASE_KEY || "";
+const ONLINE = !!(API && KEYAPI);
+const LETTERS = ["A","B","C","D"];
+const KEY = "avatar-quiz-v1";
+const NICK_RE = /^[A-Za-z0-9_.ÁÉÍÓÚÜÑáéíóúüñ-]{3,20}$/;
+const PIN_RE = /^[0-9]{6}$/;
+const RANK_CUTS = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9];
+const COLORS = {air:"#f2b84b", water:"#5fb0ea", earth:"#8cc56e", fire:"#ff6a50"};
+
+let LANG = "es", DATA = [], BYID = {};
+const CACHE = {};
+const $ = s => document.querySelector(s);
+const screens = ["loading","start","inter","quiz","result","board"];
+let prevScreen = "start";
+
+function t(key, vars){
+  let s = (TEXT[LANG] && TEXT[LANG][key]) ?? TEXT.es[key] ?? key;
+  if (typeof s === "string" && vars) s = s.replace(/\{(\w+)\}/g, (_, k) => (k in vars ? vars[k] : ""));
+  return s;
+}
+function elemOf(p){ return p.elem || PART_ELEM[p.n] || AVATAR.ELEMENTS[(p.n - 1) % 4]; }
+function currentScreen(){ return screens.find(s => !$("#"+s).classList.contains("hidden")); }
+function show(id){
+  const curId = currentScreen();
+  if (id === "board" && curId && curId !== "board") prevScreen = curId;
+  screens.forEach(s => $("#"+s).classList.toggle("hidden", s !== id));
+  window.scrollTo(0, 0);
+}
+function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.remove("hidden");clearTimeout(el._h);el._h=setTimeout(()=>el.classList.add("hidden"),2800);}
+function store(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function read(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+
+let S = null;
+function save(){store(KEY,JSON.stringify(S));}
+function load(){try{return JSON.parse(read(KEY)||"null");}catch(e){return null;}}
+function clearSave(){try{localStorage.removeItem(KEY);}catch(e){}}
+
+/* ---------- idioma ---------- */
+function applyStatic(){
+  document.documentElement.lang = LANG;
+  document.title = t("html_title");
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
+  $("#shareImg").alt = t("img_alt");
+  document.querySelectorAll("[data-finish]").forEach(b => { b.dataset.label = t("finish"); b.dataset.armed = ""; b.textContent = t("finish"); });
+  if (DATA.length) $("#fullChip").textContent = t("filter_full", {n: DATA.length});
+  const soon = $("#soonList"); soon.innerHTML = "";
+  t("soon").forEach(x => { const li = document.createElement("li"); li.textContent = x; soon.appendChild(li); });
+  const box = $("#langs"); box.innerHTML = "";
+  Object.entries(LANGS).forEach(([code, l]) => {
+    const b = document.createElement("button");
+    b.className = "langbtn" + (code === LANG ? " on" : "");
+    b.textContent = l.label; b.setAttribute("aria-pressed", code === LANG);
+    b.addEventListener("click", () => setLang(code));
+    box.appendChild(b);
+  });
+}
+async function fetchLang(code){
+  if (CACHE[code]) return CACHE[code];
+  const r = await fetch(LANGS[code].file, {cache: "no-cache"});
+  if (!r.ok) throw new Error("load");
+  const raw = await r.json();
+  CACHE[code] = raw.map(p => ({n:p.parte, short:p.corto, title:p.titulo, elem:p.elemento,
+    q:p.preguntas.map(q => ({id:q.id, lvl:q.nivel, sub:q.sub, text:q.pregunta, opts:q.opciones, ok:"abcd".indexOf(q.correcta)}))}));
+  return CACHE[code];
+}
+function indexData(){ BYID = {}; DATA.forEach(p => p.q.forEach(q => BYID[q.id] = q)); }
+async function setLang(code){
+  if (!LANGS[code]) return;
+  let data;
+  try { data = await fetchLang(code); } catch(e) { toast(t("load_err")); return; }
+  LANG = code; AVATAR.saveLang(code);
+  DATA = data; indexData();
+  applyStatic();
+  const scr = currentScreen();
+  if (scr === "start") { renderParts(); renderResume(); }
+  else if (scr === "inter") showInter(cur()[0]);
+  else if (scr === "quiz") renderQ();
+  else if (scr === "result") renderResult(false);
+  else if (scr === "board") loadBoard();
+}
+
+/* ---------- API ---------- */
+function headers(){
+  const h={"Content-Type":"application/json","apikey":KEYAPI};
+  if(KEYAPI.startsWith("eyJ")) h["Authorization"]="Bearer "+KEYAPI;
+  return h;
+}
+async function rpc(fn, body){
+  const r = await fetch(`${API}/rest/v1/rpc/${fn}`,{method:"POST",headers:headers(),body:JSON.stringify(body)});
+  if(!r.ok) throw new Error("http_"+r.status);
+  return r.json();
+}
+
+/* ---------- inicio ---------- */
+const selected = new Set();
+function renderParts(){
+  const box=$("#parts"); box.innerHTML="";
+  DATA.forEach(p=>{
+    const on=selected.has(p.n);
+    const l=document.createElement("label");
+    l.className="part"+(on?" on":"");
+    l.innerHTML=`<input type="checkbox" ${on?"checked":""}>${AVATAR.glyph(elemOf(p))}<span class="txt"><span class="name"></span><span class="sub"></span></span><span class="count">${p.q.length}</span>`;
+    l.querySelector(".name").textContent=t("part_label",{n:p.n,s:p.short});
+    l.querySelector(".sub").textContent=p.title;
+    l.querySelector("input").addEventListener("change",e=>{e.target.checked?selected.add(p.n):selected.delete(p.n);renderParts();});
+    box.appendChild(l);
+  });
+  const n=DATA.filter(p=>selected.has(p.n)).reduce((s,p)=>s+p.q.length,0);
+  $("#selCount").textContent=n;
+  $("#startBtn").disabled=n===0;
+  $("#startBtn").textContent=n?t("start_btn",{n}):t("start_none");
+}
+function renderResume(){
+  if(S&&!S.done&&S.pos<S.order.length){
+    $("#resumeBox").classList.remove("hidden");
+    $("#resumeNote").textContent=t("resume_note",{i:S.pos+1,n:S.order.length});
+  } else $("#resumeBox").classList.add("hidden");
+}
+document.querySelectorAll("[data-quick]").forEach(b=>b.addEventListener("click",()=>{
+  selected.clear();
+  if(b.dataset.quick==="all")DATA.forEach(p=>selected.add(p.n));
+  renderParts();
+}));
+function shuffleArr(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+$("#startBtn").addEventListener("click",()=>{
+  const order=[];
+  DATA.forEach((p,pi)=>{ if(!selected.has(p.n))return;
+    const idx=p.q.map((_,qi)=>qi); if($("#shuffle").checked)shuffleArr(idx);
+    idx.forEach(qi=>order.push([pi,qi]));
+  });
+  const name=$("#name").value.trim();
+  if(name)AVATAR.saveNick(name);
+  S={name,order,pos:0,answers:{},done:false,seenInter:-1,published:null};
+  save(); step();
+});
+$("#resumeBtn").addEventListener("click",()=>step());
+
+/* ---------- flujo ---------- */
+function cur(){return S.order[S.pos];}
+function qAt(pi,qi){return DATA[pi].q[qi];}
+function step(){
+  if(S.pos>=S.order.length){finish();return;}
+  const [pi]=cur();
+  const prev=S.pos>0?S.order[S.pos-1][0]:-1;
+  if(pi!==prev && S.seenInter!==S.pos){showInter(pi);return;}
+  renderQ();
+}
+function showInter(pi){
+  const p=DATA[pi];
+  const count=S.order.filter(o=>o[0]===pi).length;
+  $("#interGlyph").innerHTML=AVATAR.glyph(elemOf(p));
+  $("#interNo").textContent=t("inter_no",{n:p.n,t:DATA.length});
+  $("#interTitle").textContent=p.title;
+  $("#interSub").textContent=t("inter_count",{n:count});
+  show("inter"); $("#interGo").focus();
+}
+$("#interGo").addEventListener("click",()=>{S.seenInter=S.pos;save();renderQ();});
+$("#interSkip").addEventListener("click",()=>{
+  const pi=cur()[0];
+  while(S.pos<S.order.length && S.order[S.pos][0]===pi)S.pos++;
+  save(); step();
+});
+function correctCount(){let c=0;for(const id in S.answers){const q=BYID[id];if(q&&S.answers[id]===q.ok)c++;}return c;}
+
+let locked=false;
+function renderQ(){
+  show("quiz"); locked=false;
+  const [pi,qi]=cur(); const p=DATA[pi]; const q=qAt(pi,qi);
+  const el=elemOf(p);
+  const frac=S.pos/S.order.length;
+  $("#hudGlyph").innerHTML=AVATAR.glyph(el);
+  $("#hudPart").textContent=t("part_label",{n:p.n,s:p.short});
+  $("#barFill").style.setProperty("--el",`var(--${el})`);
+  $("#barFill").style.width=(frac*100)+"%";
+  $("#counter").textContent=t("counter",{i:S.pos+1,n:S.order.length});
+  $("#liveScore").textContent=t("live",{n:correctCount()});
+  $("#qSub").textContent=q.sub;
+  $("#qLevel").textContent=t("lvl")[q.lvl]||q.lvl;
+  $("#qText").textContent=q.text;
+  const box=$("#opts"); box.innerHTML="";
+  q.opts.forEach((txt,i)=>{
+    const b=document.createElement("button");
+    b.className="opt"; b.dataset.i=i;
+    b.innerHTML=`<span class="k">${LETTERS[i]}</span><span class="t"></span>`;
+    b.querySelector(".t").textContent=txt;
+    b.addEventListener("click",()=>answer(i));
+    box.appendChild(b);
+  });
+  $("#feedback").textContent=""; $("#feedback").className="feedback";
+  $("#nextBtn").classList.add("hidden");
+  if(q.id in S.answers) reveal(S.answers[q.id],true);
+}
+function answer(i){
+  if(locked)return;
+  const [pi,qi]=cur();
+  S.answers[qAt(pi,qi).id]=i; save();
+  reveal(i,false);
+}
+function reveal(i,silent){
+  locked=true;
+  const [pi,qi]=cur(); const ok=qAt(pi,qi).ok;
+  document.querySelectorAll(".opt").forEach(b=>{
+    const j=+b.dataset.i; b.disabled=true;
+    if(j===ok)b.classList.add("right"); else if(j===i)b.classList.add("wrong"); else b.classList.add("dim");
+  });
+  const fb=$("#feedback");
+  if(i===ok){fb.textContent=t("correct");fb.className="feedback ok";}
+  else{fb.textContent=t("wrong",{l:LETTERS[ok]});fb.className="feedback bad";if(!silent){$("#qcard").classList.add("shake");setTimeout(()=>$("#qcard").classList.remove("shake"),320);}}
+  $("#liveScore").textContent=t("live",{n:correctCount()});
+  const nb=$("#nextBtn"); nb.classList.remove("hidden");
+  nb.textContent=S.pos+1>=S.order.length?t("see_result"):t("next");
+  nb.focus({preventScroll:true});
+}
+$("#nextBtn").addEventListener("click",()=>{S.pos++;save();step();});
+$("#skipBtn").addEventListener("click",()=>{S.pos++;save();step();});
+document.querySelectorAll("[data-finish]").forEach(b=>{b.addEventListener("click",()=>{
+  if(b.dataset.armed==="1"){b.dataset.armed="";b.textContent=b.dataset.label;finish();return;}
+  b.dataset.armed="1";b.textContent=t("finish_confirm");
+  clearTimeout(b._t);b._t=setTimeout(()=>{b.dataset.armed="";b.textContent=b.dataset.label;},4000);
+});});
+document.addEventListener("keydown",e=>{
+  if($("#quiz").classList.contains("hidden"))return;
+  if(e.target.tagName==="INPUT")return;
+  const map={"1":0,"2":1,"3":2,"4":3,"a":0,"b":1,"c":2,"d":3};
+  const k=e.key.toLowerCase();
+  if(k in map && !locked){e.preventDefault();answer(map[k]);}
+  else if(e.key==="Enter" && locked && document.activeElement!==$("#nextBtn")){e.preventDefault();$("#nextBtn").click();}
+});
+
+/* ---------- resultado ---------- */
+function stats(){
+  const total=S.order.length, right=correctCount();
+  const per=[];
+  DATA.forEach((p,pi)=>{
+    const qs=S.order.filter(o=>o[0]===pi); if(!qs.length)return;
+    let r=0; qs.forEach(([a,b])=>{const q=qAt(a,b);if(S.answers[q.id]===q.ok)r++;});
+    per.push({p,right:r,total:qs.length});
+  });
+  const pct=total?right/total:0;
+  let ri=0; RANK_CUTS.forEach((c,i)=>{if(pct>=c)ri=i;});
+  let rank=t("ranks")[ri], perfect=false;
+  if(total>0 && right===total){
+    perfect=true;
+    const played=[...new Set(S.order.map(o=>DATA[o[0]].n))];
+    if(played.length===DATA.length) rank=t("perfect_all");
+    else if(played.length===1) rank=(t("perfect_part")||{})[played[0]]||t("perfect_multi");
+    else rank=t("perfect_multi");
+  }
+  return {total,right,pct,rank,perfect,per,answered:Object.keys(S.answers).length};
+}
+let lastBlob=null,lastUrl=null,reviewOpen=false;
+function finish(){
+  S.done=true; save();
+  show("result");
+  $("#ring").innerHTML=AVATAR.ELEMENTS.map(e=>AVATAR.glyph(e)).join("");
+  reviewOpen=false;
+  renderResult(true);
+}
+function renderResult(fresh){
+  const st=stats();
+  $("#score").innerHTML=`${st.right}<small>/${st.total}</small>`;
+  $("#rank").textContent=st.rank;
+  $("#rank").classList.toggle("perfect",st.perfect);
+  $("#pct").textContent=st.perfect?t("perfect_note"):t("pct",{p:Math.round(st.pct*100)})+(st.answered<st.total?t("answered",{a:st.answered,t:st.total}):"");
+  const bd=$("#breakdown"); bd.innerHTML="";
+  st.per.forEach(x=>bd.appendChild(partRow(x.p,x.right,x.total,true)));
+  if(fresh){ $("#shareBox").classList.add("hidden"); $("#makeImg").classList.remove("hidden"); lastBlob=null; }
+  else if(!$("#shareBox").classList.contains("hidden")) redrawImage();
+  renderReview();
+  setupPublish(fresh);
+}
+function partRow(p,right,total,has){
+  const row=document.createElement("div"); row.className="brow";
+  row.innerHTML=`<div class="top"><b></b><span>${has?`${right}/${total}`:"–"}</span></div><div class="track"><i style="width:${has&&total?right/total*100:0}%;--el:var(--${elemOf(p)})"></i></div>`;
+  row.querySelector("b").textContent=t("part_label",{n:p.n,s:p.short});
+  return row;
+}
+function renderReview(){
+  const r=$("#review");
+  $("#reviewBtn").textContent=reviewOpen?t("review_hide"):t("review_show");
+  r.classList.toggle("hidden",!reviewOpen);
+  if(!reviewOpen){r.innerHTML="";return;}
+  r.innerHTML=""; let n=0;
+  S.order.forEach(([pi,qi])=>{
+    const q=qAt(pi,qi); const a=S.answers[q.id];
+    if(a===q.ok)return; n++;
+    const d=document.createElement("div"); d.className="review-item";
+    const src=document.createElement("p"); src.className="src"; src.textContent=t("src",{n:DATA[pi].n,s:q.sub});
+    const qq=document.createElement("p"); qq.className="q"; qq.textContent=q.text;
+    const y=document.createElement("p"); y.className="your"; y.textContent=a===undefined?t("unanswered"):t("your_answer",{x:`${LETTERS[a]}) ${q.opts[a]}`});
+    const g=document.createElement("p"); g.className="good"; g.textContent=t("right_answer",{x:`${LETTERS[q.ok]}) ${q.opts[q.ok]}`});
+    d.append(src,qq,y,g); r.appendChild(d);
+  });
+  if(!n){const p=document.createElement("p");p.className="note";p.textContent=t("no_errors");r.appendChild(p);}
+}
+$("#reviewBtn").addEventListener("click",()=>{reviewOpen=!reviewOpen;renderReview();});
+$("#againBtn").addEventListener("click",()=>{clearSave();S=null;renderResume();renderParts();show("start");});
+
+/* ---------- publicar ---------- */
+function setupPublish(fresh){
+  const box=$("#pubBox");
+  if(!ONLINE){box.classList.add("hidden");return;}
+  box.classList.remove("hidden");
+  if(fresh){ $("#pubNick").value=S.name||AVATAR.readNick(); $("#pubPin").value=""; }
+  if(S.published){
+    lockPublish(t("published_as",{nick:S.published.nick,p:S.published.puesto}),"ok");
+  }else{
+    $("#pubBtn").disabled=false;$("#pubNick").disabled=false;$("#pubPin").disabled=false;
+    if(fresh){$("#pubMsg").textContent="";$("#pubMsg").className="form-msg";}
+    checkNick();
+  }
+}
+function lockPublish(msg,cls){
+  $("#nickMsg").textContent="";
+  $("#pubBtn").disabled=true;$("#pubNick").disabled=true;$("#pubPin").disabled=true;
+  $("#pubMsg").textContent=msg;$("#pubMsg").className="form-msg "+cls;
+}
+let nickTimer=null;
+async function checkNick(){
+  const nick=$("#pubNick").value.trim(); const m=$("#nickMsg");
+  if(!NICK_RE.test(nick)){m.textContent=t("nick_rules");m.className="form-msg info";return;}
+  try{
+    const st=await rpc("avatar_nick_status",{p_nick:nick});
+    if(nick!==$("#pubNick").value.trim())return;
+    if(st==="no_permitido"){m.textContent=t("nick_banned");m.className="form-msg bad";}
+    else if(st==="ocupado"){m.textContent=t("nick_taken");m.className="form-msg info";}
+    else {m.textContent=t("nick_free");m.className="form-msg ok";}
+  }catch(e){m.textContent=t("nick_rules");m.className="form-msg info";}
+}
+$("#pubNick").addEventListener("input",()=>{clearTimeout(nickTimer);nickTimer=setTimeout(checkNick,450);});
+$("#pubPin").addEventListener("input",e=>{const v=e.target.value.replace(/\D/g,"").slice(0,6);if(v!==e.target.value)e.target.value=v;});
+$("#pubBtn").addEventListener("click",async()=>{
+  const nick=$("#pubNick").value.trim(), pin=$("#pubPin").value;
+  const msg=$("#pubMsg");
+  if(!NICK_RE.test(nick)){msg.textContent=t("err_nick_invalido");msg.className="form-msg bad";return;}
+  if(!PIN_RE.test(pin)){msg.textContent=t("err_pin_invalido");msg.className="form-msg bad";return;}
+  const parts=[...new Set(S.order.map(o=>DATA[o[0]].n))];
+  const answers={}; S.order.forEach(([pi,qi])=>{const id=qAt(pi,qi).id;if(id in S.answers)answers[id]=S.answers[id];});
+  $("#pubBtn").disabled=true; msg.textContent=t("publishing"); msg.className="form-msg info";
+  try{
+    const r=await rpc("avatar_submit_score",{p_nick:nick,p_pin:pin,p_parts:parts,p_answers:answers});
+    if(r.ok){
+      AVATAR.saveNick(nick);
+      S.published={nick,puesto:r.puesto}; S.name=nick; save();
+      const extra=r.mejoro?"":t("best_kept");
+      lockPublish((r.nuevo?t("registered"):"")+t("published",{p:r.puesto??"–",c:r.acum_correct,n:r.partes_jugadas,d:r.partes_completas})+extra,"ok");
+      if(!$("#shareBox").classList.contains("hidden"))redrawImage();
+      return;
+    }
+    $("#pubBtn").disabled=false;
+    if(r.error==="pin_incorrecto")msg.textContent=t("pin_wrong",{n:r.intentos_restantes});
+    else if(r.error==="bloqueado")msg.textContent=t("locked");
+    else msg.textContent=t("err_"+r.error)!==("err_"+r.error)?t("err_"+r.error):t("err_generic");
+    msg.className="form-msg bad";
+  }catch(e){
+    $("#pubBtn").disabled=false;
+    msg.textContent=t("network");
+    msg.className="form-msg bad";
+  }
+});
+
+/* ---------- ranking ---------- */
+let boardFilter="all";
+document.querySelectorAll(".boardLink").forEach(b=>b.addEventListener("click",()=>{show("board");loadBoard();}));
+$("#boardBack").addEventListener("click",()=>{
+  const target=prevScreen==="board"||prevScreen==="loading"?"start":prevScreen;
+  if(target==="start"){renderParts();renderResume();}
+  show(target);
+});
+$("#boardRefresh").addEventListener("click",loadBoard);
+document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click",()=>{
+  boardFilter=b.dataset.filter;
+  document.querySelectorAll("[data-filter]").forEach(x=>x.classList.toggle("on",x===b));
+  loadBoard();
+}));
+async function loadBoard(){
+  const list=$("#boardList");
+  const msg=txt=>{list.innerHTML="";const d=document.createElement("div");d.className="empty";d.textContent=txt;list.appendChild(d);};
+  if(!ONLINE){msg(t("board_off"));return;}
+  msg(t("board_loading"));
+  let url=`${API}/rest/v1/avatar_leaderboard?select=nick,correct,answered,parts_completed,accuracy&order=correct.desc,answered.asc,updated_at.asc&limit=100`;
+  if(boardFilter==="full")url+=`&parts_completed=gte.${DATA.length}`;
+  try{
+    const r=await fetch(url,{headers:headers()});
+    if(!r.ok)throw new Error();
+    const rows=await r.json();
+    list.innerHTML="";
+    if(!rows.length){msg(t("board_empty"));return;}
+    const me=AVATAR.readNick().toLowerCase();
+    rows.forEach((x,i)=>{
+      const d=document.createElement("div");
+      d.className="brd"+(i<3?` top${i+1}`:"")+(x.nick.toLowerCase()===me?" me":"");
+      d.innerHTML=`<span class="pos">${i+1}</span><span class="who"><span class="n"></span><small></small></span><span class="pts">${x.correct}<small></small></span>`;
+      d.querySelector(".n").textContent=x.nick;
+      d.querySelector(".who small").textContent=t("row_sub",{a:Number(x.accuracy ?? 0).toLocaleString(LANG),d:x.parts_completed,n:DATA.length});
+      d.querySelector(".pts small").textContent=t("row_of",{n:x.answered});
+      d.tabIndex=0; d.setAttribute("role","button");
+      const det=document.createElement("div"); det.className="brd-detail hidden";
+      const toggle=()=>toggleDetail(x.nick,det);
+      d.addEventListener("click",toggle);
+      d.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
+      list.appendChild(d); list.appendChild(det);
+    });
+  }catch(e){msg(t("board_err"));}
+}
+async function toggleDetail(nick,box){
+  if(!box.classList.contains("hidden")){box.classList.add("hidden");return;}
+  box.classList.remove("hidden"); box.textContent=t("detail_loading");
+  try{
+    const r=await fetch(`${API}/rest/v1/avatar_leaderboard_parts?select=part,correct,answered,total&nick=eq.${encodeURIComponent(nick)}&order=part.asc`,{headers:headers()});
+    if(!r.ok)throw new Error();
+    const rows=await r.json(); box.innerHTML="";
+    const byPart={}; rows.forEach(x=>byPart[x.part]=x);
+    DATA.forEach(p=>{
+      const x=byPart[p.n];
+      box.appendChild(partRow(p,x?x.correct:0,x?x.total:p.q.length,!!x));
+    });
+  }catch(e){box.textContent=t("detail_err");}
+}
+
+/* ---------- imagen para compartir ---------- */
+function siteText(){return /^https?:/.test(location.protocol)?(location.host+location.pathname.replace(/index\.html$/,"")).replace(/\/$/,""):"";}
+async function drawCard(){
+  const st=stats();
+  try{await Promise.all([document.fonts.load('80px "Marcellus"'),document.fonts.load('600 30px "Nunito Sans"')]);}catch(e){}
+  const W=1080,H=1350,c=document.createElement("canvas");c.width=W;c.height=H;const g=c.getContext("2d");
+  g.fillStyle="#13110f";g.fillRect(0,0,W,H);
+  const mx=60,my=60,mw=W-120,mh=700;
+  g.fillStyle="#1d1a16";roundRect(g,mx,my,mw,mh,40);g.fill();
+  g.strokeStyle="#3a332a";g.lineWidth=4;roundRect(g,mx,my,mw,mh,40);g.stroke();
+  // los cuatro elementos
+  AVATAR.ELEMENTS.forEach((e,i)=>{
+    const cx=W/2+(i-1.5)*130, cy=my+120;
+    g.beginPath();g.arc(cx,cy,46,0,Math.PI*2);g.strokeStyle=COLORS[e];g.lineWidth=4;g.stroke();
+    AVATAR.drawGlyph(g,e,cx,cy,52,COLORS[e]);
+  });
+  g.textAlign="center";
+  let fs=230;const big=st.right+"/"+st.total;g.font=fs+'px "Marcellus", serif';
+  while(g.measureText(big).width>mw-80&&fs>110){fs-=10;g.font=fs+'px "Marcellus", serif';}
+  g.fillStyle="#f0a04b";g.fillText(big,W/2,my+430);
+  g.font='600 50px "Nunito Sans", sans-serif';g.fillStyle="#f1e8d6";g.fillText(t("img_correct"),W/2,my+520);
+  g.font='600 40px "Nunito Sans", sans-serif';g.fillStyle="#a59a86";
+  const sub=t("img_pct",{p:Math.round(st.pct*100)})+(S.published?"  ·  "+t("img_pos",{p:S.published.puesto}):"");
+  g.fillText(sub,W/2,my+600);
+  g.textAlign="left";
+  g.fillStyle="#a59a86";g.font='600 36px "Nunito Sans", sans-serif';
+  const who=(S.published&&S.published.nick)||S.name;
+  g.fillText(who?t("img_turn",{name:who}):t("img_done"),mx,my+mh+80);
+  g.fillStyle=st.perfect?"#f0a04b":"#f1e8d6";g.font='72px "Marcellus", serif';
+  wrapText(g,st.rank,mx,my+mh+160,mw,76);
+  const y=my+mh+260; const rows=st.per.slice(0,12); const gap=14; const bw=(mw-(rows.length-1)*gap)/Math.max(rows.length,1);
+  rows.forEach((x,i)=>{const bx=mx+i*(bw+gap);g.fillStyle="#26221c";roundRect(g,bx,y,bw,24,12);g.fill();
+    const w=x.total?bw*x.right/x.total:0; if(w>2){g.fillStyle=COLORS[elemOf(x.p)];roundRect(g,bx,y,Math.max(w,24),24,12);g.fill();}
+    g.fillStyle="#a59a86";g.font='600 28px "Nunito Sans", sans-serif';g.fillText(`${x.p.short} · ${x.right}/${x.total}`,bx,y+66);});
+  g.fillStyle="#f0a04b";g.font='52px "Marcellus", serif';
+  g.fillText(t("img_title"),mx,H-110);
+  g.fillStyle="#a59a86";g.font='600 30px "Nunito Sans", sans-serif';
+  const site=siteText();
+  g.fillText(site?t("img_cta_site",{site}):t("img_cta"),mx,H-62);
+  return new Promise(r=>c.toBlob(r,"image/png"));
+}
+function roundRect(g,x,y,w,h,r){g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath();}
+function wrapText(g,s,x,y,mw,lh){const ws=s.split(" ");let line="";for(const w of ws){const test=line?line+" "+w:w;if(g.measureText(test).width>mw&&line){g.fillText(line,x,y);line=w;y+=lh;}else line=test;}g.fillText(line,x,y);}
+async function redrawImage(){
+  lastBlob=await drawCard();
+  if(lastUrl)URL.revokeObjectURL(lastUrl);
+  lastUrl=URL.createObjectURL(lastBlob);
+  $("#shareImg").src=lastUrl;
+}
+function shareText(){const st=stats();const site=/^https?:/.test(location.protocol)?" "+location.href.split("#")[0]:"";return t("share_text",{r:st.right,t:st.total,rank:st.rank,site});}
+$("#makeImg").addEventListener("click",async()=>{
+  $("#makeImg").textContent=t("revealing");
+  await redrawImage();
+  $("#shareBox").classList.remove("hidden");$("#makeImg").classList.add("hidden");$("#makeImg").textContent=t("make_img");
+});
+$("#saveImg").addEventListener("click",()=>{
+  if(!lastUrl)return;
+  const a=document.createElement("a");a.href=lastUrl;a.download="avatar-quiz.png";document.body.appendChild(a);a.click();a.remove();
+  $("#shareNote").textContent=t("save_note");
+});
+$("#shareBtn").addEventListener("click",async()=>{
+  const text=shareText();
+  if(lastBlob&&navigator.canShare){
+    const file=new File([lastBlob],"avatar-quiz.png",{type:"image/png"});
+    if(navigator.canShare({files:[file]})){try{await navigator.share({files:[file],text});return;}catch(e){if(e&&e.name==="AbortError")return;}}
+  }
+  if(navigator.share){try{await navigator.share({text});return;}catch(e){if(e&&e.name==="AbortError")return;}}
+  try{await navigator.clipboard.writeText(text);toast(t("copied"));}
+  catch(e){$("#shareNote").textContent=text;}
+});
+
+/* ---------- arranque ---------- */
+async function init(){
+  LANG = AVATAR.pickLang(Object.keys(LANGS));
+  $("#loading p").textContent=t("loading");
+  try{ DATA=await fetchLang(LANG); }
+  catch(e){ $("#loading p").textContent=t("load_err"); return; }
+  indexData();
+  applyStatic();
+  $("#titleElems").innerHTML=AVATAR.ELEMENTS.map(e=>AVATAR.glyph(e)).join("");
+  DATA.forEach(p=>selected.add(p.n));
+  renderParts();
+  $("#name").value=AVATAR.readNick();
+  const st=load();
+  if(st&&st.order&&!st.done&&st.pos<st.order.length&&st.order.every(([a,b])=>DATA[a]&&DATA[a].q[b])){
+    S=st; if(st.name)$("#name").value=st.name;
+  }
+  renderResume();
+  if(!ONLINE)document.querySelectorAll(".boardLink").forEach(b=>b.classList.add("hidden"));
+  show("start");
+}
+init();
+</script>
+</body>
+</html>

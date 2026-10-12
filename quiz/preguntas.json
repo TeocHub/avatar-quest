@@ -1,0 +1,1420 @@
+[
+ {
+  "parte": 1,
+  "corto": "ATLA",
+  "titulo": "Avatar: La Leyenda de Aang",
+  "preguntas": [
+   {
+    "id": "atla-001",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Dónde estaban atrapados Aang y Appa cuando Katara y Sokka los encontraron?",
+    "opciones": [
+     "En una cueva de hielo",
+     "En un lago congelado",
+     "En un iceberg",
+     "Bajo un glaciar del Polo Norte"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-002",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cuántos años pasó Aang congelado?",
+    "opciones": [
+     "100",
+     "50",
+     "70",
+     "200"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-003",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué tipo de animal es Momo?",
+    "opciones": [
+     "Un lémur alado",
+     "Un murciélago-zorro",
+     "Un mono volador",
+     "Una ardilla voladora"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-004",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿En qué templo creció Aang?",
+    "opciones": [
+     "El Templo Aire del Norte",
+     "El Templo Aire del Este",
+     "El Templo Aire del Sur",
+     "El Templo Aire del Oeste"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-005",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué monje fue el maestro y figura paterna de Aang?",
+    "opciones": [
+     "Pathik",
+     "Tashi",
+     "Kuzon",
+     "Gyatso"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-006",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Dónde conoce el grupo a Suki y a sus guerreras?",
+    "opciones": [
+     "En la Isla Kyoshi",
+     "En Omashu",
+     "En la Isla Ember",
+     "En Gaipan"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-007",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Quién es el rey de Omashu y amigo de infancia de Aang?",
+    "opciones": [
+     "Bumi",
+     "Kuei",
+     "Piandao",
+     "Jeong Jeong"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-008",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué busca Zuko para recuperar su honor y volver a casa?",
+    "opciones": [
+     "Derrotar a Azula en un Agni Kai",
+     "Conquistar el Polo Norte",
+     "Capturar al Avatar",
+     "Encontrar a su madre"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-009",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué espíritu atacaba la aldea de Senlin en el episodio del solsticio de invierno?",
+    "opciones": [
+     "Koh",
+     "Hei Bai",
+     "Wan Shi Tong",
+     "La"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-010",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué Avatar anterior habla con Aang en el Templo del Fuego durante el solsticio?",
+    "opciones": [
+     "Kyoshi",
+     "Roku",
+     "Kuruk",
+     "Yangchen"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-011",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué identidad secreta usa Zuko para rescatar a Aang de la fortaleza Pohuai?",
+    "opciones": [
+     "El Hombre Combustión",
+     "El Espíritu Azul",
+     "El Bandido Ciego",
+     "Lee"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-012",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué almirante mata al espíritu de la Luna durante el asedio al Polo Norte?",
+    "opciones": [
+     "Jee",
+     "Shinu",
+     "Yu",
+     "Zhao"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-013",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llaman los espíritus de la Luna y del Océano?",
+    "opciones": [
+     "Tui y La",
+     "Raava y Vaatu",
+     "Ran y Shaw",
+     "Hei Bai y Koh"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-014",
+    "nivel": "B",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Quién se convierte en el nuevo espíritu de la Luna?",
+    "opciones": [
+     "Katara",
+     "Kanna",
+     "Suki",
+     "Yue"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-015",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Qué maestro entrena a Katara en la Tribu Agua del Norte?",
+    "opciones": [
+     "Hama",
+     "Arnook",
+     "Pakku",
+     "Hakoda"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-016",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Quién hizo originalmente el collar que lleva Katara?",
+    "opciones": [
+     "Pakku, para Kanna",
+     "Hakoda, para Kya",
+     "Sokka, para Katara",
+     "Arnook, para Yue"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-017",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama el grupo de jóvenes rebeldes que lidera Jet?",
+    "opciones": [
+     "Los Rinocerontes Salvajes",
+     "Los Dai Li",
+     "Los Luchadores por la Libertad",
+     "Los Hurones de Fuego"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-018",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Quién vive con su hijo en el Templo Aire del Norte construyendo máquinas?",
+    "opciones": [
+     "Piandao",
+     "El Gurú Pathik",
+     "Jeong Jeong",
+     "El Mecanista"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-019",
+    "nivel": "A",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Cómo se llama la adivina de la aldea de Makapu?",
+    "opciones": [
+     "Joo Dee",
+     "Hama",
+     "La tía Wu",
+     "Kanna"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-020",
+    "nivel": "I",
+    "sub": "Libro 1: Agua",
+    "pregunta": "¿Con qué espíritu se fusiona Aang para destruir la flota de Zhao?",
+    "opciones": [
+     "La, el espíritu del Océano",
+     "Tui, el espíritu de la Luna",
+     "Koh, el robacaras",
+     "Hei Bai"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-021",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quién le enseña tierra control a Aang?",
+    "opciones": [
+     "Bumi",
+     "Haru",
+     "Toph",
+     "Kuei"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-022",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo percibe Toph lo que la rodea, siendo ciega?",
+    "opciones": [
+     "Escucha el eco de su voz",
+     "Siente las vibraciones del suelo",
+     "Usa el chi del aire",
+     "Le guía un espíritu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-023",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Con qué nombre lucha Toph en el torneo Earth Rumble?",
+    "opciones": [
+     "La Roca",
+     "La Bandida Ciega",
+     "El Hipopótamo",
+     "El Topo"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-024",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué organización secreta controla Ba Sing Se desde las sombras?",
+    "opciones": [
+     "La Orden del Loto Blanco",
+     "Los Luchadores por la Libertad",
+     "Los Guardianes del Rey",
+     "Los Dai Li"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-025",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quién dirige a los Dai Li?",
+    "opciones": [
+     "El rey Kuei",
+     "Joo Dee",
+     "El general How",
+     "Long Feng"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-026",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo se llama el oso mascota del Rey Tierra?",
+    "opciones": [
+     "Bosco",
+     "Bumi",
+     "Flopsy",
+     "Pabu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-027",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quién enseña a Aang a abrir sus chakras?",
+    "opciones": [
+     "El monje Gyatso",
+     "El Gurú Pathik",
+     "El tío Iroh",
+     "Roku"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-028",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué le impide a Aang abrir el último chakra?",
+    "opciones": [
+     "Su miedo a la Nación del Fuego",
+     "Su culpa por haber huido",
+     "Su apego a Katara",
+     "Su ira contra Ozai"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-029",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo se llama el espíritu búho que cuida la gran biblioteca del desierto?",
+    "opciones": [
+     "Wan Shi Tong",
+     "Koh",
+     "Hei Bai",
+     "Vaatu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-030",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué descubre el grupo en la biblioteca de Wan Shi Tong?",
+    "opciones": [
+     "Que un eclipse solar anula el fuego control",
+     "Dónde está el Templo Aire del Este",
+     "Cómo usar la sangre control",
+     "El origen del primer Avatar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-031",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué amigas acompañan a Azula en su búsqueda?",
+    "opciones": [
+     "Suki y Yue",
+     "Mai y Ty Lee",
+     "Joo Dee y Hama",
+     "Jin y Song"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-032",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué técnica usa Ty Lee para dejar a sus rivales sin poder controlar?",
+    "opciones": [
+     "Robarles el control como Amon",
+     "Bloquear su chi con golpes precisos",
+     "Lanzarles agujas",
+     "Usar sangre control"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-033",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quiénes roban a Appa en el desierto de Si Wong?",
+    "opciones": [
+     "Los arenadores",
+     "Los Dai Li",
+     "Los piratas",
+     "Los Rinocerontes Salvajes"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-034",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué nombres falsos usan Zuko e Iroh como refugiados en Ba Sing Se?",
+    "opciones": [
+     "Kuzon y Jin",
+     "Lee y Kuzon",
+     "Lee y Mushi",
+     "Mushi y Jet"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-035",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Cómo se llama la tienda de té de Iroh en Ba Sing Se?",
+    "opciones": [
+     "El Loto Blanco",
+     "La Tetera de Oro",
+     "El Té del Fénix",
+     "El Dragón de Jazmín"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-036",
+    "nivel": "A",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué máquina usa la Nación del Fuego para intentar atravesar el muro de Ba Sing Se?",
+    "opciones": [
+     "Un globo de guerra",
+     "Un tanque de lava",
+     "Una catapulta de fuego",
+     "Una enorme taladradora"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-037",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué frase repiten los guías de Ba Sing Se para ocultar la verdad?",
+    "opciones": [
+     "El Avatar ha muerto",
+     "No hay guerra en Ba Sing Se",
+     "Larga vida al Rey Tierra",
+     "La ciudad es impenetrable"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-038",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Quién ataca a Aang con un rayo en las catacumbas de Ba Sing Se?",
+    "opciones": [
+     "Zuko",
+     "Azula",
+     "Ozai",
+     "Long Feng"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-039",
+    "nivel": "I",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Con qué salva Katara a Aang después del rayo?",
+    "opciones": [
+     "Con una hierba curativa de la tía Wu",
+     "Con la energía del Estado Avatar",
+     "Con sangre control",
+     "Con agua del oasis espiritual del Polo Norte"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-040",
+    "nivel": "B",
+    "sub": "Libro 2: Tierra",
+    "pregunta": "¿Qué hace Zuko al final del Libro 2?",
+    "opciones": [
+     "Se une al equipo Avatar",
+     "Huye de Ba Sing Se con Iroh",
+     "Derrota a Azula en duelo",
+     "Se une a Azula y traiciona a Iroh"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-041",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué nombre usa Aang cuando se infiltra en una escuela de la Nación del Fuego?",
+    "opciones": [
+     "Lee",
+     "Mushi",
+     "Kuzon",
+     "Bonzu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-042",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué fenómeno aprovecha la invasión del Día del Sol Negro?",
+    "opciones": [
+     "Un eclipse solar",
+     "Un eclipse lunar",
+     "El paso de un cometa",
+     "El solsticio de verano"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-043",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo se llaman los dos dragones que juzgan a Zuko y Aang?",
+    "opciones": [
+     "Ran y Shaw",
+     "Tui y La",
+     "Druk y Fang",
+     "Raava y Vaatu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-044",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién le enseña esgrima a Sokka?",
+    "opciones": [
+     "El maestro Piandao",
+     "Jeong Jeong",
+     "El tío Iroh",
+     "Bato"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-045",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿De qué material forja Sokka su espada?",
+    "opciones": [
+     "De acero de la Nación del Fuego",
+     "De hueso de ballena",
+     "De cristal de Ba Sing Se",
+     "De un meteorito"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-046",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué cometa potencia a los maestros fuego en el final de la serie?",
+    "opciones": [
+     "El cometa de Roku",
+     "El cometa de Sozin",
+     "El cometa de Agni",
+     "El cometa de Ozai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-047",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué Señor del Fuego comenzó la guerra cien años antes?",
+    "opciones": [
+     "Azulon",
+     "Ozai",
+     "Iroh",
+     "Sozin"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-048",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo apoda el grupo al asesino que Zuko contrata para eliminar a Aang?",
+    "opciones": [
+     "El Espíritu Azul",
+     "El Hombre Combustión",
+     "El Cazarrecompensas",
+     "Ojo de Fuego"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-049",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo derrota Katara a Azula en el Agni Kai final?",
+    "opciones": [
+     "La golpea con un rayo redirigido",
+     "Le bloquea el chi",
+     "La congela y la encadena a una reja",
+     "Le quita el fuego control"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-050",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo vence Aang a Ozai sin matarlo?",
+    "opciones": [
+     "Lo encierra en una roca",
+     "Le quita su fuego control con energía control",
+     "Lo destierra al mundo espiritual",
+     "Lo congela en un iceberg"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-051",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién le enseña a Aang la energía control?",
+    "opciones": [
+     "Roku",
+     "El Gurú Pathik",
+     "Yangchen",
+     "Una tortuga-león"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-052",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo se llama la prisión de máxima seguridad donde Sokka busca a su padre?",
+    "opciones": [
+     "La Roca Hirviente",
+     "El Lago Laogai",
+     "La fortaleza Pohuai",
+     "La Isla Ember"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-053",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién le enseña a Katara la sangre control?",
+    "opciones": [
+     "Pakku",
+     "Hama",
+     "Kanna",
+     "Yugoda"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-054",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué compañía de teatro representa las aventuras del grupo de forma exagerada?",
+    "opciones": [
+     "La Compañía Real de Caldera",
+     "Los Actores de la Isla Ember",
+     "Los Bardos de Omashu",
+     "El Teatro de Ba Sing Se"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-055",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué grupo libera Ba Sing Se en el final de la serie?",
+    "opciones": [
+     "Los Dai Li",
+     "La Orden del Loto Blanco",
+     "Las guerreras Kyoshi",
+     "La Tribu Agua del Norte"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-056",
+    "nivel": "I",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Cómo se llama la madre de Zuko y Azula?",
+    "opciones": [
+     "Ilah",
+     "Kya",
+     "Ursa",
+     "Ummi"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-057",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién es la novia de Zuko?",
+    "opciones": [
+     "Ty Lee",
+     "Jin",
+     "Mai",
+     "Song"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-058",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién lidera a las guerreras Kyoshi?",
+    "opciones": [
+     "Ty Lee",
+     "Yue",
+     "Suki",
+     "Kanna"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-059",
+    "nivel": "A",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Qué título se da Ozai antes de la llegada del cometa?",
+    "opciones": [
+     "Emperador del Fuego",
+     "Señor de los Cuatro Reinos",
+     "Dragón del Oeste",
+     "Rey Fénix"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-060",
+    "nivel": "B",
+    "sub": "Libro 3: Fuego",
+    "pregunta": "¿Quién se convierte en Señor del Fuego al final de la serie?",
+    "opciones": [
+     "Zuko",
+     "Iroh",
+     "Azula",
+     "Ursa"
+    ],
+    "correcta": "a"
+   }
+  ]
+ },
+ {
+  "parte": 2,
+  "corto": "Korra",
+  "titulo": "La Leyenda de Korra",
+  "preguntas": [
+   {
+    "id": "korra-001",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿En qué ciudad transcurre gran parte de La Leyenda de Korra?",
+    "opciones": [
+     "Ba Sing Se",
+     "Zaofu",
+     "Ciudad República",
+     "Omashu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-002",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quién lidera a los Igualitarios?",
+    "opciones": [
+     "Tarrlok",
+     "Amon",
+     "Hiroshi Sato",
+     "Zaheer"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-003",
+    "nivel": "A",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cuál es el verdadero nombre de Amon?",
+    "opciones": [
+     "Yakone",
+     "Tarrlok",
+     "Unalaq",
+     "Noatak"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-004",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué parentesco tiene Tarrlok con Amon?",
+    "opciones": [
+     "Es su padre",
+     "Es su tío",
+     "Es su primo",
+     "Es su hermano"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-005",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cómo se llama el equipo de pro-control de Mako y Bolin?",
+    "opciones": [
+     "Los Lobos Murciélago",
+     "Los Tigres Platipus",
+     "Los Búhos Gato",
+     "Los Hurones de Fuego"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-006",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cómo se llama el padre de Asami?",
+    "opciones": [
+     "Hiroshi Sato",
+     "Iknik Varrick",
+     "Raiko",
+     "Tonraq"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-007",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quién le enseña aire control a Korra?",
+    "opciones": [
+     "Jinora",
+     "Tenzin",
+     "Bumi",
+     "Zaheer"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-008",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Cómo se llama el hurón de fuego de Bolin?",
+    "opciones": [
+     "Naga",
+     "Pabu",
+     "Momo",
+     "Bosco"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-009",
+    "nivel": "B",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué animal es Naga, la compañera de Korra?",
+    "opciones": [
+     "Un bisonte volador",
+     "Un perro-oso polar",
+     "Un lobo-murciélago",
+     "Un tigre-dientes de sable"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-010",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quién es la jefa de policía de Ciudad República en el Libro 1?",
+    "opciones": [
+     "Suyin Beifong",
+     "Lin Beifong",
+     "Toph Beifong",
+     "Asami Sato"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-011",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Qué habilidad le permite a Amon quitar el control de los elementos?",
+    "opciones": [
+     "El bloqueo de chi",
+     "La sangre control",
+     "La energía control aprendida de una tortuga-león",
+     "Un artefacto del mundo espiritual"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-012",
+    "nivel": "I",
+    "sub": "Libro 1: Aire",
+    "pregunta": "¿Quién le devuelve a Korra su control al final del Libro 1?",
+    "opciones": [
+     "Tenzin",
+     "Katara",
+     "Aang",
+     "Raava"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-013",
+    "nivel": "B",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué tío de Korra resulta ser el villano del Libro 2?",
+    "opciones": [
+     "Unalaq",
+     "Tonraq",
+     "Tarrlok",
+     "Hakoda"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-014",
+    "nivel": "B",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cómo se llama el padre de Korra?",
+    "opciones": [
+     "Unalaq",
+     "Hakoda",
+     "Tonraq",
+     "Tenzin"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-015",
+    "nivel": "B",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué espíritu de la luz y la paz vive dentro del Avatar?",
+    "opciones": [
+     "Raava",
+     "Vaatu",
+     "Tui",
+     "La"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-016",
+    "nivel": "B",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cuál es el espíritu de la oscuridad y el caos?",
+    "opciones": [
+     "Raava",
+     "Vaatu",
+     "Koh",
+     "Hei Bai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-017",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Quién fue el primer Avatar?",
+    "opciones": [
+     "Wan",
+     "Yangchen",
+     "Szeto",
+     "Kuruk"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-018",
+    "nivel": "A",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cada cuántos años ocurre la Convergencia Armónica?",
+    "opciones": [
+     "1.000",
+     "100",
+     "10.000",
+     "5.000"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-019",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cómo se llaman los hijos gemelos de Unalaq?",
+    "opciones": [
+     "Mako y Bolin",
+     "Ikki y Meelo",
+     "Opal y Huan",
+     "Desna y Eska"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-020",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Cómo se llama la asistente de Varrick?",
+    "opciones": [
+     "Ginger",
+     "Zhu Li",
+     "Kya",
+     "Opal"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-021",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué personaje protagoniza Bolin en las películas de Varrick?",
+    "opciones": [
+     "Nuktuk",
+     "El Espíritu Azul",
+     "El Gran Hurón",
+     "El Capitán Boomerang"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-022",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Quién guía a Korra en el mundo espiritual y la ayuda a recuperar a Raava?",
+    "opciones": [
+     "Jinora",
+     "Ikki",
+     "Asami",
+     "Eska"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-023",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué personaje de la serie original ayuda a Korra en el mundo espiritual?",
+    "opciones": [
+     "Zuko",
+     "Toph",
+     "Iroh",
+     "Sokka"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-024",
+    "nivel": "I",
+    "sub": "Libro 2: Espíritus",
+    "pregunta": "¿Qué decide Korra sobre los portales espirituales al final del Libro 2?",
+    "opciones": [
+     "Cerrarlos para siempre",
+     "Abrir solo el del Sur",
+     "Destruirlos",
+     "Dejarlos abiertos"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-025",
+    "nivel": "B",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Cómo se llama la organización anarquista de Zaheer?",
+    "opciones": [
+     "El Loto Blanco",
+     "El Loto Rojo",
+     "Los Igualitarios",
+     "El Imperio Tierra"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-026",
+    "nivel": "B",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué provoca la aparición de nuevos maestros aire en el Libro 3?",
+    "opciones": [
+     "La Convergencia Armónica",
+     "El cometa de Sozin",
+     "Un eclipse",
+     "El regreso de Aang"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-027",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué miembro del Loto Rojo controla la lava?",
+    "opciones": [
+     "P'Li",
+     "Ghazan",
+     "Ming-Hua",
+     "Zaheer"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-028",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué miembro del Loto Rojo lanza explosiones con la mente?",
+    "opciones": [
+     "P'Li",
+     "Ghazan",
+     "Ming-Hua",
+     "Kuvira"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-029",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué maestra agua sin brazos usa el agua como extremidades?",
+    "opciones": [
+     "Eska",
+     "Kya",
+     "Hama",
+     "Ming-Hua"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-030",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué habilidad legendaria logra Zaheer?",
+    "opciones": [
+     "Volar",
+     "La energía control",
+     "La lava control",
+     "La sangre control sin luna llena"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-031",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿A qué gobernante asesina Zaheer?",
+    "opciones": [
+     "Al Señor del Fuego Izumi",
+     "A la Reina Tierra",
+     "Al presidente Raiko",
+     "Al jefe Unalaq"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-032",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Cómo se llama la ciudad de metal de Suyin Beifong?",
+    "opciones": [
+     "Ba Sing Se",
+     "Gaoling",
+     "Zaofu",
+     "Omashu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-033",
+    "nivel": "B",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Quién es la madre de Suyin y Lin Beifong?",
+    "opciones": [
+     "Katara",
+     "Kya",
+     "Toph",
+     "Suki"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-034",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Con qué veneno ataca el Loto Rojo a Korra?",
+    "opciones": [
+     "Arsénico",
+     "Mercurio",
+     "Veneno de escorpión",
+     "Agua del mundo espiritual"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-035",
+    "nivel": "I",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Qué hacía Kai antes de convertirse en maestro aire?",
+    "opciones": [
+     "Era un ladrón",
+     "Era soldado",
+     "Era actor",
+     "Era piloto"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-036",
+    "nivel": "B",
+    "sub": "Libro 3: Cambio",
+    "pregunta": "¿Quién recibe los tatuajes de maestro aire al final del Libro 3?",
+    "opciones": [
+     "Ikki",
+     "Kai",
+     "Bumi",
+     "Jinora"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-037",
+    "nivel": "B",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Cuántos años pasan entre el Libro 3 y el Libro 4?",
+    "opciones": [
+     "1",
+     "5",
+     "10",
+     "3"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-038",
+    "nivel": "B",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué apodo tiene Kuvira?",
+    "opciones": [
+     "La Reina de Metal",
+     "La Dama de Hierro",
+     "La Emperatriz Tierra",
+     "La Gran Unificadora"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-039",
+    "nivel": "B",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Cómo se llama el estado que funda Kuvira?",
+    "opciones": [
+     "La República Unida",
+     "El Reino de Metal",
+     "El Imperio Tierra",
+     "El Imperio del Este"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-040",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Quién es el prometido de Kuvira?",
+    "opciones": [
+     "Baatar Jr.",
+     "Mako",
+     "Wing",
+     "Wei"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-041",
+    "nivel": "B",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿De qué obtiene energía el arma más poderosa de Kuvira?",
+    "opciones": [
+     "De un volcán",
+     "De las enredaderas espirituales",
+     "De un rayo embotellado",
+     "Del cometa de Sozin"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-042",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Dónde encuentra Korra a Toph en el Libro 4?",
+    "opciones": [
+     "En Zaofu",
+     "En Gaoling",
+     "En el Pantano Neblinoso",
+     "En el Polo Sur"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-043",
+    "nivel": "B",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Quién es el heredero al trono del Reino Tierra?",
+    "opciones": [
+     "Baatar Jr.",
+     "El príncipe Wu",
+     "El príncipe Iroh",
+     "Kai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-044",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué dos personajes desertan del ejército de Kuvira?",
+    "opciones": [
+     "Mako y Asami",
+     "Bolin y Varrick",
+     "Opal y Bolin",
+     "Wu y Mako"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-045",
+    "nivel": "I",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué pareja se casa en el último episodio?",
+    "opciones": [
+     "Varrick y Zhu Li",
+     "Bolin y Opal",
+     "Mako y Asami",
+     "Tenzin y Pema"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-046",
+    "nivel": "A",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué propone Wu para el futuro del Reino Tierra al final de la serie?",
+    "opciones": [
+     "Dividirlo en estados independientes con líderes elegidos",
+     "Reunificarlo bajo su corona",
+     "Unirlo a la República Unida",
+     "Devolverle el poder a Kuvira"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-047",
+    "nivel": "B",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Con quién entra Korra al mundo espiritual en la escena final?",
+    "opciones": [
+     "Mako",
+     "Jinora",
+     "Asami",
+     "Naga"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-048",
+    "nivel": "A",
+    "sub": "Libro 4: Equilibrio",
+    "pregunta": "¿Qué le pasa a Kuvira cuando su arma se descontrola en el final?",
+    "opciones": [
+     "Muere en la explosión",
+     "Pierde su control para siempre",
+     "Korra la protege y ambas llegan al mundo espiritual",
+     "Escapa en su robot"
+    ],
+    "correcta": "c"
+   }
+  ]
+ }
+]

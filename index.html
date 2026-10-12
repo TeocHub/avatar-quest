@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Avatar Quest</title>
+<meta name="description" content="El Cuestionario Definitivo de Avatar y más tests del mundo de Avatar. The ultimate Avatar quiz and more Avatar tests.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="comun.css">
+<style>
+.hub-elems{margin-top:8px}
+.tests{display:flex;flex-direction:column;gap:14px;margin-top:30px}
+.test{display:block;text-decoration:none;color:inherit;background:var(--panel);border:2px solid var(--line);border-radius:18px;padding:18px 18px 20px;position:relative;overflow:hidden;transition:border-color .15s,transform .1s}
+a.test:hover{border-color:var(--accent)}
+a.test:active{transform:scale(.99)}
+.test .kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.test h2{font-family:var(--display);font-weight:400;font-size:30px;line-height:1.1;margin:6px 0 6px}
+.test p{margin:0;color:var(--muted)}
+.test .go{display:inline-block;margin-top:14px;font-weight:700;color:var(--text)}
+.test .go::after{content:" →"}
+.test.soon{opacity:.75;border-style:dashed}
+.test.soon .kicker{color:var(--muted)}
+.test .band{position:absolute;right:-30px;top:-30px;width:120px;height:120px;border-radius:50%;opacity:.12}
+.band.b-air{background:var(--air)} .band.b-earth{background:var(--earth)}
+.foot{margin-top:34px;color:var(--muted);font-size:14px}
+</style>
+<script src="comun.js"></script>
+</head>
+<body>
+<main class="wrap">
+  <nav class="langbar">
+    <span></span>
+    <div class="langs" id="langs" role="group" aria-label="Idioma / Language"></div>
+  </nav>
+
+  <div class="title-block">
+    <div class="elems hub-elems" id="elems"></div>
+    <h1><span data-i18n="t1"></span><span class="accent" data-i18n="t2"></span></h1>
+    <p class="lede" data-i18n="lede"></p>
+  </div>
+
+  <div class="tests">
+    <a class="test" href="quiz/">
+      <span class="band b-air"></span>
+      <span class="kicker" data-i18n="quiz_k"></span>
+      <h2 data-i18n="quiz_h"></h2>
+      <p data-i18n="quiz_p"></p>
+      <span class="go" data-i18n="quiz_go"></span>
+    </a>
+    <div class="test soon" aria-disabled="true">
+      <span class="band b-earth"></span>
+      <span class="kicker" data-i18n="elem_k"></span>
+      <h2 data-i18n="elem_h"></h2>
+      <p data-i18n="elem_p"></p>
+    </div>
+  </div>
+
+  <p class="foot" data-i18n="foot"></p>
+</main>
+<script>
+const TEXT = {
+  es: {
+    title: "Avatar Quest",
+    t1: "El mundo de", t2: "Avatar",
+    lede: "Tests para fans de Aang, Korra y lo que viene. Con un mismo nick y PIN guardas tus resultados en todos.",
+    quiz_k: "Disponible",
+    quiz_h: "El Cuestionario Definitivo",
+    quiz_p: "Preguntas de alternativas sobre las series, con ranking global. Se van sumando nuevas partes.",
+    quiz_go: "Jugar",
+    elem_k: "Próximamente",
+    elem_h: "¿Qué elemento controlarías?",
+    elem_p: "Descubre tu elemento y si serías maestro o no.",
+    foot: "Proyecto de fans sin fines de lucro. Avatar y sus personajes pertenecen a sus creadores y a Nickelodeon."
+  },
+  en: {
+    title: "Avatar Quest",
+    t1: "The world of", t2: "Avatar",
+    lede: "Tests for fans of Aang, Korra and what's coming next. One nickname and PIN keep your results across all of them.",
+    quiz_k: "Available",
+    quiz_h: "The Ultimate Quiz",
+    quiz_p: "Multiple-choice questions on the series, with a global leaderboard. New parts keep coming.",
+    quiz_go: "Play",
+    elem_k: "Coming soon",
+    elem_h: "Which element would you bend?",
+    elem_p: "Find your element and whether you'd be a bender or not.",
+    foot: "Non-profit fan project. Avatar and its characters belong to their creators and Nickelodeon."
+  }
+};
+let LANG = AVATAR.pickLang(Object.keys(TEXT));
+function render(){
+  document.documentElement.lang = LANG;
+  document.title = TEXT[LANG].title;
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = TEXT[LANG][el.dataset.i18n]);
+  const box = document.getElementById("langs"); box.innerHTML = "";
+  Object.keys(TEXT).forEach(code => {
+    const b = document.createElement("button");
+    b.className = "langbtn" + (code === LANG ? " on" : "");
+    b.textContent = code.toUpperCase(); b.setAttribute("aria-pressed", code === LANG);
+    b.addEventListener("click", () => { LANG = code; AVATAR.saveLang(code); render(); });
+    box.appendChild(b);
+  });
+}
+document.getElementById("elems").innerHTML = AVATAR.ELEMENTS.map(e => AVATAR.glyph(e)).join("");
+render();
+</script>
+</body>
+</html>

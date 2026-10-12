@@ -1,0 +1,1420 @@
+[
+ {
+  "parte": 1,
+  "corto": "Avatar",
+  "titulo": "Avatar: The Last Airbender",
+  "preguntas": [
+   {
+    "id": "atla-001",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Where were Aang and Appa trapped when Katara and Sokka found them?",
+    "opciones": [
+     "In an ice cave",
+     "In a frozen lake",
+     "In an iceberg",
+     "Under a North Pole glacier"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-002",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "How many years was Aang frozen?",
+    "opciones": [
+     "100",
+     "50",
+     "70",
+     "200"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-003",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "What kind of animal is Momo?",
+    "opciones": [
+     "A winged lemur",
+     "A fox-bat",
+     "A flying monkey",
+     "A flying squirrel"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-004",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Which temple did Aang grow up in?",
+    "opciones": [
+     "The Northern Air Temple",
+     "The Eastern Air Temple",
+     "The Southern Air Temple",
+     "The Western Air Temple"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-005",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Which monk was Aang's mentor and father figure?",
+    "opciones": [
+     "Pathik",
+     "Tashi",
+     "Kuzon",
+     "Gyatso"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-006",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Where does the group meet Suki and her warriors?",
+    "opciones": [
+     "On Kyoshi Island",
+     "In Omashu",
+     "On Ember Island",
+     "In Gaipan"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-007",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Who is the king of Omashu and Aang's childhood friend?",
+    "opciones": [
+     "Bumi",
+     "Kuei",
+     "Piandao",
+     "Jeong Jeong"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-008",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "What must Zuko do to regain his honor and return home?",
+    "opciones": [
+     "Defeat Azula in an Agni Kai",
+     "Conquer the North Pole",
+     "Capture the Avatar",
+     "Find his mother"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-009",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "Which spirit was attacking Senlin Village in the winter solstice episode?",
+    "opciones": [
+     "Koh",
+     "Hei Bai",
+     "Wan Shi Tong",
+     "La"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-010",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Which past Avatar speaks to Aang at the Fire Temple during the solstice?",
+    "opciones": [
+     "Kyoshi",
+     "Roku",
+     "Kuruk",
+     "Yangchen"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-011",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "What secret identity does Zuko use to rescue Aang from the Pohuai Stronghold?",
+    "opciones": [
+     "Combustion Man",
+     "The Blue Spirit",
+     "The Blind Bandit",
+     "Lee"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-012",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Which admiral kills the Moon Spirit during the siege of the North Pole?",
+    "opciones": [
+     "Jee",
+     "Shinu",
+     "Yu",
+     "Zhao"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-013",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What are the names of the Moon and Ocean spirits?",
+    "opciones": [
+     "Tui and La",
+     "Raava and Vaatu",
+     "Ran and Shaw",
+     "Hei Bai and Koh"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-014",
+    "nivel": "B",
+    "sub": "Book 1: Water",
+    "pregunta": "Who becomes the new Moon Spirit?",
+    "opciones": [
+     "Katara",
+     "Kanna",
+     "Suki",
+     "Yue"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-015",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Which master trains Katara in the Northern Water Tribe?",
+    "opciones": [
+     "Hama",
+     "Arnook",
+     "Pakku",
+     "Hakoda"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-016",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Who originally made the necklace Katara wears?",
+    "opciones": [
+     "Pakku, for Kanna",
+     "Hakoda, for Kya",
+     "Sokka, for Katara",
+     "Arnook, for Yue"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-017",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of the group of young rebels Jet leads?",
+    "opciones": [
+     "The Rough Rhinos",
+     "The Dai Li",
+     "The Freedom Fighters",
+     "The Fire Ferrets"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-018",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Who lives with his son in the Northern Air Temple building machines?",
+    "opciones": [
+     "Piandao",
+     "Guru Pathik",
+     "Jeong Jeong",
+     "The Mechanist"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-019",
+    "nivel": "A",
+    "sub": "Book 1: Water",
+    "pregunta": "What is the name of the fortune teller in Makapu Village?",
+    "opciones": [
+     "Joo Dee",
+     "Hama",
+     "Aunt Wu",
+     "Kanna"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-020",
+    "nivel": "I",
+    "sub": "Book 1: Water",
+    "pregunta": "Which spirit does Aang merge with to destroy Zhao's fleet?",
+    "opciones": [
+     "La, the Ocean Spirit",
+     "Tui, the Moon Spirit",
+     "Koh, the Face Stealer",
+     "Hei Bai"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-021",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who teaches Aang earthbending?",
+    "opciones": [
+     "Bumi",
+     "Haru",
+     "Toph",
+     "Kuei"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-022",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "Being blind, how does Toph perceive her surroundings?",
+    "opciones": [
+     "She listens to echoes of her voice",
+     "She feels vibrations through the ground",
+     "She uses the chi in the air",
+     "A spirit guides her"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-023",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What name does Toph fight under in Earth Rumble?",
+    "opciones": [
+     "The Boulder",
+     "The Blind Bandit",
+     "The Hippo",
+     "The Gopher"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-024",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "Which secret organization controls Ba Sing Se from the shadows?",
+    "opciones": [
+     "The Order of the White Lotus",
+     "The Freedom Fighters",
+     "The King's Guard",
+     "The Dai Li"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-025",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who leads the Dai Li?",
+    "opciones": [
+     "King Kuei",
+     "Joo Dee",
+     "General How",
+     "Long Feng"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-026",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What is the name of the Earth King's pet bear?",
+    "opciones": [
+     "Bosco",
+     "Bumi",
+     "Flopsy",
+     "Pabu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-027",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who teaches Aang to open his chakras?",
+    "opciones": [
+     "Monk Gyatso",
+     "Guru Pathik",
+     "Uncle Iroh",
+     "Roku"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-028",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "What keeps Aang from opening the last chakra?",
+    "opciones": [
+     "His fear of the Fire Nation",
+     "His guilt for running away",
+     "His attachment to Katara",
+     "His anger at Ozai"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-029",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What is the name of the owl spirit who guards the great library in the desert?",
+    "opciones": [
+     "Wan Shi Tong",
+     "Koh",
+     "Hei Bai",
+     "Vaatu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-030",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What does the group discover in Wan Shi Tong's library?",
+    "opciones": [
+     "That a solar eclipse cancels out firebending",
+     "Where the Eastern Air Temple is",
+     "How to bloodbend",
+     "The origin of the first Avatar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-031",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "Which friends accompany Azula on her hunt?",
+    "opciones": [
+     "Suki and Yue",
+     "Mai and Ty Lee",
+     "Joo Dee and Hama",
+     "Jin and Song"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-032",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What technique does Ty Lee use to leave opponents unable to bend?",
+    "opciones": [
+     "Taking their bending like Amon",
+     "Blocking their chi with precise strikes",
+     "Throwing needles",
+     "Bloodbending"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-033",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who steals Appa in the Si Wong Desert?",
+    "opciones": [
+     "The sandbenders",
+     "The Dai Li",
+     "The pirates",
+     "The Rough Rhinos"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-034",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "What fake names do Zuko and Iroh use as refugees in Ba Sing Se?",
+    "opciones": [
+     "Kuzon and Jin",
+     "Lee and Kuzon",
+     "Lee and Mushi",
+     "Mushi and Jet"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-035",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What is the name of Iroh's tea shop in Ba Sing Se?",
+    "opciones": [
+     "The White Lotus",
+     "The Golden Teapot",
+     "The Phoenix Tea",
+     "The Jasmine Dragon"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-036",
+    "nivel": "A",
+    "sub": "Book 2: Earth",
+    "pregunta": "What machine does the Fire Nation use to try to breach the wall of Ba Sing Se?",
+    "opciones": [
+     "A war balloon",
+     "A lava tank",
+     "A fire catapult",
+     "A giant drill"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-037",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "What phrase do the Ba Sing Se guides repeat to hide the truth?",
+    "opciones": [
+     "The Avatar is dead",
+     "There is no war in Ba Sing Se",
+     "Long live the Earth King",
+     "The city is impenetrable"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-038",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "Who strikes Aang with lightning in the catacombs of Ba Sing Se?",
+    "opciones": [
+     "Zuko",
+     "Azula",
+     "Ozai",
+     "Long Feng"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-039",
+    "nivel": "I",
+    "sub": "Book 2: Earth",
+    "pregunta": "What does Katara use to save Aang after the lightning strike?",
+    "opciones": [
+     "A healing herb from Aunt Wu",
+     "Energy from the Avatar State",
+     "Bloodbending",
+     "Water from the North Pole's spirit oasis"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-040",
+    "nivel": "B",
+    "sub": "Book 2: Earth",
+    "pregunta": "What does Zuko do at the end of Book 2?",
+    "opciones": [
+     "He joins Team Avatar",
+     "He flees Ba Sing Se with Iroh",
+     "He defeats Azula in a duel",
+     "He sides with Azula and betrays Iroh"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-041",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "What name does Aang use when he sneaks into a Fire Nation school?",
+    "opciones": [
+     "Lee",
+     "Mushi",
+     "Kuzon",
+     "Bonzu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-042",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Which phenomenon does the Day of Black Sun invasion take advantage of?",
+    "opciones": [
+     "A solar eclipse",
+     "A lunar eclipse",
+     "A passing comet",
+     "The summer solstice"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-043",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "What are the names of the two dragons who judge Zuko and Aang?",
+    "opciones": [
+     "Ran and Shaw",
+     "Tui and La",
+     "Druk and Fang",
+     "Raava and Vaatu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-044",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who teaches Sokka swordsmanship?",
+    "opciones": [
+     "Master Piandao",
+     "Jeong Jeong",
+     "Uncle Iroh",
+     "Bato"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-045",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "What material does Sokka forge his sword from?",
+    "opciones": [
+     "Fire Nation steel",
+     "Whale bone",
+     "Ba Sing Se crystal",
+     "A meteorite"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-046",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Which comet powers up the firebenders in the series finale?",
+    "opciones": [
+     "Roku's Comet",
+     "Sozin's Comet",
+     "Agni's Comet",
+     "Ozai's Comet"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-047",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Which Fire Lord started the war a hundred years earlier?",
+    "opciones": [
+     "Azulon",
+     "Ozai",
+     "Iroh",
+     "Sozin"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-048",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What does the group nickname the assassin Zuko hires to kill Aang?",
+    "opciones": [
+     "The Blue Spirit",
+     "Combustion Man",
+     "The Bounty Hunter",
+     "Fire Eye"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-049",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "How does Katara defeat Azula in the final Agni Kai?",
+    "opciones": [
+     "She hits her with redirected lightning",
+     "She blocks her chi",
+     "She freezes her and chains her to a grate",
+     "She takes her firebending away"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-050",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "How does Aang defeat Ozai without killing him?",
+    "opciones": [
+     "He traps him in rock",
+     "He takes his firebending away with energybending",
+     "He banishes him to the Spirit World",
+     "He freezes him in an iceberg"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-051",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who teaches Aang energybending?",
+    "opciones": [
+     "Roku",
+     "Guru Pathik",
+     "Yangchen",
+     "A lion turtle"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-052",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What is the maximum-security prison where Sokka looks for his father?",
+    "opciones": [
+     "The Boiling Rock",
+     "Lake Laogai",
+     "Pohuai Stronghold",
+     "Ember Island"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "atla-053",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who teaches Katara bloodbending?",
+    "opciones": [
+     "Pakku",
+     "Hama",
+     "Kanna",
+     "Yugoda"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-054",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "Which theater troupe performs an exaggerated version of the group's adventures?",
+    "opciones": [
+     "The Royal Caldera Company",
+     "The Ember Island Players",
+     "The Omashu Bards",
+     "The Ba Sing Se Theater"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-055",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "Which group liberates Ba Sing Se in the series finale?",
+    "opciones": [
+     "The Dai Li",
+     "The Order of the White Lotus",
+     "The Kyoshi Warriors",
+     "The Northern Water Tribe"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "atla-056",
+    "nivel": "I",
+    "sub": "Book 3: Fire",
+    "pregunta": "What is the name of Zuko and Azula's mother?",
+    "opciones": [
+     "Ilah",
+     "Kya",
+     "Ursa",
+     "Ummi"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-057",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who is Zuko's girlfriend?",
+    "opciones": [
+     "Ty Lee",
+     "Jin",
+     "Mai",
+     "Song"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-058",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who leads the Kyoshi Warriors?",
+    "opciones": [
+     "Ty Lee",
+     "Yue",
+     "Suki",
+     "Kanna"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "atla-059",
+    "nivel": "A",
+    "sub": "Book 3: Fire",
+    "pregunta": "What title does Ozai give himself before the comet arrives?",
+    "opciones": [
+     "Fire Emperor",
+     "Lord of the Four Nations",
+     "Dragon of the West",
+     "Phoenix King"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "atla-060",
+    "nivel": "B",
+    "sub": "Book 3: Fire",
+    "pregunta": "Who becomes Fire Lord at the end of the series?",
+    "opciones": [
+     "Zuko",
+     "Iroh",
+     "Azula",
+     "Ursa"
+    ],
+    "correcta": "a"
+   }
+  ]
+ },
+ {
+  "parte": 2,
+  "corto": "Korra",
+  "titulo": "The Legend of Korra",
+  "preguntas": [
+   {
+    "id": "korra-001",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "In which city does most of The Legend of Korra take place?",
+    "opciones": [
+     "Ba Sing Se",
+     "Zaofu",
+     "Republic City",
+     "Omashu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-002",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "Who leads the Equalists?",
+    "opciones": [
+     "Tarrlok",
+     "Amon",
+     "Hiroshi Sato",
+     "Zaheer"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-003",
+    "nivel": "A",
+    "sub": "Book 1: Air",
+    "pregunta": "What is Amon's real name?",
+    "opciones": [
+     "Yakone",
+     "Tarrlok",
+     "Unalaq",
+     "Noatak"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-004",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "How is Tarrlok related to Amon?",
+    "opciones": [
+     "He's his father",
+     "He's his uncle",
+     "He's his cousin",
+     "He's his brother"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-005",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "What is the name of Mako and Bolin's pro-bending team?",
+    "opciones": [
+     "The Wolfbats",
+     "The Platypus Bears",
+     "The Cat Owls",
+     "The Fire Ferrets"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-006",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "What is Asami's father's name?",
+    "opciones": [
+     "Hiroshi Sato",
+     "Iknik Varrick",
+     "Raiko",
+     "Tonraq"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-007",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "Who teaches Korra airbending?",
+    "opciones": [
+     "Jinora",
+     "Tenzin",
+     "Bumi",
+     "Zaheer"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-008",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "What is the name of Bolin's fire ferret?",
+    "opciones": [
+     "Naga",
+     "Pabu",
+     "Momo",
+     "Bosco"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-009",
+    "nivel": "B",
+    "sub": "Book 1: Air",
+    "pregunta": "What kind of animal is Naga, Korra's companion?",
+    "opciones": [
+     "A sky bison",
+     "A polar bear dog",
+     "A wolfbat",
+     "A sabertooth tiger"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-010",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "Who is Republic City's chief of police in Book 1?",
+    "opciones": [
+     "Suyin Beifong",
+     "Lin Beifong",
+     "Toph Beifong",
+     "Asami Sato"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-011",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "What ability allows Amon to take away people's bending?",
+    "opciones": [
+     "Chi blocking",
+     "Bloodbending",
+     "Energybending learned from a lion turtle",
+     "An artifact from the Spirit World"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-012",
+    "nivel": "I",
+    "sub": "Book 1: Air",
+    "pregunta": "Who restores Korra's bending at the end of Book 1?",
+    "opciones": [
+     "Tenzin",
+     "Katara",
+     "Aang",
+     "Raava"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-013",
+    "nivel": "B",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which of Korra's uncles turns out to be the villain of Book 2?",
+    "opciones": [
+     "Unalaq",
+     "Tonraq",
+     "Tarrlok",
+     "Hakoda"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-014",
+    "nivel": "B",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What is Korra's father's name?",
+    "opciones": [
+     "Unalaq",
+     "Hakoda",
+     "Tonraq",
+     "Tenzin"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-015",
+    "nivel": "B",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which spirit of light and peace lives within the Avatar?",
+    "opciones": [
+     "Raava",
+     "Vaatu",
+     "Tui",
+     "La"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-016",
+    "nivel": "B",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What is the spirit of darkness and chaos?",
+    "opciones": [
+     "Raava",
+     "Vaatu",
+     "Koh",
+     "Hei Bai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-017",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Who was the first Avatar?",
+    "opciones": [
+     "Wan",
+     "Yangchen",
+     "Szeto",
+     "Kuruk"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-018",
+    "nivel": "A",
+    "sub": "Book 2: Spirits",
+    "pregunta": "How often does Harmonic Convergence happen?",
+    "opciones": [
+     "Every 1,000 years",
+     "Every 100 years",
+     "Every 10,000 years",
+     "Every 5,000 years"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-019",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What are the names of Unalaq's twin children?",
+    "opciones": [
+     "Mako and Bolin",
+     "Ikki and Meelo",
+     "Opal and Huan",
+     "Desna and Eska"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-020",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What is the name of Varrick's assistant?",
+    "opciones": [
+     "Ginger",
+     "Zhu Li",
+     "Kya",
+     "Opal"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-021",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which character does Bolin play in Varrick's movers?",
+    "opciones": [
+     "Nuktuk",
+     "The Blue Spirit",
+     "The Great Ferret",
+     "Captain Boomerang"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-022",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Who guides Korra in the Spirit World and helps her recover Raava?",
+    "opciones": [
+     "Jinora",
+     "Ikki",
+     "Asami",
+     "Eska"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-023",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "Which character from the original series helps Korra in the Spirit World?",
+    "opciones": [
+     "Zuko",
+     "Toph",
+     "Iroh",
+     "Sokka"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-024",
+    "nivel": "I",
+    "sub": "Book 2: Spirits",
+    "pregunta": "What does Korra decide about the spirit portals at the end of Book 2?",
+    "opciones": [
+     "To close them forever",
+     "To open only the southern one",
+     "To destroy them",
+     "To leave them open"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-025",
+    "nivel": "B",
+    "sub": "Book 3: Change",
+    "pregunta": "What is the name of Zaheer's anarchist organization?",
+    "opciones": [
+     "The White Lotus",
+     "The Red Lotus",
+     "The Equalists",
+     "The Earth Empire"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-026",
+    "nivel": "B",
+    "sub": "Book 3: Change",
+    "pregunta": "What causes new airbenders to appear in Book 3?",
+    "opciones": [
+     "Harmonic Convergence",
+     "Sozin's Comet",
+     "An eclipse",
+     "Aang's return"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-027",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Which Red Lotus member can bend lava?",
+    "opciones": [
+     "P'Li",
+     "Ghazan",
+     "Ming-Hua",
+     "Zaheer"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-028",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Which Red Lotus member creates explosions with her mind?",
+    "opciones": [
+     "P'Li",
+     "Ghazan",
+     "Ming-Hua",
+     "Kuvira"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-029",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Which armless waterbender uses water as limbs?",
+    "opciones": [
+     "Eska",
+     "Kya",
+     "Hama",
+     "Ming-Hua"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-030",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "What legendary ability does Zaheer achieve?",
+    "opciones": [
+     "Flight",
+     "Energybending",
+     "Lavabending",
+     "Bloodbending without a full moon"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-031",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "Which ruler does Zaheer assassinate?",
+    "opciones": [
+     "Fire Lord Izumi",
+     "The Earth Queen",
+     "President Raiko",
+     "Chief Unalaq"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-032",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "What is the name of Suyin Beifong's metal city?",
+    "opciones": [
+     "Ba Sing Se",
+     "Gaoling",
+     "Zaofu",
+     "Omashu"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-033",
+    "nivel": "B",
+    "sub": "Book 3: Change",
+    "pregunta": "Who is the mother of Suyin and Lin Beifong?",
+    "opciones": [
+     "Katara",
+     "Kya",
+     "Toph",
+     "Suki"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-034",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "What poison does the Red Lotus use on Korra?",
+    "opciones": [
+     "Arsenic",
+     "Mercury",
+     "Scorpion venom",
+     "Spirit Water"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-035",
+    "nivel": "I",
+    "sub": "Book 3: Change",
+    "pregunta": "What was Kai doing before he became an airbender?",
+    "opciones": [
+     "He was a thief",
+     "He was a soldier",
+     "He was an actor",
+     "He was a pilot"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-036",
+    "nivel": "B",
+    "sub": "Book 3: Change",
+    "pregunta": "Who receives airbending master tattoos at the end of Book 3?",
+    "opciones": [
+     "Ikki",
+     "Kai",
+     "Bumi",
+     "Jinora"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-037",
+    "nivel": "B",
+    "sub": "Book 4: Balance",
+    "pregunta": "How many years pass between Book 3 and Book 4?",
+    "opciones": [
+     "1",
+     "5",
+     "10",
+     "3"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-038",
+    "nivel": "B",
+    "sub": "Book 4: Balance",
+    "pregunta": "What is Kuvira's nickname?",
+    "opciones": [
+     "The Metal Queen",
+     "The Iron Lady",
+     "The Earth Empress",
+     "The Great Uniter"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "korra-039",
+    "nivel": "B",
+    "sub": "Book 4: Balance",
+    "pregunta": "What is the name of the state Kuvira founds?",
+    "opciones": [
+     "The United Republic",
+     "The Metal Kingdom",
+     "The Earth Empire",
+     "The Eastern Empire"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-040",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Who is Kuvira's fiancé?",
+    "opciones": [
+     "Baatar Jr.",
+     "Mako",
+     "Wing",
+     "Wei"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-041",
+    "nivel": "B",
+    "sub": "Book 4: Balance",
+    "pregunta": "What powers Kuvira's most powerful weapon?",
+    "opciones": [
+     "A volcano",
+     "Spirit vines",
+     "Bottled lightning",
+     "Sozin's Comet"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-042",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Where does Korra find Toph in Book 4?",
+    "opciones": [
+     "In Zaofu",
+     "In Gaoling",
+     "In the Foggy Swamp",
+     "At the South Pole"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-043",
+    "nivel": "B",
+    "sub": "Book 4: Balance",
+    "pregunta": "Who is the heir to the Earth Kingdom throne?",
+    "opciones": [
+     "Baatar Jr.",
+     "Prince Wu",
+     "Prince Iroh",
+     "Kai"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-044",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Which two characters desert Kuvira's army?",
+    "opciones": [
+     "Mako and Asami",
+     "Bolin and Varrick",
+     "Opal and Bolin",
+     "Wu and Mako"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "korra-045",
+    "nivel": "I",
+    "sub": "Book 4: Balance",
+    "pregunta": "Which couple gets married in the final episode?",
+    "opciones": [
+     "Varrick and Zhu Li",
+     "Bolin and Opal",
+     "Mako and Asami",
+     "Tenzin and Pema"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-046",
+    "nivel": "A",
+    "sub": "Book 4: Balance",
+    "pregunta": "What does Wu propose for the future of the Earth Kingdom at the end of the series?",
+    "opciones": [
+     "Splitting it into independent states with elected leaders",
+     "Reuniting it under his crown",
+     "Merging it into the United Republic",
+     "Giving power back to Kuvira"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "korra-047",
+    "nivel": "B",
+    "sub": "Book 4: Balance",
+    "pregunta": "Who does Korra enter the Spirit World with in the final scene?",
+    "opciones": [
+     "Mako",
+     "Jinora",
+     "Asami",
+     "Naga"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "korra-048",
+    "nivel": "A",
+    "sub": "Book 4: Balance",
+    "pregunta": "What happens to Kuvira when her weapon goes out of control in the finale?",
+    "opciones": [
+     "She dies in the blast",
+     "She loses her bending forever",
+     "Korra shields her and both end up in the Spirit World",
+     "She escapes in her mecha"
+    ],
+    "correcta": "c"
+   }
+  ]
+ }
+]
