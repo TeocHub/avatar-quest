@@ -273,7 +273,7 @@ es: {
   start_none: "Elige al menos una parte",
   part_label: "Parte {n}: {s}",
   soon_h: "Próximas partes",
-  soon: ["Avatar: Seven Havens (se suma por episodios, con aviso de spoilers)", "Cómics", "Novelas", "Serie de Netflix", "La película animada de Aang (2026)"],
+  soon: ["Avatar: Seven Havens (cuando la serie esté más avanzada)"],
   inter_no: "Parte {n} de {t}",
   inter_count: "{n} preguntas en esta parte.",
   inter_go: "Comenzar",
@@ -337,7 +337,7 @@ es: {
   ranks: ["Congelado en un iceberg","Vendedor de coles","Turista en Ba Sing Se","Aprendiz del Templo Aire","Guerrera Kyoshi en entrenamiento","Estudiante del maestro Pakku","Invitado de Wan Shi Tong","Jugador de Pai Sho del Loto Blanco","Gran Loto de la Orden","Mano derecha del tío Iroh"],
   perfect_all: "Eres el Avatar: dominas los cuatro elementos",
   perfect_multi: "Eres Raava: conectas todas las vidas del Avatar",
-  perfect_part: {1:"Eres Aang: el último maestro aire", 2:"Eres Korra: el Avatar de una nueva era"},
+  perfect_part: {1:"Eres Aang: el último maestro aire", 2:"Eres Korra: el Avatar de una nueva era", 3:"Eres Ursa: ninguna historia escondida se te escapa", 4:"Eres Kyoshi: la Avatar de las leyendas", 5:"Eres Gordon Cormier: Aang en carne y hueso", 6:"Eres Sonam: la Avatar perdida"},
   perfect_note: "100 % de aciertos. Desbloqueaste un título secreto.",
   img_correct: "respuestas correctas",
   img_pct: "{p} % de aciertos", img_pos: "puesto {p}",
@@ -366,7 +366,7 @@ en: {
   start_none: "Choose at least one part",
   part_label: "Part {n}: {s}",
   soon_h: "Coming parts",
-  soon: ["Avatar: Seven Havens (added episode by episode, with spoiler warnings)", "Comics", "Novels", "Netflix series", "The animated Aang movie (2026)"],
+  soon: ["Avatar: Seven Havens (once the series is further along)"],
   inter_no: "Part {n} of {t}",
   inter_count: "{n} questions in this part.",
   inter_go: "Begin",
@@ -430,7 +430,7 @@ en: {
   ranks: ["Frozen in an iceberg","Cabbage merchant","Tourist in Ba Sing Se","Air Temple apprentice","Kyoshi Warrior in training","Master Pakku's student","Wan Shi Tong's guest","White Lotus Pai Sho player","Grand Lotus of the Order","Uncle Iroh's right hand"],
   perfect_all: "You are the Avatar: master of all four elements",
   perfect_multi: "You are Raava: you connect every Avatar's life",
-  perfect_part: {1:"You are Aang: the last airbender", 2:"You are Korra: the Avatar of a new era"},
+  perfect_part: {1:"You are Aang: the last airbender", 2:"You are Korra: the Avatar of a new era", 3:"You are Ursa: no hidden story gets past you", 4:"You are Kyoshi: the Avatar of legend", 5:"You are Gordon Cormier: Aang in the flesh", 6:"You are Sonam: the lost Avatar"},
   perfect_note: "100% correct. You unlocked a secret title.",
   img_correct: "correct answers",
   img_pct: "{p}% correct", img_pos: "rank {p}",
@@ -443,7 +443,7 @@ en: {
 
 /* Elemento de cada parte (color y símbolo). Si una parte no está aquí,
    se usa "elemento" del JSON o se elige en orden aire, agua, tierra, fuego. */
-const PART_ELEM = {1: "air", 2: "water"};
+const PART_ELEM = {};
 
 const CFG = window.AVATAR_CONFIG || {};
 const API = (CFG.SUPABASE_URL || "").replace(/\/+$/, "");

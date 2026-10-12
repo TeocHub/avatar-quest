@@ -3,6 +3,7 @@
   "parte": 1,
   "corto": "Avatar",
   "titulo": "Avatar: The Last Airbender",
+  "elemento": "air",
   "preguntas": [
    {
     "id": "atla-001",
@@ -790,6 +791,7 @@
   "parte": 2,
   "corto": "Korra",
   "titulo": "The Legend of Korra",
+  "elemento": "water",
   "preguntas": [
    {
     "id": "korra-001",
@@ -1414,6 +1416,935 @@
      "She escapes in her mecha"
     ],
     "correcta": "c"
+   }
+  ]
+ },
+ {
+  "parte": 3,
+  "corto": "Comics",
+  "titulo": "The Avatar and Korra comics",
+  "elemento": "earth",
+  "preguntas": [
+   {
+    "id": "comic-001",
+    "nivel": "I",
+    "sub": "Comic: The Promise",
+    "pregunta": "What does the Harmony Restoration Movement want in \"The Promise\"?",
+    "opciones": [
+     "To rebuild the Air Temples",
+     "To remove the Fire Nation colonies from the Earth Kingdom",
+     "To return the throne to Ozai",
+     "To unite the two Water Tribes"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "comic-002",
+    "nivel": "A",
+    "sub": "Comic: The Promise",
+    "pregunta": "What is the name of the former Fire Nation colony at the center of the conflict in \"The Promise\"?",
+    "opciones": [
+     "Gaipan",
+     "Taku",
+     "Chin",
+     "Yu Dao"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-003",
+    "nivel": "I",
+    "sub": "Comic: The Promise",
+    "pregunta": "What does Zuko ask Aang to do if he ever becomes like his father?",
+    "opciones": [
+     "Kill him",
+     "Lock him up in the Boiling Rock",
+     "Take away his firebending",
+     "Banish him"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-004",
+    "nivel": "B",
+    "sub": "Comic: The Promise",
+    "pregunta": "What does Toph open in \"The Promise\"?",
+    "opciones": [
+     "A tea shop",
+     "A wrestling tournament",
+     "A metalbending academy",
+     "A swordsmanship school"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-005",
+    "nivel": "B",
+    "sub": "Comic: The Search",
+    "pregunta": "Who are Zuko and Azula searching for in \"The Search\"?",
+    "opciones": [
+     "Their uncle Iroh",
+     "Their grandfather Azulon",
+     "Their mother, Ursa",
+     "Lu Ten"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-006",
+    "nivel": "A",
+    "sub": "Comic: The Search",
+    "pregunta": "Which spirit gives Ursa a new face and erases her memories?",
+    "opciones": [
+     "The Mother of Faces",
+     "Koh the Face Stealer",
+     "Wan Shi Tong",
+     "Hei Bai"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-007",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "What name does Ursa use in her new life?",
+    "opciones": [
+     "Kiyi",
+     "Ilah",
+     "Mai",
+     "Noriko"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-008",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "What is the name of Zuko's half-sister introduced in \"The Search\"?",
+    "opciones": [
+     "Kiyi",
+     "Noriko",
+     "Kya",
+     "Izumi"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-009",
+    "nivel": "I",
+    "sub": "Comic: The Search",
+    "pregunta": "In which village does Ursa live with her new family?",
+    "opciones": [
+     "Hira'a",
+     "Senlin",
+     "Makapu",
+     "Jang Hui"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-010",
+    "nivel": "A",
+    "sub": "Comic: The Rift",
+    "pregunta": "What is the name of Toph's father, whom she confronts in \"The Rift\"?",
+    "opciones": [
+     "Bei Fong Sr.",
+     "Xin Fu",
+     "Haru",
+     "Lao Beifong"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-011",
+    "nivel": "I",
+    "sub": "Comic: The Rift",
+    "pregunta": "Which ancient Air Nomad festival does Aang want to celebrate in \"The Rift\"?",
+    "opciones": [
+     "Gyatso Day",
+     "The Moon Festival",
+     "A festival dedicated to Yangchen",
+     "The Day of Black Sun"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-012",
+    "nivel": "I",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "Which group wants to bring Ozai back to power in \"Smoke and Shadow\"?",
+    "opciones": [
+     "The Red Lotus",
+     "The Dai Li",
+     "The New Ozai Society",
+     "The Harmony Restoration Movement"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-013",
+    "nivel": "A",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "Who leads the New Ozai Society?",
+    "opciones": [
+     "Ukano, Mai's father",
+     "Long Feng",
+     "Zhao",
+     "General Shinu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-014",
+    "nivel": "I",
+    "sub": "Comic: Smoke and Shadow",
+    "pregunta": "Which legendary figures seem to be kidnapping children in the Fire Nation capital in \"Smoke and Shadow\"?",
+    "opciones": [
+     "The Kemurikage",
+     "The Dai Li",
+     "Koh's spirits",
+     "The Kyoshi Warriors"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-015",
+    "nivel": "I",
+    "sub": "Comic: Imbalance",
+    "pregunta": "In which city does the conflict between benders and non-benders in \"Imbalance\" take place?",
+    "opciones": [
+     "Cranefish Town",
+     "Yu Dao",
+     "Republic City",
+     "Omashu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "comic-016",
+    "nivel": "B",
+    "sub": "Korra comics",
+    "pregunta": "Which relationship begins in Korra's \"Turf Wars\" comics?",
+    "opciones": [
+     "Mako and Asami's",
+     "Bolin and Opal's",
+     "Varrick and Zhu Li's",
+     "Korra and Asami's"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "comic-017",
+    "nivel": "I",
+    "sub": "Korra comics",
+    "pregunta": "Who wins Republic City's presidential election in the Korra comics?",
+    "opciones": [
+     "Raiko",
+     "Tenzin",
+     "Zhu Li",
+     "Asami"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "comic-018",
+    "nivel": "A",
+    "sub": "Korra comics",
+    "pregunta": "Who is the Triple Threat Triad leader who faces Korra in \"Turf Wars\"?",
+    "opciones": [
+     "Tokuga",
+     "Shady Shin",
+     "Lightning Bolt Zolt",
+     "Viper"
+    ],
+    "correcta": "a"
+   }
+  ]
+ },
+ {
+  "parte": 4,
+  "corto": "Novels",
+  "titulo": "The novels: Chronicles of the Avatar",
+  "elemento": "fire",
+  "preguntas": [
+   {
+    "id": "novela-001",
+    "nivel": "B",
+    "sub": "Novels: Chronicles of the Avatar",
+    "pregunta": "Who wrote the Kyoshi and Yangchen novels?",
+    "opciones": [
+     "Randy Ribay",
+     "Michael Dante DiMartino",
+     "Gene Luen Yang",
+     "F. C. Yee"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-002",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "At the start of \"The Rise of Kyoshi\", who is believed to be the Avatar?",
+    "opciones": [
+     "Kelsang",
+     "Jianzhu",
+     "Rangi",
+     "Yun"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-003",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Which earthbender identified Yun as the Avatar?",
+    "opciones": [
+     "Kelsang",
+     "Jianzhu",
+     "Hei-Ran",
+     "Lao Ge"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-004",
+    "nivel": "B",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Who is Rangi in the Kyoshi novels?",
+    "opciones": [
+     "Kyoshi's mother",
+     "A firebender, Kyoshi's bodyguard and partner",
+     "A Dai Li spy",
+     "Kyoshi's successor"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-005",
+    "nivel": "A",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "What is the name of the outlaw band founded by Kyoshi's parents, which she joins?",
+    "opciones": [
+     "The Freedom Fighters",
+     "The Rough Rhinos",
+     "The Triple Threat",
+     "The Flying Opera Company"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-006",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Which Avatar came right before Kyoshi?",
+    "opciones": [
+     "Kuruk",
+     "Yangchen",
+     "Roku",
+     "Szeto"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-007",
+    "nivel": "I",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Who originally owned Kyoshi's fans?",
+    "opciones": [
+     "Her mother",
+     "Rangi",
+     "Kuruk",
+     "Jianzhu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-008",
+    "nivel": "A",
+    "sub": "Novel: The Rise of Kyoshi",
+    "pregunta": "Which nation does Kelsang, Kyoshi's father figure, belong to?",
+    "opciones": [
+     "Southern Water Tribe",
+     "Fire Nation",
+     "Earth Kingdom",
+     "Air Nomads"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "novela-009",
+    "nivel": "I",
+    "sub": "Novel: The Shadow of Kyoshi",
+    "pregunta": "In which nation does much of \"The Shadow of Kyoshi\" take place?",
+    "opciones": [
+     "The Fire Nation",
+     "The Northern Water Tribe",
+     "The Air Temples",
+     "Ba Sing Se"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-010",
+    "nivel": "B",
+    "sub": "Yangchen novels",
+    "pregunta": "Which element was Yangchen born bending?",
+    "opciones": [
+     "Air",
+     "Water",
+     "Earth",
+     "Fire"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "novela-011",
+    "nivel": "A",
+    "sub": "Yangchen novels",
+    "pregunta": "Who is Kavik in the Yangchen novels?",
+    "opciones": [
+     "Yangchen's brother",
+     "A Water Tribe spy",
+     "A Fire Lord",
+     "Yangchen's airbending master"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "novela-012",
+    "nivel": "B",
+    "sub": "Novel: The Reckoning of Roku",
+    "pregunta": "Who is Roku's best friend in \"The Reckoning of Roku\"?",
+    "opciones": [
+     "Gyatso",
+     "Azulon",
+     "Crown Prince Sozin",
+     "Kuruk"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-013",
+    "nivel": "I",
+    "sub": "Novel: The Reckoning of Roku",
+    "pregunta": "Who is Roku's airbending master in \"The Reckoning of Roku\"?",
+    "opciones": [
+     "Yangchen",
+     "Sister Iio",
+     "Sister Disha",
+     "Kelsang"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-014",
+    "nivel": "I",
+    "sub": "Novel: The Reckoning of Roku",
+    "pregunta": "Which young airbender secretly travels with Roku?",
+    "opciones": [
+     "Tashi",
+     "Pathik",
+     "Gyatso",
+     "Kelsang"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "novela-015",
+    "nivel": "A",
+    "sub": "Novels: Chronicles of the Avatar",
+    "pregunta": "Who wrote \"The Reckoning of Roku\"?",
+    "opciones": [
+     "F. C. Yee",
+     "Randy Ribay",
+     "Faith Erin Hicks",
+     "Bryan Konietzko"
+    ],
+    "correcta": "b"
+   }
+  ]
+ },
+ {
+  "parte": 5,
+  "corto": "Netflix",
+  "titulo": "Avatar: The Last Airbender (Netflix)",
+  "elemento": "water",
+  "preguntas": [
+   {
+    "id": "netflix-001",
+    "nivel": "B",
+    "sub": "Netflix: Season 1",
+    "pregunta": "In which year did the first season of the Netflix series premiere?",
+    "opciones": [
+     "2023",
+     "2024",
+     "2022",
+     "2025"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "netflix-002",
+    "nivel": "B",
+    "sub": "Netflix: Season 1",
+    "pregunta": "How many episodes does Netflix's first season have?",
+    "opciones": [
+     "10",
+     "8",
+     "12",
+     "20"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "netflix-003",
+    "nivel": "B",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Which actor plays Aang in the Netflix series?",
+    "opciones": [
+     "Noah Ringer",
+     "Gordon Cormier",
+     "Ian Ousley",
+     "Dallas Liu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "netflix-004",
+    "nivel": "I",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Who plays Zuko in the Netflix series?",
+    "opciones": [
+     "Dallas Liu",
+     "Dev Patel",
+     "Ian Ousley",
+     "Ken Leung"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "netflix-005",
+    "nivel": "I",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Who plays Katara in the Netflix series?",
+    "opciones": [
+     "Amber Midthunder",
+     "Maria Zhang",
+     "Elizabeth Yu",
+     "Kiawentiio"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "netflix-006",
+    "nivel": "I",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Which actor plays Fire Lord Ozai on Netflix?",
+    "opciones": [
+     "Daniel Dae Kim",
+     "Paul Sun-Hyung Lee",
+     "Ken Leung",
+     "Utkarsh Ambudkar"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "netflix-007",
+    "nivel": "I",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Who plays Iroh in the Netflix series?",
+    "opciones": [
+     "Daniel Dae Kim",
+     "Ken Leung",
+     "Paul Sun-Hyung Lee",
+     "Chin Han"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "netflix-008",
+    "nivel": "A",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Who plays Yue in the Netflix series?",
+    "opciones": [
+     "Amber Midthunder",
+     "Kiawentiio",
+     "Maria Zhang",
+     "Elizabeth Yu"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "netflix-009",
+    "nivel": "I",
+    "sub": "Netflix: Season 1",
+    "pregunta": "What does Netflix's first episode show on screen that the animated series only described?",
+    "opciones": [
+     "Toph's childhood",
+     "Iroh's exile",
+     "Yue's death",
+     "The Fire Nation's attack on the Air Nomads"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "netflix-010",
+    "nivel": "A",
+    "sub": "Netflix: Season 1",
+    "pregunta": "Who was the showrunner of Netflix's first season?",
+    "opciones": [
+     "Bryan Konietzko",
+     "Jabbar Raisani",
+     "M. Night Shyamalan",
+     "Albert Kim"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "netflix-011",
+    "nivel": "B",
+    "sub": "Netflix: Season 2",
+    "pregunta": "How many episodes does Netflix's second season have?",
+    "opciones": [
+     "8",
+     "10",
+     "13",
+     "7"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "netflix-012",
+    "nivel": "I",
+    "sub": "Netflix: Season 2",
+    "pregunta": "In which month of 2026 did Netflix's second season premiere?",
+    "opciones": [
+     "February",
+     "April",
+     "October",
+     "June"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "netflix-013",
+    "nivel": "I",
+    "sub": "Netflix: Season 2",
+    "pregunta": "What secret identity does Katara take on in Ba Sing Se in Netflix's second season?",
+    "opciones": [
+     "The Blue Spirit",
+     "The Blind Bandit",
+     "The Painted Lady",
+     "Joo Dee"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "netflix-014",
+    "nivel": "I",
+    "sub": "Netflix: Season 2",
+    "pregunta": "In Netflix's second season, how does Toph discover metalbending?",
+    "opciones": [
+     "Training with Bumi in Omashu",
+     "Forging Sokka's sword",
+     "By escaping from a metal box she was locked in",
+     "Watching the Dai Li work"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "netflix-015",
+    "nivel": "A",
+    "sub": "Netflix: Season 2",
+    "pregunta": "Which actor plays Earth King Kuei on Netflix?",
+    "opciones": [
+     "Chin Han",
+     "Justin Chien",
+     "Daniel Dae Kim",
+     "Dallas Liu"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "netflix-016",
+    "nivel": "A",
+    "sub": "Netflix: Season 2",
+    "pregunta": "Which actor plays Long Feng on Netflix?",
+    "opciones": [
+     "Chin Han",
+     "Justin Chien",
+     "Ken Leung",
+     "Paul Sun-Hyung Lee"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "netflix-017",
+    "nivel": "B",
+    "sub": "Netflix: Season 2",
+    "pregunta": "Who plays Azula in the Netflix series?",
+    "opciones": [
+     "Kiawentiio",
+     "Elizabeth Yu",
+     "Amber Midthunder",
+     "Maria Zhang"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "netflix-018",
+    "nivel": "B",
+    "sub": "Netflix: Season 2",
+    "pregunta": "How does Netflix's second season end for Aang?",
+    "opciones": [
+     "He defeats Ozai",
+     "He masters metalbending",
+     "Azula strikes him with lightning",
+     "He gets frozen again"
+    ],
+    "correcta": "c"
+   }
+  ]
+ },
+ {
+  "parte": 6,
+  "corto": "Movie",
+  "titulo": "Avatar Aang: The Last Airbender (2026 movie)",
+  "elemento": "air",
+  "preguntas": [
+   {
+    "id": "peli-001",
+    "nivel": "B",
+    "sub": "Movie (2026)",
+    "pregunta": "What is the name of the villain in the 2026 movie?",
+    "opciones": [
+     "Sonam",
+     "Xian",
+     "Tagah",
+     "Jie"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-002",
+    "nivel": "B",
+    "sub": "Movie (2026)",
+    "pregunta": "What is Tagah?",
+    "opciones": [
+     "An ancient airbender who was frozen in ice",
+     "A firebender from the New Ozai Society",
+     "A spirit from the Spirit World",
+     "An earthbender from Ba Sing Se"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-003",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Who voices Tagah?",
+    "opciones": [
+     "Taika Waititi",
+     "Dave Bautista",
+     "Ke Huy Quan",
+     "Steven Yeun"
+    ],
+    "correcta": "b"
+   },
+   {
+    "id": "peli-004",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Who voices adult Aang in the movie?",
+    "opciones": [
+     "Eric Nam",
+     "Zach Tyler Eisen",
+     "Gordon Cormier",
+     "Steven Yeun"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-005",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Who voices Fire Lord Zuko in the movie?",
+    "opciones": [
+     "Dante Basco",
+     "Dallas Liu",
+     "Eric Nam",
+     "Steven Yeun"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-006",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Which original cast member is the only one to reprise their role in the movie?",
+    "opciones": [
+     "Dante Basco, as Zuko",
+     "Mae Whitman, as Katara",
+     "Jack De Sena, as Sokka",
+     "Dee Bradley Baker, as Appa and Momo"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-007",
+    "nivel": "B",
+    "sub": "Movie (2026)",
+    "pregunta": "What is the name of the \"lost Avatar\" from the golden age of airbenders?",
+    "opciones": [
+     "Sonam",
+     "Yangchen",
+     "Szeto",
+     "Kelsang"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-008",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What object are the villains after in the movie?",
+    "opciones": [
+     "Aang's glider",
+     "Sokka's meteorite sword",
+     "Avatar Sonam's staff",
+     "The Fire Lord's crown"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-009",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What is the name of the non-bending outlaw group that attacks Aang at the start?",
+    "opciones": [
+     "The Equalists",
+     "The Triple Threat",
+     "The Denied",
+     "The Rough Rhinos"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-010",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "On which mountain does Aang find Tagah frozen?",
+    "opciones": [
+     "Mount Baihu",
+     "Mount Makapu",
+     "Mount Chin",
+     "Mount Agni"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-011",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "Which city is shown under construction in the movie?",
+    "opciones": [
+     "Ba Sing Se",
+     "Zaofu",
+     "Yu Dao",
+     "Republic City"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-012",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What is Katara's job in the movie?",
+    "opciones": [
+     "Republic City Council representative",
+     "Chief of the Southern Water Tribe",
+     "Teacher at a healing school",
+     "Ambassador to Ba Sing Se"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-013",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Which past Avatar explains the staff's power to Aang?",
+    "opciones": [
+     "Roku",
+     "Kyoshi",
+     "Xian",
+     "Kuruk"
+    ],
+    "correcta": "c"
+   },
+   {
+    "id": "peli-014",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What does Aang do with the staff at the end?",
+    "opciones": [
+     "He gives it to Tagah",
+     "He keeps it at the Southern Air Temple",
+     "He returns it to Sonam in the Spirit World",
+     "He destroys it"
+    ],
+    "correcta": "d"
+   },
+   {
+    "id": "peli-015",
+    "nivel": "I",
+    "sub": "Movie (2026)",
+    "pregunta": "What do Aang and his friends discover in the final scene?",
+    "opciones": [
+     "A surviving herd of sky bison",
+     "Another frozen airbender",
+     "Sonam's lost city",
+     "Tagah's body"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-016",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Who directed the movie?",
+    "opciones": [
+     "Lauren Montgomery",
+     "Bryan Konietzko",
+     "Joaquim Dos Santos",
+     "M. Night Shyamalan"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-017",
+    "nivel": "B",
+    "sub": "Movie (2026)",
+    "pregunta": "Where did the movie finally premiere worldwide?",
+    "opciones": [
+     "On Paramount+",
+     "In theaters",
+     "On Netflix",
+     "On Nickelodeon"
+    ],
+    "correcta": "a"
+   },
+   {
+    "id": "peli-018",
+    "nivel": "A",
+    "sub": "Movie (2026)",
+    "pregunta": "Which character does Taika Waititi voice in the movie?",
+    "opciones": [
+     "Tagah",
+     "Xian",
+     "The cabbage merchant",
+     "Gorillavark"
+    ],
+    "correcta": "d"
    }
   ]
  }

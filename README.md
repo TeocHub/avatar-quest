@@ -4,7 +4,7 @@ Tests para fans de Avatar. Todo corre gratis en **GitHub Pages** (la página) y 
 
 | Test | Estado | Carpeta |
 | --- | --- | --- |
-| El Cuestionario Definitivo de Avatar | Disponible: ATLA (60) y Korra (48) | `quiz/` |
+| El Cuestionario Definitivo de Avatar | Disponible: 177 preguntas en 6 partes | `quiz/` |
 | ¿Qué elemento controlarías? (y si serías maestro o no) | Próximamente | `elemento/` (por crear) |
 
 ## Archivos
@@ -57,19 +57,20 @@ El backend ya está creado en Supabase. Si alguna vez hay que recrearlo, ejecuta
 3. Ejecuta el nuevo `supabase/2_respuestas.sql` en el SQL Editor de Supabase.
 4. Sube los cambios a GitHub.
 
-### Partes planeadas
+### Partes
 
-| Parte | Contenido | Nota |
+| Parte | Contenido | Preguntas |
 | --- | --- | --- |
-| 1 | Avatar: La Leyenda de Aang | Lista |
-| 2 | La Leyenda de Korra | Lista |
-| 3 | Avatar: Seven Havens | Se suma por bloques de episodios (salen los viernes); sus preguntas deben indicar el episodio en `sub` |
-| 4 | Cómics | |
-| 5 | Novelas | |
-| 6 | Serie de Netflix | |
-| 7 | Película animada de Aang (2026) | |
+| 1 | Avatar: La Leyenda de Aang | 60 |
+| 2 | La Leyenda de Korra | 48 |
+| 3 | Cómics (La Promesa, La Búsqueda, La Grieta, Humo y Sombra, Desequilibrio, Korra) | 18 |
+| 4 | Novelas (Kyoshi, Yangchen, Roku) | 15 |
+| 5 | Serie de Netflix (temporadas 1 y 2) | 18 |
+| 6 | Película Avatar Aang (2026) | 18 |
+| 7 | Avatar: Seven Havens | Pendiente, cuando la serie avance |
 
-Las preguntas de Seven Havens, la película y la serie de Netflix deben armarse desde fuentes verificadas o desde lo visto en pantalla.
+- Las preguntas de Netflix (temporada 2) y de la película se armaron desde fuentes publicadas, no de memoria. Algunos nombres en español (por ejemplo, "los Negados" para *the Denied*) pueden diferir del doblaje oficial: corrígelos si conoces el término exacto.
+- **Si agregas preguntas a una parte que ya se jugó:** los puntajes guardados no se pierden. Cada resultado guarda el total que tenía la parte cuando se jugó, así que quien la completó sigue contando como "completa". Para sumar las preguntas nuevas, el jugador vuelve a jugar esa parte y se guarda su mejor resultado.
 
 ## Ranking
 
