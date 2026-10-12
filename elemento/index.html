@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>¿Qué elemento controlarías?</title>
+<meta name="description" content="Un test de personalidad en el mundo de Avatar: tu elemento, si serías maestro, tu especialidad y tu lugar en cada era.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../comun.css">
+<style>
+/* ---------- intro ---------- */
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:22px 0 0}
+.fact{background:var(--panel);border:2px solid var(--line);border-radius:12px;padding:10px 12px}
+.fact b{display:block;font-family:var(--display);font-weight:400;font-size:26px;line-height:1.1}
+.fact span{color:var(--muted);font-size:13px;line-height:1.3;display:block}
+.howto{margin:22px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+.howto li{display:flex;gap:12px;align-items:flex-start;color:var(--muted);font-size:15px}
+.howto li b{color:var(--text)}
+.howto .n{flex:0 0 26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:13px;color:var(--text)}
+
+/* ---------- etapa ---------- */
+.stage{padding-top:8vh}
+.stage .kick{font-weight:700;color:var(--accent);letter-spacing:.06em;text-transform:uppercase;font-size:13px}
+.stage h2{font-family:var(--display);font-weight:400;font-size:clamp(38px,9.5vw,58px);line-height:1;margin:10px 0 10px}
+.stage-elems{display:flex;gap:10px;margin-bottom:22px}
+.stage-elems .glyph{opacity:.25;transition:opacity .2s}
+.stage-elems .glyph.lit{opacity:1}
+
+/* ---------- pregunta ---------- */
+.hud{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:10px 0 8px}
+.hudrow{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.hudrow b{font-family:var(--display);font-weight:400;font-size:20px}
+.hudrow span{color:var(--muted);font-size:14px;white-space:nowrap}
+.segs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:10px}
+.seg{height:8px;background:var(--panel-2);border-radius:99px;overflow:hidden;border:1px solid var(--line)}
+.seg i{display:block;height:100%;width:0;transition:width .3s;background:var(--accent)}
+.seg:nth-child(1) i{background:var(--earth)} .seg:nth-child(2) i{background:var(--water)}
+.seg:nth-child(3) i{background:var(--fire)} .seg:nth-child(4) i{background:var(--air)}
+.prompt{color:var(--muted);font-size:15px;margin:22px 0 4px}
+.stmt{font-family:var(--display);font-weight:400;font-size:clamp(26px,6.6vw,34px);line-height:1.2;margin:4px 0 24px;min-height:3.6em}
+.scale{display:flex;flex-direction:column;gap:8px}
+.lk{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:13px 14px;border:2px solid var(--line);border-radius:12px;background:var(--panel);cursor:pointer;font-size:16px;transition:border-color .12s,background .12s}
+.lk:hover{border-color:var(--accent)}
+.lk .dot{flex:0 0 auto;border-radius:50%;border:2px solid var(--muted);transition:background .12s,border-color .12s}
+.lk.sel{border-color:var(--accent);background:var(--panel-2)}
+.lk.sel .dot{background:var(--accent);border-color:var(--accent)}
+.pair{display:flex;flex-direction:column;gap:12px}
+.pc{display:block;width:100%;text-align:left;padding:20px 18px;border:2px solid var(--line);border-radius:14px;background:var(--panel);cursor:pointer;font-family:var(--display);font-size:clamp(21px,5.4vw,25px);line-height:1.25;transition:border-color .12s,background .12s}
+.pc:hover{border-color:var(--accent)}
+.pc.sel{border-color:var(--accent);background:var(--panel-2)}
+.or{text-align:center;color:var(--muted);font-size:14px}
+.qnav{display:flex;justify-content:space-between;margin-top:20px}
+
+/* ---------- resultado ---------- */
+.hero{text-align:left;padding-top:10px}
+.hero .glyph{width:96px;height:96px;border-width:3px}
+.hero .glyph svg{width:54px;height:54px;stroke-width:1.6}
+.hero .kick{margin-top:16px;font-weight:700;color:var(--muted);font-size:14px;letter-spacing:.04em}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(46px,12vw,76px);line-height:1;margin:4px 0 0}
+.hero .lede{font-size:18px;color:var(--text)}
+.card{background:var(--panel);border:2px solid var(--line);border-radius:16px;padding:16px 18px;margin-top:14px}
+.card .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.card h3{font-family:var(--display);font-weight:400;font-size:26px;line-height:1.15;margin:4px 0 6px}
+.card p{margin:0;color:var(--muted)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.duo .card{margin-top:14px}
+@media (max-width:460px){.duo{grid-template-columns:1fr}.duo .card+.card{margin-top:0}}
+.bars{display:flex;flex-direction:column;gap:12px;margin-top:10px}
+.bar .top{display:flex;justify-content:space-between;gap:10px;font-size:15px}
+.bar .top b{font-weight:700;display:flex;align-items:center;gap:8px}
+.bar .top span{color:var(--muted)}
+.bar .track{height:10px;background:var(--panel-2);border-radius:99px;overflow:hidden;border:1px solid var(--line);margin-top:4px;position:relative}
+.bar .track i{display:block;height:100%;border-radius:99px}
+.bar .glyph{width:24px;height:24px;border-width:1.5px}
+.bar .glyph svg{width:14px;height:14px}
+.facets{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:12px}
+@media (max-width:460px){.facets{grid-template-columns:1fr}}
+.eras{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.era{border:2px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--bg)}
+.era .lbl{font-size:12px}
+.era h4{font-family:var(--display);font-weight:400;font-size:22px;margin:2px 0 2px}
+.era p{font-size:15px}
+.era.locked{border-style:dashed;opacity:.7}
+.grow{border-left:4px solid var(--accent)}
+.pubbox{margin-top:26px;border:2px solid var(--line);border-radius:14px;padding:16px;background:var(--panel)}
+.pubbox h2.sec{margin-top:0}
+.pubbox input[type=text],.pubbox input[type=password]{background:var(--bg)}
+.pubbox input[type=password]{letter-spacing:.3em}
+.pubbox label.field{margin-top:14px}
+.stat .track{height:14px}
+.stat.me .top b::after{content:" ← tú";color:var(--accent);font-weight:700}
+html[lang=en] .stat.me .top b::after{content:" ← you"}
+.share-preview{margin-top:16px;border-radius:12px;overflow:hidden;border:2px solid var(--line);background:var(--panel)}
+.share-preview img{display:block;width:100%;height:auto}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:22px;line-height:1.45}
+.fade{animation:fade .35s ease-out}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style>
+<script src="../config.js"></script>
+<script src="../comun.js"></script>
+<script src="datos.js"></script>
+</head>
+<body>
+<main class="wrap">
+
+<nav class="langbar">
+  <a class="link" href="../" data-i18n="home"></a>
+  <div class="langs" id="langs" role="group" aria-label="Idioma / Language"></div>
+</nav>
+
+<!-- INICIO -->
+<section id="start" class="hidden">
+  <div class="title-block">
+    <div class="elems" id="titleElems"></div>
+    <h1><span data-i18n="title1"></span><span class="accent" data-i18n="title2"></span></h1>
+    <p class="lede" data-i18n="lede"></p>
+  </div>
+  <div class="facts">
+    <div class="fact"><b id="nItems">54</b><span data-i18n="f_items"></span></div>
+    <div class="fact"><b>~10</b><span data-i18n="f_min"></span></div>
+    <div class="fact"><b>4</b><span data-i18n="f_stages"></span></div>
+  </div>
+  <ul class="howto">
+    <li><span class="n">1</span><span data-i18n-html="how1"></span></li>
+    <li><span class="n">2</span><span data-i18n-html="how2"></span></li>
+    <li><span class="n">3</span><span data-i18n-html="how3"></span></li>
+  </ul>
+  <div id="resumeBox" class="hidden">
+    <button class="cta" id="resumeBtn" data-i18n="resume"></button>
+    <p class="note" id="resumeNote"></p>
+  </div>
+  <button class="cta" id="startBtn" data-i18n="start"></button>
+  <button class="ghost hidden" id="lastBtn" data-i18n="last_result"></button>
+</section>
+
+<!-- ETAPA -->
+<section id="stage" class="hidden stage">
+  <div class="stage-elems" id="stageElems"></div>
+  <div class="kick" id="stageKick"></div>
+  <h2 id="stageTitle"></h2>
+  <p class="lede" id="stageDesc"></p>
+  <button class="cta" id="stageGo" data-i18n="continue"></button>
+</section>
+
+<!-- PREGUNTA -->
+<section id="item" class="hidden">
+  <div class="hud">
+    <div class="hudrow"><b id="hudStage"></b><span id="hudCount"></span></div>
+    <div class="segs" id="segs"><div class="seg"><i></i></div><div class="seg"><i></i></div><div class="seg"><i></i></div><div class="seg"><i></i></div></div>
+  </div>
+  <div id="qbox"></div>
+  <div class="qnav"><button class="link" id="backBtn" data-i18n="back"></button><span></span></div>
+</section>
+
+<!-- RESULTADO -->
+<section id="result" class="hidden">
+  <div class="hero fade">
+    <div id="heroGlyph"></div>
+    <div class="kick" id="heroKick"></div>
+    <h1 id="heroName"></h1>
+    <p class="lede" id="heroLede"></p>
+  </div>
+
+  <div class="duo">
+    <div class="card"><div class="lbl" data-i18n="r_type"></div><h3 id="benderT"></h3><p id="benderD"></p></div>
+    <div class="card"><div class="lbl" id="specLbl"></div><h3 id="specT"></h3><p id="specD"></p></div>
+  </div>
+
+  <div class="card">
+    <div class="lbl" data-i18n="r_elements"></div>
+    <div class="bars" id="elemBars"></div>
+    <p class="note" id="secondaryNote" style="margin-top:12px"></p>
+  </div>
+
+  <div class="card">
+    <div class="lbl" data-i18n="r_eras"></div>
+    <div class="eras" id="eras"></div>
+  </div>
+
+  <div class="card">
+    <div class="lbl" data-i18n="r_facets"></div>
+    <div class="facets" id="facetBars"></div>
+    <p class="note" data-i18n="r_facets_note" style="margin-top:12px"></p>
+  </div>
+
+  <div class="card">
+    <div class="lbl" data-i18n="r_strength"></div>
+    <p id="strength" style="color:var(--text);margin-top:6px"></p>
+    <div class="lbl" data-i18n="r_shadow" style="margin-top:14px"></div>
+    <p id="shadow" style="color:var(--text);margin-top:6px"></p>
+  </div>
+
+  <div class="card grow">
+    <div class="lbl" data-i18n="r_grow"></div>
+    <h3 id="growT"></h3>
+    <p id="growD"></p>
+  </div>
+
+  <div class="pubbox" id="pubBox">
+    <h2 class="sec" data-i18n="pub_h"></h2>
+    <p class="hint" data-i18n="pub_hint"></p>
+    <label class="field" for="pubNick" data-i18n="nick"></label>
+    <input type="text" id="pubNick" maxlength="20" autocomplete="nickname">
+    <p class="form-msg info" id="nickMsg"></p>
+    <label class="field" for="pubPin" data-i18n="pin"></label>
+    <input type="password" id="pubPin" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="current-password" placeholder="••••••">
+    <p class="form-msg info" data-i18n="pin_note"></p>
+    <button class="cta" id="pubBtn" data-i18n="pub_btn"></button>
+    <p class="form-msg" id="pubMsg" aria-live="polite"></p>
+  </div>
+
+  <div class="card" id="statsCard">
+    <div class="lbl" data-i18n="r_stats"></div>
+    <div class="bars" id="statBars"></div>
+    <p class="note" id="statNote" style="margin-top:12px"></p>
+  </div>
+
+  <button class="cta" id="makeImg" data-i18n="make_img"></button>
+  <div id="shareBox" class="hidden">
+    <div class="share-preview"><img id="shareImg" alt=""></div>
+    <button class="cta" id="saveImg" data-i18n="save_img"></button>
+    <button class="ghost" id="shareBtn" data-i18n="share"></button>
+    <p class="note" id="shareNote"></p>
+  </div>
+  <button class="ghost" id="againBtn" data-i18n="again"></button>
+  <a class="ghost" href="../quiz/" style="text-align:center;text-decoration:none;color:inherit" data-i18n="to_quiz"></a>
+  <p class="disclaimer" data-i18n="disclaimer"></p>
+</section>
+
+</main>
+<div class="toast hidden" id="toast" role="status"></div>
+<script>
+const D = window.ELEM_DATA;
+const TEXT = {
+es: {
+  html_title: "¿Qué elemento controlarías?",
+  home: "Inicio",
+  title1: "¿Qué elemento", title2: "controlarías?",
+  lede: "Un test sobre cómo eres tú, no sobre qué harías en una aventura. Al final sabrás tu elemento, si serías maestro, tu especialidad y dónde encajarías en cada era.",
+  f_items: "afirmaciones sobre ti", f_min: "minutos", f_stages: "etapas",
+  how1: "<b>Piensa en cómo eres de verdad</b>, en tu día a día de las últimas semanas, no en cómo te gustaría ser.",
+  how2: "<b>No hay respuestas buenas ni malas.</b> Cada elemento tiene fortalezas y sombras.",
+  how3: "<b>Responde rápido.</b> Tu primera reacción suele ser la más honesta.",
+  start: "Comenzar", resume: "Continuar donde quedé",
+  resume_note: "Vas en la afirmación {i} de {n}.",
+  last_result: "Ver mi último resultado",
+  stage_kick: "Etapa {n} de 4", continue: "Continuar",
+  count: "{i} de {n}", back: "← Anterior",
+  likert_prompt: "¿Cuánto te describe esto?",
+  pair_prompt: "¿Cuál te describe mejor últimamente?",
+  or: "o",
+  scale: ["Nada que ver conmigo", "Poco", "A veces sí, a veces no", "Bastante", "Totalmente yo"],
+  r_kick: "Tu elemento es",
+  r_type: "Tu relación con los elementos",
+  r_spec: "Tu especialidad", r_role: "Tu fortaleza",
+  r_elements: "Tus cuatro elementos",
+  secondary: "Tu elemento secundario es {s}: le da el matiz a tu especialidad.",
+  r_eras: "Dónde encajarías",
+  era_aang: "Era de Aang", era_korra: "Era de Korra", era_pavi: "Era de Pavi · Los Siete Refugios",
+  era_locked_t: "Por descubrir",
+  era_locked_d: "Se desbloqueará cuando sepamos más de Avatar: Seven Havens.",
+  r_facets: "Tus ocho rasgos",
+  r_facets_note: "Cada elemento combina dos rasgos. Tu perfil no es un elemento puro: es la mezcla de los ocho.",
+  r_strength: "Tu fuerza", r_shadow: "Tu sombra",
+  r_grow: "Tu elemento a cultivar",
+  grow_t: "{e}: lo que más te puede enseñar",
+  pub_h: "Guarda tu resultado",
+  pub_hint: "Usa el mismo nick y PIN de Avatar Quest. Si el nick es nuevo, queda registrado con este PIN. Tu resultado se suma a las estadísticas de la comunidad (solo se muestran totales, nunca tu nick).",
+  nick: "Nick", pin: "PIN de 6 dígitos", pin_note: "Guárdalo: no se puede recuperar.",
+  pub_btn: "Guardar mi resultado", publishing: "Guardando…",
+  saved: "Resultado guardado como {nick}.", saved_new: "Nick registrado y resultado guardado como {nick}.",
+  nick_rules: "De 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
+  nick_taken: "Este nick ya está registrado. Si es tuyo, escribe tu PIN.",
+  nick_free: "Nick disponible. Quedará registrado con el PIN que elijas.",
+  nick_banned: "Ese nick no está permitido. Elige otro.",
+  err_nick_invalido: "El nick debe tener de 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
+  err_nick_no_permitido: "Ese nick no está permitido. Elige otro.",
+  err_pin_invalido: "El PIN debe tener exactamente 6 dígitos.",
+  err_resultado_invalido: "No se pudo leer tu resultado. Recarga la página e inténtalo otra vez.",
+  err_reintentar: "Alguien registró ese nick en este mismo instante. Inténtalo de nuevo.",
+  err_generic: "No se pudo guardar. Inténtalo otra vez.",
+  pin_wrong: "PIN incorrecto para ese nick. Te quedan {n} intentos antes de un bloqueo de 15 minutos.",
+  locked: "Demasiados intentos fallidos con ese nick. Espera 15 minutos o usa otro nick.",
+  network: "No hay conexión con el servidor. Revisa tu internet e inténtalo otra vez.",
+  r_stats: "La comunidad",
+  stat_note: "{n} personas guardaron su resultado · {b} % son maestros.",
+  stat_empty: "Todavía no hay resultados guardados. Guarda el tuyo y sé la primera persona.",
+  stat_err: "No se pudieron cargar las estadísticas.",
+  make_img: "Crear imagen para compartir", revealing: "Creando la imagen…",
+  save_img: "Descargar imagen", share: "Compartir",
+  save_note: "Si no se descargó, mantén presionada la imagen (o clic derecho) para guardarla.",
+  copied: "Texto copiado: pégalo junto a tu imagen",
+  img_alt: "Imagen con tu resultado",
+  img_title: "¿Qué elemento controlarías?",
+  img_cta: "Descubre el tuyo:",
+  img_aang: "Era de Aang", img_korra: "Era de Korra",
+  share_text: "Mi elemento es {e} ({t}): {s}. ¿Cuál es el tuyo?{site}",
+  again: "Hacer el test de nuevo", to_quiz: "Ir al Cuestionario Definitivo",
+  again_confirm: "Toca otra vez para borrar tus respuestas y empezar de cero",
+  disclaimer: "Este test está inspirado en modelos de la psicología de la personalidad (como los Cinco Grandes y la teoría de valores de Schwartz), pero es un juego de autoconocimiento, no una evaluación psicológica ni un diagnóstico."
+},
+en: {
+  html_title: "Which element would you bend?",
+  home: "Home",
+  title1: "Which element", title2: "would you bend?",
+  lede: "A test about who you are, not about what you'd do on an adventure. At the end you'll know your element, whether you'd be a bender, your specialty and where you'd fit in each era.",
+  f_items: "statements about you", f_min: "minutes", f_stages: "stages",
+  how1: "<b>Think about how you really are</b> in your everyday life over the past few weeks, not how you'd like to be.",
+  how2: "<b>There are no right or wrong answers.</b> Every element has strengths and shadows.",
+  how3: "<b>Answer quickly.</b> Your first reaction is usually the most honest.",
+  start: "Begin", resume: "Continue where I left off",
+  resume_note: "You're on statement {i} of {n}.",
+  last_result: "See my last result",
+  stage_kick: "Stage {n} of 4", continue: "Continue",
+  count: "{i} of {n}", back: "← Back",
+  likert_prompt: "How much does this describe you?",
+  pair_prompt: "Which describes you better lately?",
+  or: "or",
+  scale: ["Not me at all", "A little", "Sometimes yes, sometimes no", "Quite a lot", "Totally me"],
+  r_kick: "Your element is",
+  r_type: "Your relationship with the elements",
+  r_spec: "Your specialty", r_role: "Your strength",
+  r_elements: "Your four elements",
+  secondary: "Your secondary element is {s}: it shapes your specialty.",
+  r_eras: "Where you'd fit",
+  era_aang: "Aang's era", era_korra: "Korra's era", era_pavi: "Pavi's era · The Seven Havens",
+  era_locked_t: "Yet to be revealed",
+  era_locked_d: "Unlocks once we know more about Avatar: Seven Havens.",
+  r_facets: "Your eight traits",
+  r_facets_note: "Each element combines two traits. Your profile isn't one pure element: it's the blend of all eight.",
+  r_strength: "Your strength", r_shadow: "Your shadow",
+  r_grow: "Your element to cultivate",
+  grow_t: "{e}: what it can teach you most",
+  pub_h: "Save your result",
+  pub_hint: "Use the same Avatar Quest nickname and PIN. If the nickname is new, it's registered with this PIN. Your result adds to the community stats (only totals are shown, never your nickname).",
+  nick: "Nickname", pin: "6-digit PIN", pin_note: "Keep it safe: it can't be recovered.",
+  pub_btn: "Save my result", publishing: "Saving…",
+  saved: "Result saved as {nick}.", saved_new: "Nickname registered and result saved as {nick}.",
+  nick_rules: "3 to 20 characters: letters, numbers, period, hyphen or underscore.",
+  nick_taken: "This nickname is already registered. If it's yours, enter your PIN.",
+  nick_free: "Nickname available. It will be registered with the PIN you choose.",
+  nick_banned: "That nickname isn't allowed. Choose another one.",
+  err_nick_invalido: "The nickname must be 3 to 20 characters: letters, numbers, period, hyphen or underscore.",
+  err_nick_no_permitido: "That nickname isn't allowed. Choose another one.",
+  err_pin_invalido: "The PIN must be exactly 6 digits.",
+  err_resultado_invalido: "Your result couldn't be read. Reload the page and try again.",
+  err_reintentar: "Someone registered that nickname at the same moment. Try again.",
+  err_generic: "Your result couldn't be saved. Try again.",
+  pin_wrong: "Wrong PIN for that nickname. {n} attempts left before a 15-minute lock.",
+  locked: "Too many failed attempts with that nickname. Wait 15 minutes or use another nickname.",
+  network: "Can't reach the server. Check your connection and try again.",
+  r_stats: "The community",
+  stat_note: "{n} people saved their result · {b}% are benders.",
+  stat_empty: "No saved results yet. Save yours and be the first.",
+  stat_err: "The stats couldn't be loaded.",
+  make_img: "Create an image to share", revealing: "Creating the image…",
+  save_img: "Download image", share: "Share",
+  save_note: "If it didn't download, press and hold the image (or right-click it) to save it.",
+  copied: "Text copied: paste it with your image",
+  img_alt: "Image with your result",
+  img_title: "Which element would you bend?",
+  img_cta: "Find yours:",
+  img_aang: "Aang's era", img_korra: "Korra's era",
+  share_text: "My element is {e} ({t}): {s}. What's yours?{site}",
+  again: "Take the test again", to_quiz: "Go to the Ultimate Quiz",
+  again_confirm: "Tap again to erase your answers and start over",
+  disclaimer: "This test is inspired by personality psychology models (such as the Big Five and Schwartz's theory of values), but it's a self-discovery game, not a psychological assessment or diagnosis."
+}
+};
+
+const CFG = window.AVATAR_CONFIG || {};
+const API = (CFG.SUPABASE_URL || "").replace(/\/+$/, "");
+const KEYAPI = CFG.SUPABASE_KEY || "";
+const ONLINE = !!(API && KEYAPI);
+const KEY = "avatar-elemento-v1";
+const NICK_RE = /^[A-Za-z0-9_.ÁÉÍÓÚÜÑáéíóúüñ-]{3,20}$/;
+const PIN_RE = /^[0-9]{6}$/;
+const ORDER = ["water","earth","fire","air"];
+const COLORS = {air:"#f2b84b", water:"#5fb0ea", earth:"#8cc56e", fire:"#ff6a50"};
+const ITEMS = D.ITEMS;
+const N = ITEMS.length;
+
+let LANG = AVATAR.pickLang(Object.keys(TEXT));
+const $ = s => document.querySelector(s);
+const screens = ["start","stage","item","result"];
+function show(id){ screens.forEach(s => $("#"+s).classList.toggle("hidden", s !== id)); window.scrollTo(0,0); }
+function t(key, vars){
+  let s = (TEXT[LANG] && TEXT[LANG][key]) ?? TEXT.es[key] ?? key;
+  if (typeof s === "string" && vars) s = s.replace(/\{(\w+)\}/g, (_, k) => (k in vars ? vars[k] : ""));
+  return s;
+}
+function L(obj){ return obj[LANG] || obj.es; }
+function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.remove("hidden");clearTimeout(el._h);el._h=setTimeout(()=>el.classList.add("hidden"),2800);}
+function store(v){ try{ localStorage.setItem(KEY, JSON.stringify(v)); }catch(e){} }
+function loadState(){ try{ return JSON.parse(localStorage.getItem(KEY) || "null"); }catch(e){ return null; } }
+
+/* Estado: respuestas {id: 1..5 | "a" | "b"}, posición, etapa vista, resultado guardado */
+let S = loadState() || { answers:{}, pos:0, seenStage:-1, done:false, saved:null };
+if (!S.answers) S = { answers:{}, pos:0, seenStage:-1, done:false, saved:null };
+function save(){ store(S); }
+
+/* ---------- idioma ---------- */
+function applyStatic(){
+  document.documentElement.lang = LANG;
+  document.title = t("html_title");
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+  document.querySelectorAll("[data-i18n-html]").forEach(el => el.innerHTML = t(el.dataset.i18nHtml));
+  $("#shareImg").alt = t("img_alt");
+  $("#nItems").textContent = N;
+  const box = $("#langs"); box.innerHTML = "";
+  Object.keys(TEXT).forEach(code => {
+    const b = document.createElement("button");
+    b.className = "langbtn" + (code === LANG ? " on" : "");
+    b.textContent = code.toUpperCase(); b.setAttribute("aria-pressed", code === LANG);
+    b.addEventListener("click", () => { LANG = code; AVATAR.saveLang(code); applyStatic(); rerender(); });
+    box.appendChild(b);
+  });
+}
+function rerender(){
+  const cur = screens.find(s => !$("#"+s).classList.contains("hidden"));
+  if (cur === "start") renderStart();
+  else if (cur === "stage") showStage(ITEMS[S.pos].s);
+  else if (cur === "item") renderItem();
+  else if (cur === "result") renderResult(false);
+}
+
+/* ---------- inicio ---------- */
+function answeredCount(){ return ITEMS.filter(it => it.id in S.answers).length; }
+function renderStart(){
+  const inProgress = !S.done && answeredCount() > 0 && S.pos < N;
+  $("#resumeBox").classList.toggle("hidden", !inProgress);
+  if (inProgress) $("#resumeNote").textContent = t("resume_note", {i: S.pos + 1, n: N});
+  $("#startBtn").textContent = t("start");
+  $("#startBtn").className = inProgress ? "ghost" : "cta";
+  $("#lastBtn").classList.toggle("hidden", !S.done);
+  show("start");
+}
+$("#startBtn").addEventListener("click", () => {
+  S = { answers:{}, pos:0, seenStage:-1, done:false, saved:null }; save(); step();
+});
+$("#resumeBtn").addEventListener("click", () => step());
+$("#lastBtn").addEventListener("click", () => { show("result"); renderResult(true); });
+
+/* ---------- flujo ---------- */
+function step(){
+  if (S.pos >= N) { finish(); return; }
+  const st = ITEMS[S.pos].s;
+  const firstOfStage = S.pos === 0 || ITEMS[S.pos - 1].s !== st;
+  if (firstOfStage && S.seenStage < st) { showStage(st); return; }
+  renderItem();
+}
+function showStage(st){
+  const sd = L(D.STAGES[st]);
+  $("#stageElems").innerHTML = ["earth","water","fire","air"].map((e,i) => AVATAR.glyph(e, i <= st ? "lit" : "")).join("");
+  $("#stageKick").textContent = t("stage_kick", {n: st + 1});
+  $("#stageTitle").textContent = sd.t;
+  $("#stageDesc").textContent = sd.d;
+  show("stage"); $("#stageGo").focus();
+}
+$("#stageGo").addEventListener("click", () => { S.seenStage = ITEMS[S.pos].s; save(); renderItem(); });
+
+function renderItem(){
+  show("item");
+  const it = ITEMS[S.pos];
+  $("#hudStage").textContent = L(D.STAGES[it.s]).t;
+  $("#hudCount").textContent = t("count", {i: S.pos + 1, n: N});
+  // progreso por etapa
+  const segs = document.querySelectorAll("#segs .seg i");
+  [0,1,2,3].forEach(st => {
+    const inSt = ITEMS.filter(x => x.s === st);
+    const done = inSt.filter(x => ITEMS.indexOf(x) < S.pos).length;
+    segs[st].style.width = (done / inSt.length * 100) + "%";
+  });
+  const box = $("#qbox"); box.innerHTML = ""; box.className = "fade";
+  const prev = S.answers[it.id];
+  if (it.t === "l") {
+    const p = document.createElement("p"); p.className = "prompt"; p.textContent = t("likert_prompt");
+    const h = document.createElement("h2"); h.className = "stmt"; h.textContent = L(it);
+    const sc = document.createElement("div"); sc.className = "scale";
+    t("scale").forEach((label, i) => {
+      const v = i + 1;
+      const b = document.createElement("button");
+      b.className = "lk" + (prev === v ? " sel" : "");
+      const size = [14, 17, 20, 23, 26][i];
+      b.innerHTML = `<span class="dot" style="width:${size}px;height:${size}px"></span><span></span>`;
+      b.lastChild.textContent = label;
+      b.addEventListener("click", () => answer(v, b));
+      sc.appendChild(b);
+    });
+    box.append(p, h, sc);
+  } else {
+    const p = document.createElement("p"); p.className = "prompt"; p.textContent = t("pair_prompt");
+    const pr = document.createElement("div"); pr.className = "pair";
+    ["a","b"].forEach((k, i) => {
+      if (i === 1) { const o = document.createElement("div"); o.className = "or"; o.textContent = t("or"); pr.appendChild(o); }
+      const b = document.createElement("button");
+      b.className = "pc" + (prev === k ? " sel" : "");
+      b.textContent = L(it[k]);
+      b.addEventListener("click", () => answer(k, b));
+      pr.appendChild(b);
+    });
+    box.append(p, pr);
+  }
+  $("#backBtn").style.visibility = S.pos > 0 ? "visible" : "hidden";
+}
+let advancing = false;
+function answer(v, btn){
+  if (advancing) return;
+  advancing = true;
+  const it = ITEMS[S.pos];
+  S.answers[it.id] = v;
+  document.querySelectorAll(".lk,.pc").forEach(b => b.classList.remove("sel"));
+  btn.classList.add("sel");
+  S.pos++; save();
+  setTimeout(() => { advancing = false; step(); }, 220);
+}
+$("#backBtn").addEventListener("click", () => {
+  if (S.pos === 0) return;
+  S.pos--; S.seenStage = Math.max(S.seenStage, ITEMS[S.pos].s); save(); renderItem();
+});
+document.addEventListener("keydown", e => {
+  if ($("#item").classList.contains("hidden") || advancing) return;
+  const it = ITEMS[S.pos];
+  if (it.t === "l" && /^[1-5]$/.test(e.key)) document.querySelectorAll(".lk")[+e.key - 1].click();
+  if (it.t === "p" && (e.key === "1" || e.key.toLowerCase() === "a")) document.querySelectorAll(".pc")[0].click();
+  if (it.t === "p" && (e.key === "2" || e.key.toLowerCase() === "b")) document.querySelectorAll(".pc")[1].click();
+});
+
+/* ---------- puntuación ---------- */
+function compute(){
+  const sum = {}, cnt = {};
+  ITEMS.forEach(it => {
+    if (it.t !== "l") return;
+    const v = S.answers[it.id]; if (typeof v !== "number") return;
+    let x = (v - 1) / 4; if (it.inv) x = 1 - x;
+    sum[it.f] = (sum[it.f] || 0) + x; cnt[it.f] = (cnt[it.f] || 0) + 1;
+  });
+  const facet = {};
+  Object.keys(D.FACETS).concat("MB").forEach(f => facet[f] = cnt[f] ? sum[f] / cnt[f] : 0.5);
+  ITEMS.forEach(it => {
+    if (it.t !== "p") return;
+    const v = S.answers[it.id]; if (v !== "a" && v !== "b") return;
+    const f = it[v].f; facet[f] = Math.min(1, facet[f] + D.PAIR_BONUS);
+  });
+  const el = {};
+  ORDER.forEach(e => {
+    const fs = Object.keys(D.FACETS).filter(f => D.FACETS[f].el === e);
+    el[e] = fs.reduce((s, f) => s + facet[f], 0) / fs.length;
+  });
+  const ranked = ORDER.slice().sort((a, b) => el[b] - el[a]);
+  const primary = ranked[0], secondary = ranked[1], lowest = ranked[3];
+  const bender = facet.MB >= 0.5;
+  const spec = bender ? D.SPECIALTY[primary][secondary] : D.ROLE[primary];
+  const pickNation = era => {
+    const opts = D.NATIONS[era][primary];
+    const sc = n => n.neg ? 1 - facet[n.f] : facet[n.f];
+    return opts.slice().sort((a, b) => sc(b) - sc(a))[0];
+  };
+  return { facet, el, primary, secondary, lowest, bender, spec, aang: pickNation("aang"), korra: pickNation("korra") };
+}
+function pct(x){ return Math.round(x * 100); }
+
+/* ---------- resultado ---------- */
+let R = null, lastBlob = null, lastUrl = null;
+function finish(){ S.done = true; save(); show("result"); renderResult(true); }
+function barRow(label, value, color, glyphEl){
+  const row = document.createElement("div"); row.className = "bar";
+  row.innerHTML = `<div class="top"><b></b><span>${value} %</span></div><div class="track"><i style="width:${value}%;background:${color}"></i></div>`;
+  const b = row.querySelector("b");
+  if (glyphEl) b.innerHTML = AVATAR.glyph(glyphEl);
+  b.appendChild(document.createTextNode(label));
+  return row;
+}
+function renderResult(fresh){
+  R = compute();
+  const E = D.ELEMENTS;
+  const pe = L(E[R.primary]);
+  $("#heroGlyph").innerHTML = AVATAR.glyph(R.primary);
+  $("#heroKick").textContent = t("r_kick");
+  $("#heroName").textContent = pe.name;
+  $("#heroName").style.color = `var(--${R.primary})`;
+  $("#heroLede").textContent = pe.lede;
+  const bd = L(D.BENDER[R.bender ? "yes" : "no"]);
+  $("#benderT").textContent = bd.t; $("#benderD").textContent = bd.d;
+  $("#specLbl").textContent = R.bender ? t("r_spec") : t("r_role");
+  $("#specT").textContent = L(R.spec).t; $("#specD").textContent = L(R.spec).d;
+  const eb = $("#elemBars"); eb.innerHTML = "";
+  ORDER.slice().sort((a, b) => R.el[b] - R.el[a]).forEach(e => eb.appendChild(barRow(L(E[e]).name, pct(R.el[e]), `var(--${e})`, e)));
+  $("#secondaryNote").textContent = t("secondary", {s: L(E[R.secondary]).name});
+  // eras
+  const eras = $("#eras"); eras.innerHTML = "";
+  [["era_aang", R.aang], ["era_korra", R.korra]].forEach(([k, n]) => {
+    const d = document.createElement("div"); d.className = "era";
+    d.innerHTML = `<div class="lbl"></div><h4></h4><p></p>`;
+    d.querySelector(".lbl").textContent = t(k); d.querySelector("h4").textContent = L(n).t; d.querySelector("p").textContent = L(n).d;
+    eras.appendChild(d);
+  });
+  const lk = document.createElement("div"); lk.className = "era locked";
+  lk.innerHTML = `<div class="lbl"></div><h4></h4><p></p>`;
+  lk.querySelector(".lbl").textContent = t("era_pavi"); lk.querySelector("h4").textContent = t("era_locked_t"); lk.querySelector("p").textContent = t("era_locked_d");
+  eras.appendChild(lk);
+  // rasgos
+  const fb = $("#facetBars"); fb.innerHTML = "";
+  ["AD","VI","CO","AR","IM","IN","AP","LI"].forEach(f => fb.appendChild(barRow(L(D.FACETS[f]), pct(R.facet[f]), `var(--${D.FACETS[f].el})`)));
+  $("#strength").textContent = pe.strength;
+  $("#shadow").textContent = pe.shadow;
+  const low = L(E[R.lowest]);
+  $("#growT").textContent = t("grow_t", {e: low.name});
+  $("#growT").style.color = `var(--${R.lowest})`;
+  $("#growD").textContent = low.cultivate;
+  if (fresh) { $("#shareBox").classList.add("hidden"); $("#makeImg").classList.remove("hidden"); lastBlob = null; }
+  else if (!$("#shareBox").classList.contains("hidden")) redrawImage();
+  setupPublish(fresh);
+  loadStats();
+}
+
+/* ---------- guardar ---------- */
+function headers(){
+  const h = {"Content-Type":"application/json","apikey":KEYAPI};
+  if (KEYAPI.startsWith("eyJ")) h["Authorization"] = "Bearer " + KEYAPI;
+  return h;
+}
+async function rpc(fn, body){
+  const r = await fetch(`${API}/rest/v1/rpc/${fn}`, {method:"POST", headers:headers(), body:JSON.stringify(body)});
+  if (!r.ok) throw new Error("http_" + r.status);
+  return r.json();
+}
+function resultKey(){ return [R.primary, R.secondary, R.bender, R.spec.id, R.aang.id, R.korra.id].join("|"); }
+function setupPublish(fresh){
+  const box = $("#pubBox");
+  if (!ONLINE) { box.classList.add("hidden"); return; }
+  box.classList.remove("hidden");
+  if (fresh) { $("#pubNick").value = AVATAR.readNick(); $("#pubPin").value = ""; }
+  if (S.saved && S.saved.key === resultKey()) {
+    lockPublish(t("saved", {nick: S.saved.nick}), "ok");
+  } else {
+    $("#pubBtn").disabled = false; $("#pubNick").disabled = false; $("#pubPin").disabled = false;
+    if (fresh) { $("#pubMsg").textContent = ""; $("#pubMsg").className = "form-msg"; }
+    checkNick();
+  }
+}
+function lockPublish(msg, cls){
+  $("#nickMsg").textContent = "";
+  $("#pubBtn").disabled = true; $("#pubNick").disabled = true; $("#pubPin").disabled = true;
+  $("#pubMsg").textContent = msg; $("#pubMsg").className = "form-msg " + cls;
+}
+let nickTimer = null;
+async function checkNick(){
+  const nick = $("#pubNick").value.trim(), m = $("#nickMsg");
+  if (!NICK_RE.test(nick)) { m.textContent = t("nick_rules"); m.className = "form-msg info"; return; }
+  try {
+    const st = await rpc("avatar_nick_status", {p_nick: nick});
+    if (nick !== $("#pubNick").value.trim()) return;
+    if (st === "no_permitido") { m.textContent = t("nick_banned"); m.className = "form-msg bad"; }
+    else if (st === "ocupado") { m.textContent = t("nick_taken"); m.className = "form-msg info"; }
+    else { m.textContent = t("nick_free"); m.className = "form-msg ok"; }
+  } catch(e) { m.textContent = t("nick_rules"); m.className = "form-msg info"; }
+}
+$("#pubNick").addEventListener("input", () => { clearTimeout(nickTimer); nickTimer = setTimeout(checkNick, 450); });
+$("#pubPin").addEventListener("input", e => { const v = e.target.value.replace(/\D/g, "").slice(0, 6); if (v !== e.target.value) e.target.value = v; });
+$("#pubBtn").addEventListener("click", async () => {
+  const nick = $("#pubNick").value.trim(), pin = $("#pubPin").value, msg = $("#pubMsg");
+  if (!NICK_RE.test(nick)) { msg.textContent = t("err_nick_invalido"); msg.className = "form-msg bad"; return; }
+  if (!PIN_RE.test(pin)) { msg.textContent = t("err_pin_invalido"); msg.className = "form-msg bad"; return; }
+  const scores = {};
+  ORDER.forEach(e => scores[e] = pct(R.el[e]));
+  Object.keys(R.facet).forEach(f => scores[f] = pct(R.facet[f]));
+  $("#pubBtn").disabled = true; msg.textContent = t("publishing"); msg.className = "form-msg info";
+  try {
+    const r = await rpc("avatar_save_element", {
+      p_nick: nick, p_pin: pin, p_element: R.primary, p_secondary: R.secondary, p_bender: R.bender,
+      p_specialty: R.spec.id, p_nation_aang: R.aang.id, p_nation_korra: R.korra.id, p_scores: scores
+    });
+    if (r.ok) {
+      AVATAR.saveNick(nick);
+      S.saved = {nick, key: resultKey()}; save();
+      lockPublish(t(r.nuevo ? "saved_new" : "saved", {nick}), "ok");
+      loadStats();
+      return;
+    }
+    $("#pubBtn").disabled = false;
+    if (r.error === "pin_incorrecto") msg.textContent = t("pin_wrong", {n: r.intentos_restantes});
+    else if (r.error === "bloqueado") msg.textContent = t("locked");
+    else msg.textContent = t("err_" + r.error) !== ("err_" + r.error) ? t("err_" + r.error) : t("err_generic");
+    msg.className = "form-msg bad";
+  } catch(e) {
+    $("#pubBtn").disabled = false; msg.textContent = t("network"); msg.className = "form-msg bad";
+  }
+});
+
+/* ---------- estadísticas ---------- */
+async function loadStats(){
+  const card = $("#statsCard");
+  if (!ONLINE) { card.classList.add("hidden"); return; }
+  card.classList.remove("hidden");
+  const box = $("#statBars"), note = $("#statNote");
+  try {
+    const r = await fetch(`${API}/rest/v1/avatar_element_stats?select=element,bender,players`, {headers: headers()});
+    if (!r.ok) throw new Error();
+    const rows = await r.json();
+    const total = rows.reduce((s, x) => s + x.players, 0);
+    box.innerHTML = "";
+    if (!total) { note.textContent = t("stat_empty"); return; }
+    const byEl = {}; let benders = 0;
+    rows.forEach(x => { byEl[x.element] = (byEl[x.element] || 0) + x.players; if (x.bender) benders += x.players; });
+    ORDER.slice().sort((a, b) => (byEl[b] || 0) - (byEl[a] || 0)).forEach(e => {
+      const row = barRow(L(D.ELEMENTS[e]).name, Math.round((byEl[e] || 0) / total * 100), `var(--${e})`, e);
+      row.classList.add("stat"); if (R && e === R.primary) row.classList.add("me");
+      box.appendChild(row);
+    });
+    note.textContent = t("stat_note", {n: total, b: Math.round(benders / total * 100)});
+  } catch(e) { box.innerHTML = ""; note.textContent = t("stat_err"); }
+}
+
+/* ---------- imagen ---------- */
+function siteText(){ return /^https?:/.test(location.protocol) ? (location.host + location.pathname.replace(/index\.html$/, "")).replace(/\/$/, "") : ""; }
+async function drawCard(){
+  try { await Promise.all([document.fonts.load('80px "Marcellus"'), document.fonts.load('600 30px "Nunito Sans"')]); } catch(e) {}
+  const W = 1080, H = 1350, c = document.createElement("canvas"); c.width = W; c.height = H; const g = c.getContext("2d");
+  const col = COLORS[R.primary];
+  g.fillStyle = "#13110f"; g.fillRect(0, 0, W, H);
+  const grad = g.createRadialGradient(W/2, 330, 40, W/2, 330, 640);
+  grad.addColorStop(0, col + "33"); grad.addColorStop(1, "rgba(0,0,0,0)");
+  g.fillStyle = grad; g.fillRect(0, 0, W, H);
+  // símbolo principal
+  g.beginPath(); g.arc(W/2, 260, 130, 0, Math.PI*2); g.strokeStyle = col; g.lineWidth = 6; g.stroke();
+  AVATAR.drawGlyph(g, R.primary, W/2, 260, 150, col);
+  g.textAlign = "center";
+  g.fillStyle = "#a59a86"; g.font = '600 38px "Nunito Sans", sans-serif'; g.fillText(t("r_kick"), W/2, 470);
+  g.fillStyle = col; g.font = '150px "Marcellus", serif'; g.fillText(L(D.ELEMENTS[R.primary]).name, W/2, 610);
+  g.fillStyle = "#f1e8d6"; g.font = '58px "Marcellus", serif'; g.fillText(L(R.spec).t, W/2, 700);
+  g.fillStyle = "#a59a86"; g.font = '600 36px "Nunito Sans", sans-serif'; g.fillText(L(D.BENDER[R.bender ? "yes" : "no"]).t, W/2, 756);
+  // barras
+  const mx = 90, mw = W - 180; let y = 820;
+  ORDER.slice().sort((a, b) => R.el[b] - R.el[a]).forEach(e => {
+    g.textAlign = "left"; g.fillStyle = "#f1e8d6"; g.font = '600 30px "Nunito Sans", sans-serif'; g.fillText(L(D.ELEMENTS[e]).name, mx, y);
+    g.textAlign = "right"; g.fillStyle = "#a59a86"; g.fillText(pct(R.el[e]) + " %", mx + mw, y);
+    g.fillStyle = "#26221c"; roundRect(g, mx, y + 14, mw, 18, 9); g.fill();
+    g.fillStyle = COLORS[e]; roundRect(g, mx, y + 14, Math.max(18, mw * R.el[e]), 18, 9); g.fill();
+    y += 64;
+  });
+  // eras
+  g.textAlign = "left"; g.fillStyle = "#a59a86"; g.font = '600 28px "Nunito Sans", sans-serif';
+  g.fillText(t("img_aang") + ": ", mx, y + 30);
+  let w1 = g.measureText(t("img_aang") + ": ").width; g.fillStyle = "#f1e8d6"; g.fillText(L(R.aang).t, mx + w1, y + 30);
+  g.fillStyle = "#a59a86"; g.fillText(t("img_korra") + ": ", mx, y + 74);
+  let w2 = g.measureText(t("img_korra") + ": ").width; g.fillStyle = "#f1e8d6"; g.fillText(L(R.korra).t, mx + w2, y + 74);
+  g.fillStyle = "#f0a04b"; g.font = '48px "Marcellus", serif'; g.fillText(t("img_title"), mx, H - 100);
+  g.fillStyle = "#a59a86"; g.font = '600 28px "Nunito Sans", sans-serif';
+  const site = siteText(); g.fillText(t("img_cta") + (site ? " " + site : ""), mx, H - 56);
+  return new Promise(r => c.toBlob(r, "image/png"));
+}
+function roundRect(g,x,y,w,h,r){g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath();}
+async function redrawImage(){
+  lastBlob = await drawCard();
+  if (lastUrl) URL.revokeObjectURL(lastUrl);
+  lastUrl = URL.createObjectURL(lastBlob); $("#shareImg").src = lastUrl;
+}
+$("#makeImg").addEventListener("click", async () => {
+  $("#makeImg").textContent = t("revealing"); await redrawImage();
+  $("#shareBox").classList.remove("hidden"); $("#makeImg").classList.add("hidden"); $("#makeImg").textContent = t("make_img");
+});
+$("#saveImg").addEventListener("click", () => {
+  if (!lastUrl) return;
+  const a = document.createElement("a"); a.href = lastUrl; a.download = "avatar-elemento.png"; document.body.appendChild(a); a.click(); a.remove();
+  $("#shareNote").textContent = t("save_note");
+});
+$("#shareBtn").addEventListener("click", async () => {
+  const site = /^https?:/.test(location.protocol) ? " " + location.href.split("#")[0] : "";
+  const text = t("share_text", {e: L(D.ELEMENTS[R.primary]).name, t: L(D.BENDER[R.bender ? "yes" : "no"]).t, s: L(R.spec).t, site});
+  if (lastBlob && navigator.canShare) {
+    const file = new File([lastBlob], "avatar-elemento.png", {type: "image/png"});
+    if (navigator.canShare({files: [file]})) { try { await navigator.share({files: [file], text}); return; } catch(e) { if (e && e.name === "AbortError") return; } }
+  }
+  if (navigator.share) { try { await navigator.share({text}); return; } catch(e) { if (e && e.name === "AbortError") return; } }
+  try { await navigator.clipboard.writeText(text); toast(t("copied")); } catch(e) { $("#shareNote").textContent = text; }
+});
+$("#againBtn").addEventListener("click", function(){
+  if (this.dataset.armed === "1") {
+    S = { answers:{}, pos:0, seenStage:-1, done:false, saved:null }; save();
+    this.dataset.armed = ""; this.textContent = t("again"); step(); return;
+  }
+  this.dataset.armed = "1"; this.textContent = t("again_confirm");
+  setTimeout(() => { this.dataset.armed = ""; this.textContent = t("again"); }, 4000);
+});
+
+/* ---------- arranque ---------- */
+applyStatic();
+$("#titleElems").innerHTML = ["water","earth","fire","air"].map(e => AVATAR.glyph(e)).join("");
+if (S.done && answeredCount() === N) { show("result"); renderResult(true); }
+else renderStart();
+</script>
+</body>
+</html>

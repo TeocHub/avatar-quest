@@ -5,7 +5,7 @@ Tests para fans de Avatar. Todo corre gratis en **GitHub Pages** (la página) y 
 | Test | Estado | Carpeta |
 | --- | --- | --- |
 | El Cuestionario Definitivo de Avatar | Disponible: 349 preguntas en 5 partes | `quiz/` |
-| ¿Qué elemento controlarías? (y si serías maestro o no) | Próximamente | `elemento/` (por crear) |
+| ¿Qué elemento controlarías? | Disponible: 54 afirmaciones | `elemento/` |
 
 ## Archivos
 
@@ -19,6 +19,9 @@ Tests para fans de Avatar. Todo corre gratis en **GitHub Pages** (la página) y 
 | `quiz/preguntas.en.json` | La traducción al inglés |
 | `supabase/1_esquema.sql` | Tablas, reglas de seguridad y funciones del ranking (prefijo `avatar_`) |
 | `supabase/2_respuestas.sql` | La clave de respuestas que usa el servidor para corregir |
+| `supabase/3_elemento.sql` | Resultados y estadísticas del test de elemento |
+| `elemento/index.html` | El test de elemento |
+| `elemento/datos.js` | Preguntas, rasgos, especialidades y naciones del test (aquí se edita) |
 | `generar_respuestas.py` | Regenera `2_respuestas.sql` y revisa que las traducciones coincidan |
 
 ## Publicar (GitHub Pages)
@@ -81,3 +84,22 @@ El backend ya está creado en Supabase. Si alguna vez hay que recrearlo, ejecuta
 ## Plan gratuito
 
 Un proyecto gratuito de Supabase **se pausa tras una semana sin actividad**. Como FNAF y Avatar comparten proyecto, cualquiera de los dos lo mantiene activo. Si se pausa, se reactiva desde el panel con un clic.
+
+## Test de elemento
+
+**Modelo.** Cada elemento se mide con dos rasgos inspirados en los Cinco Grandes y en la teoría de valores de Schwartz:
+
+| Elemento | Rasgos |
+| --- | --- |
+| Agua | Adaptabilidad · Vínculo |
+| Tierra | Constancia · Arraigo |
+| Fuego | Impulso · Intensidad |
+| Aire | Apertura · Libertad |
+
+- **Preguntas:** 40 afirmaciones sobre conducta real (5 por rasgo, algunas invertidas para evitar responder siempre "sí"), 8 pares de afirmaciones igual de deseables (cada rasgo aparece 2 veces) y 6 afirmaciones que deciden si eres maestro: intuición y cuerpo frente a método y herramientas.
+- **Resultado:** elemento principal y secundario. Si eres maestro, la especialidad depende de esa combinación (por ejemplo, tierra + aire = metal control); si no lo eres, se asigna un rol según tu elemento principal. También muestra la nación en la era de Aang y en la de Korra, y el elemento a cultivar (tu puntaje más bajo), con una práctica concreta.
+- **Naciones:** dentro de tu elemento, el lugar se decide por un rasgo de *otro* elemento. Así, dos personas agua pueden encajar en lugares distintos según su matiz. La era de Pavi (Siete Refugios) aparece bloqueada hasta que se conozca mejor la serie.
+- **Equilibrio:** en una simulación con 20.000 respuestas al azar, cada elemento sale cerca del 25 %, cada especialidad cerca del 4-5 % y cada nación cerca del 8 %. Si cambias las reglas, conviene volver a revisarlo.
+- **Guardado:** usa las mismas cuentas de Avatar (nick + PIN). Se guarda el último resultado de cada jugador, y las estadísticas públicas solo muestran totales por elemento.
+
+Es un juego de autoconocimiento, no una evaluación psicológica. La página lo dice al final del resultado.
